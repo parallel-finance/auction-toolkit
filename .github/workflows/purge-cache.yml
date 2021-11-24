@@ -1,0 +1,21 @@
+name: jsdelivr Purge Cache
+
+on:
+  release:
+    types: [published]
+
+jobs: 
+  purge-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: POST to purge cache
+        run: |
+          curl -X POST 'https://purge.jsdelivr.net' \
+          --header 'cache-control: no-cache' \
+          --header 'content-type: application/json' \
+          --data-raw '{
+              "path": [
+                  "/gh/parallel-finance/auction-toolkit@latest/crowdloans/polkadot.json",
+                  "/gh/parallel-finance/auction-toolkit@latest/crowdloans/kusama.json"
+              ]
+          }'
