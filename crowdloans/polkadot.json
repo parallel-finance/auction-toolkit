@@ -116,5 +116,13 @@
     "description": "the next generation of Web3.0 Metaverse",
     "website": "https://darwinia.network/plo",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/darwinia.png"
+  },
+  {
+    "paraid": "2028",
+    "name": "Ares Protocol",
+    "token": "ARES",
+    "description": "A Decentralized Cross-Chain Oracle Platform",
+    "website": "https://www.aresprotocol.io/",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/ares.svg"
   }
 ]
