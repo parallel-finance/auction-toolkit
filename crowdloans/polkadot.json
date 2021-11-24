@@ -4,6 +4,7 @@
     "name": "Acala",
     "token": "ACA",
     "description": "All-in-one DeFi hub of Polkadot",
+    "overview": "Acala is the decentralized finance network and liquidity hub of Polkadot. It’s a layer-1 smart contract platform that’s scalable, Ethereum-compatible, and optimized for DeFi with built-in liquidity and ready-made financial applications.",
     "website": "https://acala.network/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/acala.svg",
     "flow": {
@@ -19,6 +20,17 @@
         "fearlessReferral": "",
         "totalReward": "170000000"
       }
+    },
+    "tokenomics": {
+      "totalSupply": 1000000000,
+      "data": [
+        { "name": "Auction Reserve & Liquidity Program", "value": 34, "color": "#6E5CE6" },
+        { "name": "Ecosystem Development", "value": 5, "color": "#45E6DC" },
+        { "name": "Foundation Reserve", "value": 10.76, "color": "#FFB080" },
+        { "name": "Backers", "value": 11.66, "color": "#FAD14B" },
+        { "name": "Early Backers", "value": 18.33, "color": "#FF8066" },
+        { "name": "Founding Team", "value": 20.25, "color": "#F0549F" }
+      ]
     }
   },
   {
@@ -26,6 +38,7 @@
     "name": "Moonbeam",
     "token": "GLMR",
     "description": "Ethereum-compatible smart contract parachain on Polkadot",
+    "overview": "Moonbeam is a developer-oriented blockchain that strives to provide compatibility with the existing Ethereum developer toolchain and network. It does this by providing a full EVM implementation, a Web3-compatible API, and bridges that connect Moonbeam to existing Ethereum networks. This allows developers to deploy existing Solidity smart contracts and DApp frontends to Moonbeam with minimal changes.",
     "website": "https://moonbeam.network/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/moonbeam.png",
     "flow": {
@@ -38,84 +51,208 @@
         "termsUrl": "https://cdn.jsdelivr.net/gh/moonbeam-foundation/crowdloan-self-attestation/main/moonbeam/README.md",
         "crowdloanInfoUrl": "https://moonbeam.foundation/moonbeam-crowdloan/"
       }
+    },
+    "tokenomics": {
+      "totalSupply": 1000000000,
+      "data": [
+        { "name": "Seed Funding", "value": 14, "color": "#301748" },
+        { "name": "Strategic Funding", "value": 12, "color": "#4f336a" },
+        { "name": "Take Flight Community Event", "value": 10, "color": "#081414" },
+        { "name": "2021 Moonbeam Crowdloan", "value": 10, "color": "#102828" },
+        { "name": "Parachain Bond Funding", "value": 5, "color": "#215150" },
+        { "name": "Parachain Bond Reserve", "value": 0.5, "color": "#317978" },
+        { "name": "Treasury", "value": 0.5, "color": "#42a2a0" },
+        { "name": "Long-Term Protocol & Ecosystem Development", "value": 15, "color": "#53cbc9" },
+        { "name": "Liquidity Programs", "value": 8, "color": "#97dfde" },
+        { "name": "Developer Adoption Program", "value": 4.5, "color": "#dcf4f4" },
+        { "name": "Key Partners & Advisors", "value": 4.5, "color": "#700a3d" },
+        { "name": "PureStake Early Backers", "value": 1.4, "color": "#b41062" },
+        { "name": "Founders and Early Employees", "value": 10, "color": "#e1147b" },
+        { "name": "Future Employee Incentives", "value": 4.6, "color": "#f089bd" }
+      ]
     }
   },
   {
-     "paraid": "2006",
-     "name": "Astar",
-     "token": "ASTR",
-     "description": "A Multi Chain Polkadot DApp Hub",
-     "website": "https://astar.network/",
-     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/astar.png",
-     "flow": {
-               "name": "astar",
-               "data": {
-                   "devApiUrl": "",
-                   "prodApiUrl": "",
-                   "devApiKey": "",
-                   "prodApiKey": "",
-                   "termsUrl": "",
-                   "fearlessReferral": "14Q22opa2mR3SsCZkHbDoSkN6iQpJPk6dDYwaQibufh41g3k",
-                   "bonusRate": 0,
-                   "referralRate": 0.01
-               }
-           }
+    "paraid": "2006",
+    "name": "Astar",
+    "token": "ASTR",
+    "description": "A Multi Chain Polkadot DApp Hub",
+    "overview": "Astar Network is a scalable and interoperable infrastructure for Web3.0. Since Astar Network is built with Parity’s Substrate framework, it can be a future Polkadot parachain that also acts as a scalable smart contract platform. The Polkadot Relaychain, by design, does not support smart contracts. This allows Astar the opportunity to fill in this gap. Scalability is obviously one of the most crucial demands dApp developers have. Ideally, the developers can build whatever applications on Astar Network without having to consider its scalability.",
+    "website": "https://astar.network/",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/astar.png",
+    "flow": {
+      "name": "astar",
+      "data": {
+        "devApiUrl": "",
+        "prodApiUrl": "",
+        "devApiKey": "",
+        "prodApiKey": "",
+        "termsUrl": "",
+        "fearlessReferral": "14Q22opa2mR3SsCZkHbDoSkN6iQpJPk6dDYwaQibufh41g3k",
+        "bonusRate": 0,
+        "referralRate": 0.01
+      }
+    },
+    "tokenomics": {
+      "totalSupply": 7000000000,
+      "data": [
+        { "name": "Users and Early Supporters", "value": 30, "color": "#FAD14B" },
+        { "name": "Parachain Auction in 2021", "value": 20, "color": "#FFB080" },
+        { "name": "Parachain Auctions Reserve", "value": 5, "color": "#F0549F" },
+        { "name": "Protocol Development", "value": 10, "color": "#6E5CE6" },
+        { "name": "On-Chain DAO", "value": 5, "color": "#FF8066" },
+        { "name": "Marketing", "value": 5, "color": "#49E699" },
+        { "name": "Early Financial Backers", "value": 10, "color": "#e1147b" },
+        { "name": "Team (Employee Incentives)", "value": 5, "color": "#83cbc9" },
+        { "name": "Foundation", "value": 10, "color": "#317978" }
+      ]
+    }
    },
   {
     "paraid": "2013",
     "name": "Litentry",
     "token": "LIT",
     "description": "A Decentralised Identity Aggregation protocol across multiple networks",
+    "overview": "Litentry is a Decentralized Identity Aggregation protocol across multiple networks. It features a DID indexing mechanism and a Substrate-based credit computation network. The protocol provides a decentralized, interoperable identity aggregation service that mitigates the difficulty of resolving agnostic DID mechanisms. Litentry provides a secure vehicle through which users manage their identities and dApps obtain real-time credit/reputation of an identity owner across different blockchains.",
     "website": "https://www.litentry.com/",
-    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/litentry.png"
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/litentry.png",
+    "tokenomics": {
+      "totalSupply": 100000000,
+      "data": [
+        { "name": "Binance Launchpool", "value": 3, "color": "#f089bd" },
+        { "name": "Seed Sale", "value": 8.11, "color": "#e1147b" },
+        { "name": "Strategic Sale", "value": 11.89, "color": "#b41062" },
+        { "name": "Team", "value": 15, "color": "#700a3d" },
+        { "name": "Parachain Auction & Ecosystem:", "value": 45, "color": "#42a2a0" },
+        { "name": "Foundation", "value": 17, "color": "#317978" }
+      ]
+    }
   },
   {
     "paraid": "2012",
     "name": "Parallel Finance",
     "token": "PARA",
     "description": "Decentralized money market protocol that offers lending, staking, and borrowing",
+    "overview": "Parallel Finance is a Decentralized Money Market Protocol that offers lending, staking, and borrowing in the Polkadot ecosystem. Depositors can lend and stake simultaneously to earn double yield on their staked coins, and borrowers can collateralize to borrow. We refer to this feature as 'leverage staking', because users can lever up agains their staking collateral to increase their yield overall. In addition, when a user's DOT and KSM are staked through Parallel, a reputation-determining algorithm is applied which maximizes staking yield on behalf of the user. In the future, projects and individual users will also be able to source their auction loans through Parallel's interface--a feature we call 'auction loans.' This feature will give users the ability to stay liquid while their DOT/KSM is locked in parachains, and it will give projects direct access to the liquidity they need to win parachain auctions.",
     "website": "https://parallel.fi/",
-    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/parallel.svg"
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/parallel.svg",
+    "tokenomics": {
+      "totalSupply": 10000000000,
+      "data": [
+        { "name": "Liquidity Mining Rewards", "value": 25, "color": "#58a55c" },
+        { "name": "Team & Advisors", "value": 20, "color": "#84abf1" },
+        { "name": "Private Investors", "value": 15, "color": "#ee752f" },
+        { "name": "Ecosystem", "value": 15, "color": "#f3be42" },
+        { "name": "Insurance Pool", "value": 5, "color": "#d95140" },
+        { "name": "Crowdloans", "value": 15, "color": "#5186ec" },
+        { "name": "Seed Investors", "value": 5, "color": "#68bbc4" }
+      ]
+    }
   },
   {
     "paraid": "2002",
     "name": "Clover",
     "token": "CLV",
     "description": "A substrate-based smart contract platform built for Polkadot",
+    "overview": "Clover is building a foundation layer for DeFi applications to seamlessly operate. They aim to reduce the development threshold for upper-layer applications, facilitate a gasless transaction layer to simplify user experience for non-crypto users, and provide a wide range of developer tools from identity-based scripting capabilities to built-in cross-chain interoperability.",
     "website": "https://clover.finance/",
-    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/clover.svg"
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/clover.svg",
+    "tokenomics": {
+      "totalSupply": 200000000,
+      "data": [
+        { "name": "Public Sale", "value": 15, "color": "#609c96" },
+        { "name": "Private Sale", "value": 2.5, "color": "#8eb998" },
+        { "name": "Early Backers", "value": 10, "color": "#accab8" },
+        { "name": "Team", "value": 10, "color": "#629a79" },
+        { "name": "Marketing", "value": 7.5, "color": "#77ad7f" },
+        { "name": "Ecosystem Incentive", "value": 20, "color": "#8bb794" },
+        { "name": "Parachain Offering", "value": 20, "color": "#6ba55d" },
+        { "name": "Foundation", "value": 12, "color": "#9ab860" },
+        { "name": "Contributor Grant", "value": 3, "color": "#6ba879" }
+      ]
+    }
   },
   {
     "paraid": "2015",
     "name": "Manta",
     "token": "MANTA",
     "description": "An interoperable privacy layer for the Polkadot ecosystem",
+    "overview": "Manta Network is focused on building a better Web 3.0 with privacy guarantees designed from the first principle: applying cutting-edge cryptographic constructions such as zkSNARKs to deliver end-to-end privacy guarantees for blockchain applications. The project delivers this guarantee while prioritizing interoperability, ease-of-use, high performance and auditability. What this translates into for the user is on-chain privacy in transacting and swapping any parachain assets. This means that users are able to privatize parachain assets like DOT into private DOT, and privately swap for other parachain assets or privately send to other wallet addresses.",
     "website": "https://manta.network/",
-    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/manta.png"
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/manta.png",
+    "tokenomics": {
+      "totalSupply": 1000000000,
+      "data": [
+        { "name": "Early Backers", "value": 1650000, "color": "#081414" },
+        { "name": "Strategic Sale", "value": 450000, "color": "#4f336a" },
+        { "name": "Available for Sale", "value": 800000, "color": "#317978" },
+        { "name": "Minting & Crowdloan Rewards", "value": 3800000, "color": "#97dfde" },
+        { "name": "Long-term Development Funds", "value": 1800000, "color": "#dcf4f4" },
+        { "name": "Team & Founders", "value": 1000000, "color": "#301748" },
+        { "name": "Team & Founders", "value": 500000, "color": "#215150" }
+      ]
+    }
   },
   {
     "paraid": "2018",
     "name": "SubDAO",
     "token": "GOV",
     "description": "A Polkadot-based DAO management platform",
+    "overview": "SubDAO allows any decentralized organization to swiftly create and manage DAOs, serving as a Web3.0 entry by providing blockchain-based digital agreement signing, DAO social networking, asset management, and other tools and services.",
     "website": "https://www.subdao.network/",
-    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/subdao.png"
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/subdao.png",
+    "tokenomics": {
+      "totalSupply": 1000000000,
+      "data": [
+        { "name": "Para-chain Cost", "value": 30, "color": "#438de3" },
+        { "name": "Airdrop", "value": 3, "color": "#9146f0" },
+        { "name": "Governance Mining", "value": 27, "color": "#68dbeb" },
+        { "name": "Team", "value": 10, "color": "#e86044" },
+        { "name": "Token for Sale", "value": 15, "color": "#7bfaa7" },
+        { "name": "Foundation", "value": 15, "color": "#f6c262" }
+      ]
+    }
   },
   {
     "paraid": "2017",
     "name": "SubGame Gamma",
     "token": "GSGB",
     "description": "A public chain focusing on cross-chain interoperability for various applications including gaming",
+    "overview": "SubGame builds multiple applications through a complete technical architecture, including game type modules, payment model interfaces, communication field development, data on-chain applications, cross-chain settlement and blockchain storage space, etc., and uses the relay station contract agreement as the external model Group. It can develop cross-public chain smart contracts, minimize the cost of value transmission between chains and maximize the scalability of applications, so that developers can develop cross-chain smart contracts at the lowest cost.",
     "website": "https://www.subgame.org/",
-    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/subgame.svg"
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/subgame.svg",
+    "tokenomics": {
+      "totalSupply": 500000000,
+      "data": [
+        { "name": "Institutional Investment", "value": 30, "color": "#5971c0" },
+        { "name": "Foundation Reserve", "value": 12, "color": "#9ec97f" },
+        { "name": "External Development", "value": 20, "color": "#f3c96b" },
+        { "name": "Technology Development", "value": 12, "color": "#de6e6a" },
+        { "name": "Community Media", "value": 6, "color": "#84dfdb" },
+        { "name": "Marketing", "value": 5, "color": "#599f76" },
+        { "name": "Ecological Incentive", "value": 7, "color": "#ed8a5d" },
+        { "name": "Founding Team", "value": 8, "color": "#9265af" }
+      ]
+    }
   },
   {
     "paraid": "2003",
     "name": "Darwinia",
     "token": "RING",
     "description": "the next generation of Web3.0 Metaverse",
+    "overview": "Darwinia Network is a decentralized cross-chain bridge network building on Substrate, which is the \"Web 3.0 cross-chain bridge hub\" of the cross-chain ecology. It provides a safe and general bridging solution, connects to Polkadot, Ethereum, TRON and other heterogeneous chains by cross-chain transfer of assets and remote chain calls. The application areas of Darwinia Network include DeFi, cross-chain NFT trading, games, etc.",
     "website": "https://darwinia.network/plo",
-    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/darwinia.png"
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/darwinia.png",
+    "tokenomics": {
+      "totalSupply": 10000000000,
+      "data": [
+        { "name": "Financing", "value": 30, "color": "#438de3" },
+        { "name": "Foundation", "value": 20, "color": "#9146f0" },
+        { "name": "Team", "value": 15, "color": "#68dbeb" },
+        { "name": "Business Development and Marketing", "value": 15, "color": "#e86044" },
+        { "name": "Community", "value": 20, "color": "#7bfaa7" }
+      ]
+    }
   },
   {
     "paraid": "2028",
@@ -124,5 +261,48 @@
     "description": "A Decentralized Cross-Chain Oracle Platform",
     "website": "https://www.aresprotocol.io/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/ares.svg"
+  },
+  {
+    "paraid": "2001",
+    "name": "Bifrost",
+    "token": "BNC",
+    "description": "A parachain designed for staking's liquidity.",
+    "overview": "Bifrost is the Polkadot Ecological DeFi basic protocol, its also one of five Kusama parachains in the first batch. It is committed to becoming an infrastructure for pledged assets to provide liquidity. It has launched a derivative vToken for Staking and Polkadot Parachain Slot (Crowdloan).",
+    "webiste": "https://bifrost.finance/",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/bifrost.svg",
+    "tokenomics": {
+      "totalSupply": 80000000,
+      "data": [
+        { "name": "Ecosystem", "value": 50, "color": "#438de3" },
+        { "name": "Founders and Team", "value": 20, "color": "#9146f0" },
+        { "name": "Seed Round", "value": 10, "color": "#68dbeb" },
+        { "name": "Private Round", "value": 5, "color": "#e86044" },
+        { "name": "Marketing & Community Build", "value": 3, "color": "#7bfaa7" },
+        { "name": "Mint Drop", "value": 2, "color": "#f6c262" },
+        { "name": "Treasury", "value": 10, "color": "#ffcdff" }
+      ]
+    }
+  },
+  {
+    "paraid": "2021",
+    "name": "Efinity",
+    "token": "EFI",
+    "description": "Next-generation blockchain for NFTs.",
+    "overview": "Enjin, the creators of the ERC-1155 NFT standard, is developing Efinity, a next-generation blockchain to serve as the infrastructure of the decentralized metaverse. Enjin is designing Efinity on Polkadot in conjunction with the Web3 Foundation. The Efinity blockchain is a parachain with a consensus algorithm based on Polkadot Relay Chain validators, allowing Efinity to have its own economic framework, data and state.",
+    "webiste": "https://efinity.io/",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/icons/chains/efinity.svg",
+    "tokenomics": {
+      "totalSupply": 2000000000,
+      "data": [
+        { "name": "Ecosystem", "value": 35, "color": "#4fdfd4" },
+        { "name": "Staking & Pools", "value": 15, "color": "#7b93de" },
+        { "name": "Company", "value": 20, "color": "#9caee6" },
+        { "name": "Team", "value": 10, "color": "#bdc9ef" },
+        { "name": "Seed Round", "value": 3, "color": "#77bab4" },
+        { "name": "Early Round", "value": 7, "color": "#8ec6c2" },
+        { "name": "Strategic Round", "value": 5, "color": "#a7c2df" },
+        { "name": "Public Sale", "value": 5, "color": "#c0dfdd" }
+      ]
+    }
   }
 ]
