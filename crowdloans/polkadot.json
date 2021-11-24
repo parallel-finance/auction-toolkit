@@ -164,7 +164,7 @@
         { "name": "Strategic Sale", "value": 11.89, "color": "#b41062" },
         { "name": "Team", "value": 15, "color": "#700a3d" },
         {
-          "name": "Parachain Auction & Ecosystem:",
+          "name": "Parachain Auction & Ecosystem",
           "value": 45,
           "color": "#42a2a0"
         },
