@@ -9,6 +9,8 @@ Use [jsDeliver](https://github.com/jsdelivr/jsdelivr#github) to get the resource
 e.g.
 
 * https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@v1.0.0/crowdloans/polkadot.json
+* https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/crowdloans/polkadot.json
+* https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/crowdloans/polkadot.json
 
 ### How to use a new version
 
@@ -18,7 +20,7 @@ What we need to do after pushing the new changes.
 
 * Create a tag for the new changes
 * Release the tag
-* Update the usage with new version. e.g. https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@{new-version}/crowdloans/polkadot.json
+* Clear the cache for the latest version. https://purge.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/crowdloans/polkadot.json
 
 ## Resource
 ### Crowdloan projects
