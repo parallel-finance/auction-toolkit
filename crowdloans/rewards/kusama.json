@@ -1,0 +1,309 @@
+{
+  "2000": { "reward": { "min": 20 } },
+  "2001": { "reward": { "min": 22 } },
+  "2004": { "reward": { "min": 150 } },
+  "2007": { "reward": { "min": 80 } },
+  "2008": { "reward": { "min": 1000 } },
+  "2012": {
+    "reward": { "min": 1 },
+    "rewardRules": [
+      { "label": "Total Rewards", "content": ["80K CRU, 80M CSM"] },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "30% of the reward will be released immediately, and 10% will be released for each subsequent lease period (each 6 weeks)."
+        ]
+      }
+    ]
+  },
+  "2013": {
+    "reward": { "min": 10 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": [
+          "Initial supply of 21 million KSX, increased with 10% additional issuance every year"
+        ]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "Quantity Bonus:Up to 120% bonus depending on KSM amount",
+          "Referral: 5% referral bonus reward each to referral and referee"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "KSX will be distributed when the network is launched and connected to Kusama."
+        ]
+      }
+    ]
+  },
+  "2015": {
+    "reward": { "min": 10 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": [
+          "1,000,000 TEER (10% of total token allocation)",
+          "You will receive: (Your KSM contribution / Total KSM contribution)*1,000,000"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "TEER will be vested linearly during the 48-week lease period, starting shortly after winning a slot."
+        ]
+      }
+    ]
+  },
+  "2016": {
+    "reward": { "min": 200 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": [
+          "1,000,000 TEER (10% of total token allocation)You will receive: (Your KSM contribution / Total KSM contribution)*1,000,000"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "TEER will be vested linearly during the 48-week lease period, starting shortly after winning a slot."
+        ]
+      }
+    ]
+  },
+  "2023": { "reward": { "min": 15 } },
+  "2024": {
+    "reward": { "min": 1000 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["150,000,000 GENS (12.5% of total token supply)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "1,000 GENS per KSM for contributions over 500 KSM",
+          "Loyalty: 500 GENS per KSM for everyone who previously participated in the first and/or second rounds of Kusama auctions",
+          "Referral: 6% bonus for referral program participants (3% for referral + 3% for referrie)"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "TEER will be vested linearly during the 48-week lease period, starting shortly after winning a slot."
+        ]
+      }
+    ]
+  },
+  "2077": {
+    "reward": { "min": 3.5 },
+    "rewardRules": [
+      {
+        "label": "Bonus",
+        "content": [
+          "Increased reward for the first 35,000 KSM collected. Get 5 XRT instead of 3.5 in one year",
+          "Extra reward for Robonomics Polkapet NFT holders, who’ll bond the first 35,000 KSM. Get 6 XRT instead of 3.5 XRT in one year"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "50% of reward in the first month after the launch of the network; 50% linear release over 48 weeks."
+        ]
+      }
+    ]
+  },
+  "2084": {
+    "reward": { "min": 10000 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["3,000,000,000 KMA (30% of total token allocation)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "The first 500 contributors receive an extra 10% bonus Calamari. The next 500 contributors receive an extra 5% bonus Calamari."
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "34% released immediately; remainder vesting every 8 weeks on an equal basis."
+        ]
+      }
+    ]
+  },
+  "2085": {
+    "reward": { "min": 200 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": [
+          "25,000,000 HKO (2.5% of total token allocation)Reward Rate = total HKO rewards / total KSM contribution"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "The tokens rewarded will be unvested linearly across a one year time frame."
+        ]
+      }
+    ]
+  },
+  "2086": {
+    "reward": { "min": 25 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": [
+          "4,500,000 KILT (3% of total token allocation)You can get a minimum of 25 KILT Coins per 1 KSM that you bid in support of KILT’s parachain slot. If the maximum cap is not achieved, you would receive even more. "
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "50% KILT will be released immediately, 50% will be released linearly within 24 weeks"
+        ]
+      }
+    ]
+  },
+  "2087": {
+    "reward": { "min": 5000 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["2,000,000,000 PICA (20% of total token allocation)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          {
+            "text": "Early bird:",
+            "bulletPoints": [
+              "5% applies to users who have already participated as well as those who participate in the 12h period starting at 10pm CET.",
+              "Users who participate in the first three days will receive a 10% bonus"
+            ]
+          },
+          {
+            "text": "Referral: 20% bonus on their Picasso Network tokens if they bring in other users contributing a total of 100 KSM or more"
+          },
+          {
+            "text": "Loyalty: 5% bonus to contributors who previously staked in Picasso crowdloan, and restake the same amount or greater"
+          }
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": ["50% released at TGE; 50% linearly release over 48 weeks"]
+      }
+    ]
+  },
+  "2088": {
+    "reward": { "min": 400 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["Up to 80,000,000 AIR (15.8% of total token allocation)"]
+      },
+      {
+        "label": "Bonus",
+        "content": ["10% bonus for early birds; 5% reward on referrals"]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "The initial transferrable amount of AIR reward is 25%. The remaining vests over the lease period of 48 weeks."
+        ]
+      }
+    ]
+  },
+  "2090": {
+    "reward": { "min": 67500 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": [
+          "15,000,000,000 BSX (15% of total token allocation) & 56,873,469 HDX You will receive: (Your KSM contribution / Total KSM contribution)*15,000,000,000"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "BSX rewards and HDX bonuses are distributed linearly. The distribution will start once the Basilisk LBP event has been concluded (~2 weeks after the parachain slot is won) and will continue until 1 week before the parachain slot expires."
+        ]
+      }
+    ]
+  },
+  "2092": {
+    "reward": { "min": 3.75 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["1,000,000 KINT (10% of total token allocation)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "5% bonus for participants during the first 3 days of the crowdloan; Additional KINT distributed as part of a referral program. 5% of the KSM lockup for both the referrer and the referee."
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "30% transferable right after airdrop. Remaining 70% subject to 48-week linear vesting (parachain lease period)"
+        ]
+      }
+    ]
+  },
+  "2095": {
+    "reward": { "min": 237 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["80,000,000 QTZ (8% of total token supply)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          {
+            "text": "Early bird:",
+            "bulletPoints": [
+              "The first KSM contributed will get 750 QTZ",
+              "For subsequent KSM bonded, refer to the chart or use the calculator to check how many QTZ will you receive for the KSM you want to bond: https://unique.network/quartz/crowdloan/."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": ["10 months linear vesting by block"]
+      }
+    ]
+  },
+  "2096": {
+    "reward": { "min": 68 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["15,000,000 NEER (15% of total token supply)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "Early bird: First 1,000 Contributors get extra 10%",
+          "Referral: Reward 5% split between referral and referee"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": ["15% - 30% at TGE, 70% Linear release for 12 months."]
+      }
+    ]
+  },
+  "2100": { "reward": { "min": 150 } }
+}

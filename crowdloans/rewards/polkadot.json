@@ -1,0 +1,1020 @@
+{
+  "2000": {
+    "cToken": "lcDOT",
+    "reward": {
+      "total": "17%",
+      "min": 3,
+      "tooltip": [
+        "In addition to the base reward, earn 10% referral bonus + 10% VIP referral bonus + NFT + 2% quest bonus + 2% for Karura participants + get liquid lcDOT + 5% kick off bonus + ~35% in Parallel Additional Bonus."
+      ],
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 3}" },
+        {
+          "label": "Kick off Bonus",
+          "formula": [
+            {
+              "condition": { "beforeDate": "11/13/21 11:50:0" },
+              "value": "${amount * 3 * 0.5}"
+            }
+          ],
+          "tooltip": ["For contributions made before 11/13/21, ~11:50am UTC"]
+        },
+        {
+          "label": "Referral Bonus",
+          "formula": "${amount * 3 * 0.1}",
+          "tooltip": [
+            "By default, Parallel users will earn 10% referral bonus."
+          ]
+        },
+        {
+          "label": "VIP Referral Bonus",
+          "formula": "${amount * 3 * 0.1}",
+          "tooltip": [
+            "Parallel users will earn Acala's 10% VIP referral bonus depending on DOT contribution amounts, to be determined after crowdloan ends."
+          ]
+        },
+        {
+          "label": "Parallel Additional Bonus",
+          "content": "+Up to 10% ACA",
+          "tooltip": [
+            "If we contribute between 1.5M-3M DOT: 5% additional ACA + 10% additional PARA. ",
+            "If we contribute between 3+M DOT: 10% additional ACA + 15% additional PARA."
+          ]
+        },
+        {
+          "label": "Quest Bonus",
+          "content": "+2% ACA",
+          "tooltip": [
+            "2% ACA bonus on your contribution and exclusive NFT for users that complete all 5 Acala Quests."
+          ]
+        },
+        {
+          "label": "Karura Participant Bonus",
+          "content": "+2% ACA",
+          "tooltip": [
+            "2% additional ACA bonus on your FIRST contribution when using the same account that you used for the Karura crowdloan."
+          ]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.15", "logo": "/static/media/para.e1be6567.svg" },
+        { "formula": "0.35" }
+      ],
+      "tooltip": [
+        { "text": "Parallel Additional Bonus*", "value": "~10% PARA" },
+        { "text": "Parallel Referral Bonus*", "value": "5% PARA" },
+        { "text": "Referral Bonus", "value": "10% ACA" },
+        { "text": "VIP Referral Bonus", "value": "10% ACA" },
+        { "text": "Kick off Bonus", "value": "5% ACA" },
+        { "text": "Quest Bonus*", "value": "2% ACA" },
+        { "text": "Karura Participant Bonus*", "value": "2% ACA" }
+      ],
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Additional Bonus",
+          "content": "+Up to 15% PARA",
+          "tooltip": [
+            "1 DOT = 4 PARA",
+            "If we contribute between 1.5M-3M DOT: 5% additional ACA + 10% additional PARA.",
+            "If we contribute between 3+M DOT: 10% additional ACA + 15% additional PARA."
+          ]
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "cDot": "${amount * 1}",
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["170,000,000 ACA (17% of total token supply)"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          {
+            "text": "Crowdloan Kick off:",
+            "bulletPoints": [
+              "Earn 5% crowdloan kickoff bonus (for users who contributed before 11/8/21, 8am UTC)."
+            ]
+          },
+          {
+            "text": "Referral:",
+            "bulletPoints": [
+              "Receive a 10% bonus in ACA (5% to referrer and 5% to referee).",
+              "Self refer, for people who sign up for the crowdloan waitlist, earn 10% ACA bonus."
+            ]
+          },
+          {
+            "text": "VIP Referral Bonus:",
+            "bulletPoints": [
+              "Top 100 get 10% additional bonus on all DOT contributed using your referral code. To qualify, refer over 3K DOT and 500 accounts."
+            ]
+          },
+          {
+            "text": "Liquid Crowdloan:",
+            "bulletPoints": [
+              "Tokens Received: ACA and lcDOT (1 lcDOT for every 1 DOT contributed)",
+              "Users on Parallel's Auction Loan will be able to redeem lcDOT"
+            ]
+          },
+          {
+            "text": "Quest Bonus:",
+            "bulletPoints": [
+              "Complete Acala Quests for 2% additional ACA bonus and exclusive NFT"
+            ]
+          },
+          {
+            "text": "Loyalty:",
+            "bulletPoints": [
+              "You must make your Acala Crowdloan contribution with the same account that you used to make your Karura contribution. If you do this, you will receive a 2% bonus in ACA on your Acala Crowdloan contribution."
+            ]
+          },
+          { "text": "NFT:", "bulletPoints": ["Crowdloan NFT for contributors"] }
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "'20% of ACA will be liquid and transferable, the remainder of ACA will vest/unlock linearly (every block) over a 96 week period'"
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": [
+          {
+            "bulletPoints": [
+              "4 PARA per DOT contributed",
+              "10% ACA VIP Referral bonus (TBD)",
+              "5% Referral Bonus",
+              "5% Crowdloan kickoff bonus",
+              "2% Participant bonus",
+              "Liquidity token, lcDOT"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2001": {
+    "reward": {
+      "min": 1.2,
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 1.2}" }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+      ],
+      "tooltip": [{ "text": "Parallel Referral Bonus*", "value": "5% PARA" }],
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "cDot": "${amount * 1}",
+    "rewardRules": [
+      {
+        "label": "Parallel Additional Bonus",
+        "content": [{ "bulletPoints": ["4 PARA per DOT contributed"] }]
+      }
+    ]
+  },
+  "2002": {
+    "reward": {
+      "total": "20%",
+      "min": 4,
+      "tooltip": [
+        "In addition to the base reward, earn up to 12% early bird bonus."
+      ],
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Early Bird Bonus",
+          "formula": [
+            {
+              "condition": { "rangeDate": ["11/11/21", "11/17/21"] },
+              "value": "${amount * 4 * 0.12}"
+            },
+            {
+              "condition": { "rangeDate": ["11/18/21", "11/25/21"] },
+              "value": "${amount * 4 * 0.04}"
+            },
+            {
+              "condition": { "afterDate": "11/25/21" },
+              "value": "${amount * 4 * 0.02}"
+            }
+          ],
+          "tooltip": [
+            "Parallel users can get estimated 12% CLV bonus for contributions made from 11/11 to 11/17; and estimated 4% bonus from 11/18 to 11/25; and estimated 2% bonus made after 11/25 on Parallel's Auction Loan."
+          ]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        {
+          "formula": "${0.05 + 2000000 / contributions / 4}",
+          "logo": "/static/media/para.e1be6567.svg"
+        },
+        { "formula": "${0.12 + 4200000 / contributions / 4}" }
+      ],
+      "timeBased": true,
+      "tooltip": [
+        { "text": "Early Bird Week 1", "value": "12% CLV" },
+        { "text": "Early Bird Week 2-3", "value": "4% CLV" },
+        { "text": "Early Bird Week 4-5", "value": "2% CLV" },
+        {
+          "text": "Shared CLV Pool (distributed to contributors after 11/12/21 on Parallel, if this crowdloan wins)",
+          "value": "~4.2M"
+        },
+        {
+          "text": "Shared PARA Pool (distributed to contributors on Parallel, if this crowdloan wins)",
+          "value": "2M"
+        },
+        { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
+      ],
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "sharedPools": [
+      { "label": "CLV Pool Rewards", "content": "~4.2M Shared" },
+      {
+        "label": "PARA Pool Rewards",
+        "content": "2M Shared",
+        "logo": "/static/media/para.e1be6567.svg"
+      }
+    ],
+    "cDot": "${amount * 1}",
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["200,000,000 CLV (20% of total token supply)"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          {
+            "text": "Special Option: The LUCKY Gachapon",
+            "bulletPoints": [
+              "LUCKY is a collection of NFT, non-fungible digital arts. Details to be announced."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": [
+          {
+            "bulletPoints": [
+              "4 PARA per DOT contributed",
+              "Up to 12% early bird bonus"
+            ]
+          },
+          { "text": "12% before 11/18/21" },
+          { "text": "4% during 11/18/21 - 11/25/21" },
+          { "text": "2% during 11/25/21 - 12/16/21" }
+        ]
+      }
+    ]
+  },
+  "2003": {
+    "reward": {
+      "total": "10%",
+      "min": 200,
+      "tooltip": [
+        "In addition to the base reward, earn up to 20% early bird bonus + 10% referral bonus + KTON commitment tokens + metaverse NFT + BTC rewards (TBD)."
+      ],
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 200}" }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+      ],
+      "tooltip": [
+        { "text": "Early Bird, before batch 2", "value": "~120% RING" },
+        { "text": "Referral Bonus", "value": "10% RING" },
+        { "text": "Contribution Pioneers*", "value": "TBD" },
+        { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
+      ],
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "cDot": "${amount * 1}",
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["200,000,000 RING (10% of max supply)"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          {
+            "text": "BTC Rewards:",
+            "bulletPoints": [
+              "1 BTC will be released among top 5 contribution pioneers immediately after the second round auction starts regardless of whether Darwinia Network wins the slot auction or not."
+            ]
+          },
+          {
+            "text": "Early Bird: Up to an extra 20% reward if you contribute early"
+          },
+          {
+            "text": "Referral:",
+            "bulletPoints": [
+              "Contributions made through your referral link will reward your and your friend with an extra 5% each."
+            ]
+          },
+          {
+            "text": "Top 10 referrers will receive an additional 1-3% boost to raise your referral reward up to 8%."
+          },
+          {
+            "text": "Contribution Pioneers: Before the second round auction starts, supporters contributing more than 10,000 DOT (third-party exchanges or PLO aggregators are not eligible) and ranking top 5 will share the 1 BTC reward proportionally. BTC reward will be released immediately."
+          },
+          {
+            "text": "Metaverse NFT Package: Get a Evolution Land Metaverse NFT Package, including Land, Apostle, Drills and treasure boxes, when your contribution share greater or equal 10 DOT, and you will have a chance to get a limited edition commemorative NFT in the Package. The package will be awarded immediately after the second round auction is terminated regardless of whether Darwinia Network wins the slot auction or not."
+          }
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "RING: 10% upon transferability, 90% linear unlock 96 weeks.",
+          "KTON: Linearly rewarded after Darwinia wins the auction."
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": [{ "bulletPoints": ["4 PARA per DOT contributed"] }]
+      }
+    ]
+  },
+  "2004": {
+    "reward": {
+      "total": "10%",
+      "min": 1,
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 1}" }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        {
+          "formula": "${0.05 + 1000000 / contributions / 4}",
+          "logo": "/static/media/para.e1be6567.svg"
+        }
+      ],
+      "tooltip": [
+        { "text": "Parallel Referral Bonus*", "value": "5% PARA" },
+        {
+          "text": "Shared PARA Pool (distributed to contributors on Parallel, if this crowdloan wins)",
+          "value": "1M"
+        }
+      ],
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "sharedPools": [
+      {
+        "label": "PARA Pool Rewards",
+        "content": "1M Shared",
+        "logo": "/static/media/para.e1be6567.svg"
+      }
+    ],
+    "cDot": "${amount * 1}",
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["100,000,000 GLMR tokens (10% of the total token supply)"]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "30% transferable after transactions are enabled, 70% vested for 96 weeks after."
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": [{ "bulletPoints": ["4 PARA per DOT contributed"] }]
+      }
+    ]
+  },
+  "2006": {
+    "reward": {
+      "total": "20%",
+      "min": 35,
+      "tooltip": [
+        "In addition to the base reward, earn up to 20% early bird bonus (before end of auction 1) + referral bonus + 9% DOT strong holder bonus. After Parallel launches on Polkadot, users will be able to do mining on their locked ASTR."
+      ],
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 35}" },
+        {
+          "label": "Astar Referral Bonus",
+          "formula": "${amount* 35 * 0.01 + 10 * amount}",
+          "tooltip": [
+            "By default, we will be giving Astar referral bonus to Parallel users per Astar's distribution rules for referrers and referees. For every 1 DOT contributed, you will get 10 ASTR, in addition to the 1% bonus on contributions."
+          ]
+        },
+        {
+          "label": "Early Bird Bonus",
+          "formula": "${amount* 35 * 0.2}",
+          "tooltip": [
+            "Users will get an estimated 20% bonus ASTR for contributions made before 11/18."
+          ]
+        },
+        {
+          "label": "Parallel Early Bird Bonus",
+          "formula": [
+            {
+              "condition": { "rangeDate": ["11/11/21", "11/17/21"] },
+              "value": "${amount * 35 * 0.06}"
+            },
+            {
+              "condition": { "rangeDate": ["11/18/21", "12/1/21"] },
+              "value": "${amount * 35 * 0.04}"
+            },
+            {
+              "condition": { "rangeDate": ["12/2/21", "12/16/21"] },
+              "value": "${amount * 35 * 0.02}"
+            }
+          ],
+          "tooltip": [
+            "Auction loan users will get an extra ASTR bonus if contributions are made between these dates:",
+            "11/11/21-11/18/21 - extra 6%",
+            "11/18/21-12/2/21 - extra 4%",
+            "12/2/21-12/16/21 - extra 2%"
+          ]
+        },
+        {
+          "label": "Parallel Extra Bonus",
+          "content": "+9% ASTR",
+          "tooltip": [
+            "By default, auction loan users will get an extra 9% ASTR when it is distributed."
+          ]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        {
+          "formula": "${0.05 + 2000000 / contributions / 4}",
+          "logo": "/static/media/para.e1be6567.svg"
+        },
+        { "formula": "${0.06 + 200000 / contributions / 35}" }
+      ],
+      "tooltip": [
+        { "text": "Early Bird, Week 1", "value": "6% ASTR" },
+        { "text": "Early Bird, Week 2-3", "value": "4% ASTR" },
+        { "text": "Early Bird, Week 4-5", "value": "2% ASTR" },
+        { "text": "Referral Bonus", "value": "10 ASTR/DOT" },
+        { "text": "Referee Bonus", "value": "1% ASTR" },
+        { "text": "DOT strong holder bonus", "value": "9% ASTR" },
+        {
+          "text": "Shared ASTR Pool distributed to contributors on Parallel, if this crowdloan wins",
+          "value": "200K"
+        },
+        {
+          "text": "Shared PARA Pool (distributed to contributors on Parallel, if this crowdloan wins)",
+          "value": "2M"
+        },
+        { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
+      ],
+      "timeBased": true,
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "sharedPools": [
+      { "label": "ASTR Pool Rewards", "content": "200K Shared" },
+      {
+        "label": "PARA Pool Rewards",
+        "content": "2M Shared",
+        "logo": "/static/media/para.e1be6567.svg"
+      }
+    ],
+    "cDot": "${amount * 1}",
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["1,400,000,000 ASTR (20% of total token supply)"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          { "text": "5% of the total supply reserved for this bonus scheme:" },
+          {
+            "text": "Referral:",
+            "bulletPoints": [
+              "For every 1 DOT, your friend contributed, you get 10 ASTR! Your friends who contribute via your referral get a 1% bonus on their staked amount."
+            ]
+          },
+          {
+            "text": "Early Bird:",
+            "bulletPoints": [
+              "Get a 20% bonus on your stake if you join before the end of auction 1."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "10% transferable after transactions are enabled, 90% vested for 22 months after."
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": [
+          {
+            "bulletPoints": [
+              "4 PARA per DOT contributed",
+              "Up to 6% ASTR early bird"
+            ]
+          },
+          { "text": "Week 1, slot 1: 6% additional ASTR bonus" },
+          { "text": "Week 2-3, slot 2-3: 4% additional ASTR bonus" },
+          { "text": "Week 4-5, slot 4-5: 2% additional ASTR bonus" },
+          {
+            "bulletPoints": [
+              "ASTR Referral bonus will be redistributed back to users depending on contribution amount.",
+              "By default, we will be giving Astar referral bonus to Parallel users per Astar's distribution rules for referrers and referees. For every 1 DOT contributed, you will get 10 ASTR, in addition to the 1% bonus on contributions.",
+              "After Parallel launches on Polkadot, users will be able to do mining on their locked ASTR."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2012": {
+    "logo": "https://cdn.jsdelivr.net/gh/parallel-finance/fearless-utils/crowdloan/icons/parallel.svg",
+    "name": "Parallel",
+    "home": "https://parallel.fi/index.html",
+    "token": "PARA",
+    "reward": {
+      "total": "15%",
+      "min": 33,
+      "tooltip": [
+        "In addition to the base reward, earn up to 40% early bird bonus + 10% referral bonus + NFT (for 1,000 randomly selected contributors)."
+      ],
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 33}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 33 * 0.05 : 0}",
+          "tooltip": [
+            "This is the estimated bonus for using a Parallel Auction Loan referral code. Parallel rewards an additional 5% $PARA bonus for your DOT contributions."
+          ]
+        },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {
+              "condition": {
+                "beforeDate": "11/13/21",
+                "lt": ["contributions", 100000]
+              },
+              "value": "${amount * 33 * 0.4}"
+            },
+            {
+              "condition": { "rangeDate": ["11/13/21", "11/16/21"] },
+              "value": "${amount * 33 * 0.2}"
+            },
+            {
+              "condition": { "rangeDate": ["11/17/21", "11/23/21"] },
+              "value": "${amount * 33 * 0.1}"
+            },
+            {
+              "condition": { "rangeDate": ["11/24/21", "11/30/21"] },
+              "value": "${amount * 33 * 0.05}"
+            },
+            {
+              "condition": { "rangeDate": ["12/1/21", "12/7/21"] },
+              "value": "${amount * 33 * 0.025}"
+            }
+          ],
+          "tooltip": [
+            "For users who contribute <100K DOT, we are awarding bonus for contributions:",
+            "-Before 11/13: 40% bonus PARA",
+            "-11/13 to 11/15: 20% bonus PARA",
+            "-11/17 to 11/23: 10% bonus PARA",
+            "-11/24 to 11/30: 5% bonus PARA",
+            "-12/1 to 12/7: 2.5% bonus PARA"
+          ]
+        },
+        {
+          "label": "NFT",
+          "content": "Yes",
+          "tooltip": ["Up to 1000 contributors will be randomly selected"]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.5", "logo": "/static/media/para.e1be6567.svg" }
+      ],
+      "tooltip": [
+        { "text": "Referral Bonus*", "value": "10% PARA" },
+        { "text": "Early Bird Bonus* ", "value": "40% PARA" }
+      ]
+    },
+    "cDot": "${amount * 1}",
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["1,500,000,000 PARA (up to 15% of total token supply)"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          {
+            "text": "Referral:",
+            "bulletPoints": [
+              "Receive 10% bonus in PARA (5% to referrer and 5% to referee)"
+            ]
+          },
+          {
+            "text": "Community Early bird (for contributions <100,000 DOT):",
+            "bulletPoints": [
+              "40% bonus for every $DOT contributions made before 11/13/21",
+              "20% bonus for every $DOT contributions made on 11/13/21 - 11/16/21",
+              "10% bonus for every $DOT contributions made on 11/17/21 - 11/23/21",
+              "5% bonus for every $DOT contributions made on 11/24/21 - 11/30/21",
+              "2.5% bonus for every $DOT contributions made on 12/1/21 - 12/7/21"
+            ]
+          },
+          {
+            "text": "NFT:",
+            "bulletPoints": ["For 1,000 randomly selected contributors"]
+          }
+        ]
+      },
+      { "label": "Vesting schedule", "content": ["24 months linear vesting."] }
+    ]
+  },
+  "2013": {
+    "reward": {
+      "total": "20%",
+      "min": 2.5,
+      "tooltip": [
+        "In addition to the base reward, earn up to 10% early bird bonus + 10% bonus by completing identity-related tasks."
+      ],
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 2.5}" },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {
+              "condition": { "beforeDate": "11/18/21" },
+              "value": "${amount * 2.5 * 0.1}"
+            },
+            {
+              "condition": { "rangeDate": ["11/18/21", "11/25/21"] },
+              "value": "${amount * 2.5 * 0.05}"
+            }
+          ]
+        },
+        {
+          "label": "Parallel Early Bird Bonus",
+          "formula": [
+            {
+              "condition": { "beforeDate": "11/18/21" },
+              "value": "${amount * 2.5 * 0.1}"
+            },
+            {
+              "condition": { "rangeDate": ["11/18/21", "11/25/21"] },
+              "value": "${amount * 2.5 * 0.05}"
+            },
+            {
+              "condition": { "afterDate": "11/25/21" },
+              "value": "${amount * 2.5 * 0.02}"
+            }
+          ]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        { "formula": "${0.10 + 42000 / contributions / 2.5}" }
+      ],
+      "timeBased": true,
+      "tooltip": [
+        { "text": "Early Bird: Before 11/18/21", "value": "10% LIT" },
+        { "text": "Early Bird: 11/19/21 - 11/25/21", "value": "5% LIT" },
+        { "text": "Early Bird: After 11/15/21", "value": "2% LIT" },
+        {
+          "text": "Shared LIT Pool (distributed to contributors on Parallel, if this crowdloan wins)",
+          "value": "~42K"
+        },
+        { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
+      ],
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "sharedPools": [{ "label": "LIT Pool Rewards", "content": "~42K Shared" }],
+    "cDot": "${amount * 1}",
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["20,000,000 LIT (20% of total token supply)"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          {
+            "text": "Applies to contributions through polkadot.js and Litentry Crowdloan WebApp",
+            "bulletPoints": [
+              "10% additional bonus before 11/18/21",
+              "5% additional bonus within the first 7 days since parachain auction starts"
+            ]
+          },
+          {
+            "text": "Identity-Related Tasks",
+            "bulletPoints": [
+              "Completing tasks to earn 10% additional auction bonus reward"
+            ]
+          },
+          {
+            "text": "Loyalty",
+            "bulletPoints": [
+              "If Litentry doesn’t win a slot in batch 1 auctions, Litentry will compensate the previous batch contributors in the new crowdloan campaign with extra LIT until it wins a slot in the auctions",
+              "The compensate ratio is DOT : LIT = 1 : 0.12",
+              "The expected compensation APY is 13%(Crowdloan periods about 5 weeks)"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "LIT rewards will be distributed linearly in each block, over 96 weeks."
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": [
+          {
+            "bulletPoints": [
+              "4 PARA per DOT contributed",
+              "Up to 10% LIT early bird"
+            ]
+          },
+          {
+            "text": "10% additional bonus when users contribute before 11/18/21."
+          },
+          {
+            "text": "5% additional bonus when users contribute between 11/19/21 - 11/25/21."
+          },
+          {
+            "text": "2% additional bonus when Parallel users contribute after 11/25/21."
+          }
+        ]
+      }
+    ]
+  },
+  "2015": {
+    "reward": {
+      "total": "15.6%",
+      "min": 5,
+      "tooltip": [
+        "In addition to the base reward, earn up to 10% early bird bonus + NFT for contributors."
+      ],
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 4}" },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {
+              "condition": { "beforeDate": "11/11/21" },
+              "value": "${amount * 4 * 0.1}"
+            },
+            {
+              "condition": { "rangeDate": ["11/11/21", "12/2/21"] },
+              "value": "${amount * 4 * 0.05}"
+            }
+          ],
+          "tooltip": [
+            "Users can get estimated 10% MANTA project bonus for contributions made before 11/11; and estimated 5% bonus from 11/11 to 12/2."
+          ]
+        },
+        {
+          "label": "Parallel Early Bird Bonus",
+          "formula": [
+            {
+              "condition": { "beforeDate": "11/11/21" },
+              "value": "${amount * 4 * 0.1}"
+            },
+            {
+              "condition": { "rangeDate": ["11/11/21", "12/2/21"] },
+              "value": "${amount * 4 * 0.05}"
+            }
+          ],
+          "tooltip": [
+            "Auction loan users can get estimated 10% MANTA project bonus for contributions made before 11/11; and estimated 5% bonus from 11/11 to 12/2."
+          ]
+        },
+        {
+          "label": "Referral Bonus",
+          "formula": "${amount * 4 * 0.05}",
+          "tooltip": [
+            "Parallel will distribute the referral rewards of 5% extra MANTA back to users by default after the crowdloan. Exact amounts will be based on DOT contribution and Manta's referral program rules."
+          ]
+        },
+        { "label": "NFT", "content": "Yes" }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        { "formula": "0.10" }
+      ],
+      "timeBased": true,
+      "tooltip": [
+        { "text": "Early Bird: Before crowdloan starts", "value": "10% MANTA" },
+        { "text": "Early Bird: 11/11/21 - 12/1/21", "value": "5% MANTA" },
+        { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
+      ],
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "cDot": "${amount * 1}",
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["156,000,005 MANTA tokens (15.6% of total token supply)"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          {
+            "text": "Early Bird:",
+            "bulletPoints": [
+              "Before 11/11/21: 10% extra bonus",
+              "11/11/21 to 12/2/21: 5% extra bonus"
+            ]
+          },
+          { "text": "NFT:", "bulletPoints": ["Crowdloan NFT for contributors"] }
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "Vesting over the course of 96 weeks on a linear block-by-block basis."
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": [
+          { "bulletPoints": ["4 PARA per DOT contributed", "Up to 10% MANTA"] },
+          { "text": "10% additional bonus before crowdloan starts" },
+          { "text": "5% additional bonus for the first 21 days" },
+          { "text": "0% for the rest" }
+        ]
+      }
+    ]
+  },
+  "2017": {
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+      ],
+      "tooltip": [{ "text": "Parallel Referral Bonus*", "value": "5% PARA" }],
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "reward": {
+      "min": 5,
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 5}" }
+      ]
+    }
+  },
+  "2018": {
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+      ],
+      "tooltip": [{ "text": "Parallel Referral Bonus*", "value": "5% PARA" }],
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "reward": {
+      "total": "30%",
+      "min": 20,
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 20}" }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["300,000,000 GOV (30% of total token supply)"]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          { "bulletPoints": ["34% transferrable at TGE"] },
+          {
+            "bulletPoints": ["Remaining 66% subject to 96-week linear vesting"]
+          }
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": [{ "bulletPoints": ["4 PARA per DOT contributed"] }]
+      }
+    ]
+  },
+  "2021": {
+    "reward": {
+      "min": 4,
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 4}" }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+      ],
+      "tooltip": [{ "text": "Parallel Referral Bonus*", "value": "5% PARA" }],
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "cDot": "${amount * 1}",
+    "rewardRules": [
+      {
+        "label": "Parallel Additional Bonus",
+        "content": [{ "bulletPoints": ["4 PARA per DOT contributed"] }]
+      }
+    ]
+  },
+  "2028": {
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+      ],
+      "tooltip": [{ "text": "Parallel Referral Bonus*", "value": "5% PARA" }],
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    }
+  }
+}
