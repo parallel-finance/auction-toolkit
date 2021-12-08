@@ -1,7 +1,6 @@
 {
   "2000": {
     "cToken": "lcDOT",
-    "isStart": true,
     "reward": {
       "total": "17%",
       "min": 3,
@@ -163,7 +162,6 @@
     ]
   },
   "2001": {
-    "isStart": true,
     "reward": {
       "min": 1.2,
       "detail": [
@@ -192,7 +190,6 @@
     ]
   },
   "2002": {
-    "isStart": true,
     "reward": {
       "total": "20%",
       "min": 4,
@@ -296,7 +293,6 @@
     ]
   },
   "2003": {
-    "isStart": true,
     "reward": {
       "total": "10%",
       "min": 200,
@@ -374,7 +370,6 @@
     ]
   },
   "2004": {
-    "isStart": true,
     "reward": {
       "total": "10%",
       "min": 1,
@@ -430,7 +425,6 @@
     ]
   },
   "2006": {
-    "isStart": true,
     "reward": {
       "total": "20%",
       "min": 35,
@@ -585,7 +579,6 @@
     "name": "Parallel",
     "home": "https://parallel.fi/index.html",
     "token": "PARA",
-    "isStart": true,
     "reward": {
       "total": "15%",
       "min": 33,
@@ -688,7 +681,6 @@
     ]
   },
   "2013": {
-    "isStart": true,
     "reward": {
       "total": "20%",
       "min": 2.5,
@@ -815,7 +807,6 @@
     ]
   },
   "2015": {
-    "isStart": true,
     "reward": {
       "total": "15.6%",
       "min": 5,
@@ -922,7 +913,6 @@
     ]
   },
   "2017": {
-    "isStart": true,
     "parallelBonus": {
       "items": [
         { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
@@ -944,7 +934,6 @@
     }
   },
   "2018": {
-    "isStart": true,
     "parallelBonus": {
       "items": [
         { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
@@ -986,7 +975,6 @@
     ]
   },
   "2021": {
-    "isStart": true,
     "reward": {
       "min": 4,
       "detail": [
@@ -1015,7 +1003,6 @@
     ]
   },
   "2028": {
-    "isStart": true,
     "parallelBonus": {
       "items": [
         { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }

@@ -200,7 +200,8 @@
     "description": "Scalable solution for securely processing sensitive data",
     "website": "https://www.integritee.network/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/integritee.svg",
-    "rewardRate": 10
+    "rewardRate": 10,
+    "hidden": true
   },
   {
     "paraid": "2092",

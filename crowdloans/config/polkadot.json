@@ -5,8 +5,6 @@
   "SS58_FORMAT": 0,
   "PARA_BONUS_UNIT": "PARA",
   "PARALLEL_PARA_ID": "2012",
-  "HIDDEN_PARAIDS": [],
-  "DISABLED_CONTRIBUTION_PARAIDS": ["2000", "2004", "2006"],
   "CONTRIBUTION_DISCLAIMER": "Your DOT will be contributed to the crowdloan via Parallel's platform. If this crowdloan does not win an auction slot, your DOT can be claimed by going into 'My Rewards' page.",
   "START_BLOCK": 7569853,
   "DATE_FOR_START_BLOCK": "Nov 5, 2021",
