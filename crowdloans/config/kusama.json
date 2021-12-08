@@ -1,0 +1,14 @@
+{
+  "NAME": "kusama",
+  "ASSET_ID": 100,
+  "UNIT": "KSM",
+  "SS58_FORMAT": 2,
+  "PARA_BONUS_UNIT": "HKO",
+  "PARALLEL_PARA_ID": "2085",
+  "HIDDEN_PARAIDS": ["2015"],
+  "DISABLED_CONTRIBUTION_PARAIDS": [],
+  "CONTRIBUTION_DISCLAIMER": "Your KSM will be contributed to the crowdloan runtime module. If this crowdloan does not win an auction slot, your KSM will be automatically returned to your account by the runtime",
+  "START_BLOCK": 9017682,
+  "DATE_FOR_START_BLOCK": "Aug 31, 2021",
+  "PERIOD_COEFFICIENT": 6
+}
