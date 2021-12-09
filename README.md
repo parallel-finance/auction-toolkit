@@ -8,21 +8,28 @@ Use [jsDeliver](https://github.com/jsdelivr/jsdelivr#github) to get the resource
 
 e.g.
 
-* https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@v1.0.0/crowdloans/polkadot.json
-* https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/crowdloans/polkadot.json
-* https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/crowdloans/polkadot.json
+- https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@v1.0.0/crowdloans/project/polkadot.json
+- https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/crowdloans/project/polkadot.json
+- https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/crowdloans/project/polkadot.json
 
-### How to use a new version
+### Before release new version
 
-Since jsDeliver has their own [caching logic](https://github.com/jsdelivr/jsdelivr#caching), so we cannot use the url directly when you push a new changes into branch.
+- After merge the changes, please use auction dapp dev environment or staging environment to check if everything goes well.
+  - dev: https://crowdloan-dev.parallel.fi
+  - staging: https://crowdloan-staging.parallel.fi
 
-What we need to do after pushing the new changes.
+### How to release a new version
 
-* Create a tag for the new changes
-* Release the tag
-* Clear the cache for the latest version. https://purge.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/crowdloans/polkadot.json
+Since jsDeliver has their own [caching logic](https://github.com/jsdelivr/jsdelivr#caching), so we cannot use the url directly when you merge the new changes into main branch.
+
+What we need to do after merging the new changes.
+
+- Create a tag for main branch with the new changes
+- Release the tag
+- There is a github action to purge cache automatically, please using [latest url](https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/crowdloans/project/polkadot.json) to check the changes after action is completed.
 
 ## Resource
+
 ### Crowdloan projects
 
 We should update the `/crowdloans` information based on [fearless-utils](https://github.com/soramitsu/fearless-utils) update, please note update the images url to our own images url. You can download the images into our repo, and update the url.
