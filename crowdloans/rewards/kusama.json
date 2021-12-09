@@ -99,24 +99,6 @@
       }
     ]
   },
-  "2077": {
-    "reward": { "min": 3.5 },
-    "rewardRules": [
-      {
-        "label": "Bonus",
-        "content": [
-          "Increased reward for the first 35,000 KSM collected. Get 5 XRT instead of 3.5 in one year",
-          "Extra reward for Robonomics Polkapet NFT holders, who’ll bond the first 35,000 KSM. Get 6 XRT instead of 3.5 XRT in one year"
-        ]
-      },
-      {
-        "label": "Vesting schedule",
-        "content": [
-          "50% of reward in the first month after the launch of the network; 50% linear release over 48 weeks."
-        ]
-      }
-    ]
-  },
   "2084": {
     "reward": { "min": 10000 },
     "rewardRules": [

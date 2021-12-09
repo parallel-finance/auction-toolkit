@@ -1003,6 +1003,12 @@
     ]
   },
   "2028": {
+    "reward": {
+      "min": 1000,
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 1000}" }
+      ]
+    },
     "parallelBonus": {
       "items": [
         { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
