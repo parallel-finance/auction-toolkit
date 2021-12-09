@@ -15,7 +15,9 @@ jobs:
           --header 'content-type: application/json' \
           --data-raw '{
               "path": [
-                  "/gh/parallel-finance/auction-toolkit@latest/crowdloans/polkadot.json",
-                  "/gh/parallel-finance/auction-toolkit@latest/crowdloans/kusama.json"
+                  "/gh/parallel-finance/auction-toolkit@latest/crowdloans/projects/polkadot.json",
+                  "/gh/parallel-finance/auction-toolkit@latest/crowdloans/projects/kusama.json",
+                  "/gh/parallel-finance/auction-toolkit@latest/crowdloans/rewards/polkadot.json",
+                  "/gh/parallel-finance/auction-toolkit@latest/crowdloans/rewards/kusama.json"
               ]
           }'
