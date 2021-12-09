@@ -188,6 +188,7 @@
     "website": "https://parallel.fi/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/parallel.svg",
     "isStart": true,
+    "disabledContribution": true,
     "tokenomics": {
       "totalSupply": 10000000000,
       "data": [
