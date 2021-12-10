@@ -37,8 +37,8 @@
       ]
     },
     "parallelBonus": {
-      "items": [{ "formula": "4" }],
-      "tooltip": [{ "text": "Parallel Bonus", "value": "4" }],
+      "items": [],
+      "tooltip": [],
       "detail": [
         {
           "label": "Parallel Bonus",
