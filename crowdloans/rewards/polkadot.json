@@ -1,5 +1,6 @@
 {
   "2026": {
+    "cDot": "${amount * 1}",
     "reward": {
       "total": "10%",
       "fixed": [{ "value": 20, "suffix": "+", "unit": "NODL" }],
