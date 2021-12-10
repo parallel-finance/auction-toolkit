@@ -4,8 +4,7 @@
     "name": "Nodle",
     "home": "https://nodle.com",
     "token": "NODL",
-    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/fearless-utils/crowdloan/icons/nodle.png",
-    "cDot": "${amount * 1}"
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/crowdloan/icons/nodle.png"
   },
   {
     "paraid": "2000",
