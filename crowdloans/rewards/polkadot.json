@@ -1,4 +1,74 @@
 {
+  "2026": {
+    "reward": {
+      "total": "10%",
+      "fixed": [{ "value": 20, "suffix": "+", "unit": "NODL" }],
+      "unit": "NODL",
+      "detail": [
+        {
+          "label": "Est. Project Rewards",
+          "formula": "${amount * 20}"
+        },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {
+              "condition": {
+                "beforeDate": "12/23/21 11:50:0"
+              },
+              "value": "${amount * .1}"
+            }
+          ],
+          "tooltip": ["For contributions made before 12/23/21, ~11:50am UTC"]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        { "formula": "0.10" }
+      ],
+      "tooltip": [
+        { "text": "Early Bonus: 12/9/21 - 12/23/21", "value": "10% NODL" },
+        { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
+      ],
+      "detail": [
+        {
+          "label": "Parallel Bonus",
+          "formula": "${amount * 4}"
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["850,000,000 NODL (10% of effective circulating supply)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "Early Bird: 10% extra rewards if you contribute in the first two weeks.",
+          "Referral: 5% referral bonus reward each to referral and referee"
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": ["4 PARA per DOT contributed"]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "30% will be unlocked immediately when the Nodle parachain launches",
+          "70% will vest over the duration of the lease (96 weeks) 2 years, on a per block basis"
+        ]
+      }
+    ],
+    "maxCoin": "850M"
+  },
   "2000": {
     "cToken": "lcDOT",
     "reward": {
