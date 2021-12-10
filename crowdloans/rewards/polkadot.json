@@ -1,4 +1,85 @@
 {
+  "2032": {
+    "cDot": "${amount * 1}",
+    "reward": {
+      "total": "10% of initial 4-year supply",
+      "fixed": [{ "value": 3, "suffix": "+", "unit": "NODL" }],
+      "unit": "INTR",
+      "detail": [
+        {
+          "label": "Est. Project Rewards",
+          "formula": "${amount * 3}"
+        },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {
+              "condition": {
+                "beforeDate": "12/23/21 11:50:0"
+              },
+              "value": "${amount * 0.1}"
+            }
+          ],
+          "tooltip": ["For contributions made before 12/23/21, ~11:50am UTC"]
+        },
+        {
+          "label": "Strong Contributer Bonus",
+          "formula": "${amount > 50000 ? amount * 0.1 : 0}",
+          "tooltip": ["For contributions over 50,000 DOT"]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        { "formula": "0.10" }
+      ],
+      "tooltip": [
+        { "text": "Early Bonus: 12/10/21 - 12/23/21", "value": "10% INTR" },
+        { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
+      ],
+      "detail": [
+        {
+          "label": "Parallel Bonus",
+          "formula": "${amount * 4}"
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["100,000,000 INTR (10% of initial supply)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "Early Bird: 10% extra rewards if you contribute in the first two weeks.",
+          "Referral: 5% referral bonus reward each to referral and referee",
+          "Strong Supporter: 10% to users who contribute more than 50,000 DOT",
+          "Quiz Challenge: 2.5% for solving Interlay quiz",
+          "Test Mint Challenge: 2.5% for minting interBTC on testnet",
+          "Kintsugi Legends: 2.5% if you contributed to kintsugi crowdloan with same wallet",
+          "kBTC: TBD, Mint kBTC or run a Vault with collateral"
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": ["4 PARA per DOT contributed"]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "30% will be unlocked when transfers are enabled",
+          "70% will vest linearly over the duration of the 96 week lease"
+        ]
+      }
+    ],
+    "maxCoin": "100M"
+  },
   "2026": {
     "cDot": "${amount * 1}",
     "reward": {

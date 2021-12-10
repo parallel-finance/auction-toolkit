@@ -7,6 +7,36 @@
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/nodle.png"
   },
   {
+    "paraid": "2032",
+    "name": "Interlay",
+    "home": "https://interlay.io",
+    "token": "INTR",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/interlay.png",
+    "tokenomics": {
+      "totalSupply": 1000000000,
+      "data": [
+        {
+          "name": "Interlay Team & Early Investors",
+          "value": 20,
+          "color": "#45E6DC"
+        },
+        { "name": "Vault Rewards", "value": 30, "color": "#FFB080" },
+        { "name": "Crowdloan Paradrop", "value": 10, "color": "#FAD14B" },
+        { "name": "On-chain Treasury", "value": 25, "color": "#FF8066" },
+        {
+          "name": "Stake-to-vote Staking Rewards",
+          "value": 5,
+          "color": "#F0549F"
+        },
+        {
+          "name": "Foundation Reserve",
+          "value": 10,
+          "color": "#6E5CE6"
+        }
+      ]
+    }
+  },
+  {
     "paraid": "2000",
     "name": "Acala",
     "token": "ACA",
