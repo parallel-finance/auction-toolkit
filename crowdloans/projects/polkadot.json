@@ -1,5 +1,30 @@
 [
   {
+    "paraid": "2008",
+    "name": "Crust Network",
+    "home": "https://crust.network",
+    "token": "INTR",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/crust.png",
+    "tokenomics": {
+      "totalSupply": 20000000,
+      "data": [
+        {
+          "name": "Token Sale",
+          "value": 25,
+          "color": "#45E6DC"
+        },
+        { "name": "Community Development", "value": 25, "color": "#FFB080" },
+        { "name": "BD & Marketing", "value": 10, "color": "#FAD14B" },
+        { "name": "Foundation Reservation", "value": 20, "color": "#FF8066" },
+        {
+          "name": "Technical Team",
+          "value": 20,
+          "color": "#F0549F"
+        }
+      ]
+    }
+  },
+  {
     "paraid": "2026",
     "name": "Nodle",
     "home": "https://nodle.com",
@@ -11,7 +36,7 @@
     "name": "Interlay",
     "home": "https://interlay.io",
     "token": "INTR",
-    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/interlay.png",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/interlay.svg",
     "tokenomics": {
       "totalSupply": 1000000000,
       "data": [
