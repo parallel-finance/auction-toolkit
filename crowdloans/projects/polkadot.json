@@ -2,7 +2,7 @@
   {
     "paraid": "2008",
     "name": "Crust Network",
-    "home": "https://crust.network",
+    "website": "https://crust.network",
     "token": "INTR",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/crust.png",
     "tokenomics": {
@@ -27,14 +27,14 @@
   {
     "paraid": "2026",
     "name": "Nodle",
-    "home": "https://nodle.com",
+    "website": "https://nodle.com",
     "token": "NODL",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/nodle.png"
   },
   {
     "paraid": "2032",
     "name": "Interlay",
-    "home": "https://interlay.io",
+    "website": "https://interlay.io",
     "token": "INTR",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/interlay.svg",
     "tokenomics": {
@@ -443,12 +443,5 @@
         { "name": "Public Sale", "value": 5, "color": "#c0dfdd" }
       ]
     }
-  },
-  {
-    "paraid": "2008",
-    "name": "Crust Network",
-    "token": "CRU",
-    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/crust.svg",
-    "website": "https://crust.network/"
   }
 ]
