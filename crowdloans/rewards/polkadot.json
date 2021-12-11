@@ -91,12 +91,12 @@
           "formula": [
             {
               "condition": {
-                "beforeDate": "12/24/21"
+                "beforeDate": "12/23/21"
               },
               "value": "${amount * 0.1}"
             }
           ],
-          "tooltip": ["For contributions made before 12/24/21"]
+          "tooltip": ["10% INTR bonus before 12/23/21"]
         },
         {
           "label": "Strong Supporter Bonus",
@@ -111,8 +111,8 @@
         { "formula": "0.10" }
       ],
       "tooltip": [
-        { "text": "Early Bonus: 12/10/21 - 12/23/21", "value": "10% INTR" },
-        { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
+        { "text": "Parallel Referral Bonus*", "value": "5% PARA" },
+        { "text": "Early Bird: Before 12/23/21", "value": "10% INTR" }
       ],
       "detail": [
         {
@@ -133,7 +133,7 @@
       {
         "label": "Bonus",
         "content": [
-          "Early Bird: 10% extra rewards if you contribute in the first two weeks.",
+          "Early Bird: 10% extra rewards if you contribute before 12/23/21.",
           "Referral: 5% referral bonus reward each to referral and referee",
           "Strong Supporter: 10% to users who contribute more than 50,000 DOT",
           "Quiz Challenge: 2.5% for solving Interlay quiz",
@@ -172,7 +172,7 @@
           "formula": [
             {
               "condition": {
-                "beforeDate": "12/23/21 11:50:0"
+                "beforeDate": "12/23/21"
               },
               "value": "${amount * .1}"
             }
