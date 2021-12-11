@@ -1,10 +1,65 @@
 [
   {
+    "paraid": "2008",
+    "name": "Crust Network",
+    "website": "https://crust.network",
+    "token": "CRU",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/crust.svg",
+    "tokenomics": {
+      "totalSupply": 20000000,
+      "data": [
+        {
+          "name": "Token Sale",
+          "value": 25,
+          "color": "#45E6DC"
+        },
+        { "name": "Community Development", "value": 25, "color": "#FFB080" },
+        { "name": "BD & Marketing", "value": 10, "color": "#FAD14B" },
+        { "name": "Foundation Reservation", "value": 20, "color": "#FF8066" },
+        {
+          "name": "Technical Team",
+          "value": 20,
+          "color": "#F0549F"
+        }
+      ]
+    }
+  },
+  {
     "paraid": "2026",
     "name": "Nodle",
-    "home": "https://nodle.com",
+    "website": "https://nodle.com",
     "token": "NODL",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/nodle.png"
+  },
+  {
+    "paraid": "2032",
+    "name": "Interlay",
+    "website": "https://interlay.io",
+    "token": "INTR",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/interlay.svg",
+    "tokenomics": {
+      "totalSupply": 1000000000,
+      "data": [
+        {
+          "name": "Interlay Team & Early Investors",
+          "value": 20,
+          "color": "#45E6DC"
+        },
+        { "name": "Vault Rewards", "value": 30, "color": "#FFB080" },
+        { "name": "Crowdloan Paradrop", "value": 10, "color": "#FAD14B" },
+        { "name": "On-chain Treasury", "value": 25, "color": "#FF8066" },
+        {
+          "name": "Stake-to-vote Staking Rewards",
+          "value": 5,
+          "color": "#F0549F"
+        },
+        {
+          "name": "Foundation Reserve",
+          "value": 10,
+          "color": "#6E5CE6"
+        }
+      ]
+    }
   },
   {
     "paraid": "2000",
@@ -388,12 +443,5 @@
         { "name": "Public Sale", "value": 5, "color": "#c0dfdd" }
       ]
     }
-  },
-  {
-    "paraid": "2008",
-    "name": "Crust Network",
-    "token": "CRU",
-    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/crust.svg",
-    "website": "https://crust.network/"
   }
 ]

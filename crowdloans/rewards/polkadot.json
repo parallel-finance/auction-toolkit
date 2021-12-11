@@ -1,4 +1,161 @@
 {
+  "2008": {
+    "cDot": "${amount * 1}",
+    "reward": {
+      "total": "5% of Total Supply",
+      "fixed": [{ "value": 0.2, "suffix": "+", "unit": "CRU" }],
+      "unit": "CRU",
+      "detail": [
+        {
+          "label": "Est. Project Rewards",
+          "formula": "${amount * 0.2}"
+        },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {
+              "condition": { "rangeDate": ["12/10/21", "1/20/22"] },
+              "value": "${amount * 0.30}"
+            },
+            {
+              "condition": { "afterDate": "1/20/22" },
+              "value": "${amount * 0.20}"
+            }
+          ],
+          "tooltip": [
+            "30% Bonus for contributions made until 1/20/2022 and 20% after"
+          ]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        { "formula": "0.30" }
+      ],
+      "tooltip": [
+        { "text": "Parallel Referral Bonus", "value": "5% PARA" },
+        { "text": "Early Bird: Until 1/20/2022", "value": "30% CRU" },
+        { "text": "Early Bird: After 1/20/2022", "value": "20% CRU" }
+      ],
+      "detail": [
+        {
+          "label": "Parallel Bonus",
+          "formula": "${amount * 4}"
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["1,000,000 CRU (5% of Total Supply)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "Earlier Bird: 30% extra rewards if you contribute by 1/20/2022, 20% extra rewards after",
+          "Lucky Draw: 10,000 CRU shared by 10 randomly selected contributors (1 entry per 1 DOT)"
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": ["4 PARA per DOT contributed"]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "30% will be available to claim immediately",
+          "70% be released in 10% increments each lease period"
+        ]
+      }
+    ],
+    "maxCoin": "100M"
+  },
+  "2032": {
+    "cDot": "${amount * 1}",
+    "reward": {
+      "total": "10% of initial 4-year supply",
+      "fixed": [{ "value": 3, "suffix": "+", "unit": "INTR" }],
+      "unit": "INTR",
+      "detail": [
+        {
+          "label": "Est. Project Rewards",
+          "formula": "${amount * 3}"
+        },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {
+              "condition": {
+                "beforeDate": "12/24/21"
+              },
+              "value": "${amount * 0.1}"
+            }
+          ],
+          "tooltip": ["For contributions made before 12/24/21"]
+        },
+        {
+          "label": "Strong Supporter Bonus",
+          "formula": "${amount > 50000 ? amount * 0.1 : 0}",
+          "tooltip": ["10% Bonus for contributions over 50,000 DOT"]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        { "formula": "0.10" }
+      ],
+      "tooltip": [
+        { "text": "Early Bonus: 12/10/21 - 12/23/21", "value": "10% INTR" },
+        { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
+      ],
+      "detail": [
+        {
+          "label": "Parallel Bonus",
+          "formula": "${amount * 4}"
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["100,000,000 INTR (10% of initial supply)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "Early Bird: 10% extra rewards if you contribute in the first two weeks.",
+          "Referral: 5% referral bonus reward each to referral and referee",
+          "Strong Supporter: 10% to users who contribute more than 50,000 DOT",
+          "Quiz Challenge: 2.5% for solving Interlay quiz",
+          "Test Mint Challenge: 2.5% for minting interBTC on testnet",
+          "Kintsugi Legends: 2.5% if you contributed to kintsugi crowdloan with same wallet",
+          "kBTC: TBD, Mint kBTC or run a Vault with collateral"
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": ["4 PARA per DOT contributed"]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "30% will be unlocked when transfers are enabled",
+          "70% will vest linearly over the duration of the 96 week lease"
+        ]
+      }
+    ],
+    "maxCoin": "100M"
+  },
   "2026": {
     "cDot": "${amount * 1}",
     "reward": {
@@ -20,7 +177,7 @@
               "value": "${amount * .1}"
             }
           ],
-          "tooltip": ["For contributions made before 12/23/21, ~11:50am UTC"]
+          "tooltip": ["For contributions made before 12/23/21"]
         }
       ]
     },
