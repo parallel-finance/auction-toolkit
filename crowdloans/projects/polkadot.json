@@ -3,8 +3,8 @@
     "paraid": "2008",
     "name": "Crust Network",
     "website": "https://crust.network",
-    "token": "INTR",
-    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/crust.png",
+    "token": "CRU",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/crust.svg",
     "tokenomics": {
       "totalSupply": 20000000,
       "data": [
