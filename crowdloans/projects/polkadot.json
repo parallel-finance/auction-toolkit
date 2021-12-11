@@ -29,7 +29,8 @@
     "name": "Nodle",
     "website": "https://nodle.com",
     "token": "NODL",
-    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/nodle.png"
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/nodle.png",
+    "isStart": true
   },
   {
     "paraid": "2032",
