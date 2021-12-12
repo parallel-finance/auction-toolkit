@@ -15,11 +15,11 @@
           "formula": [
             {
               "condition": { "rangeDate": ["12/10/21", "1/20/22"] },
-              "value": "${amount * 0.30}"
+              "value": "${amount * 0.20 * 0.30}"
             },
             {
               "condition": { "afterDate": "1/20/22" },
-              "value": "${amount * 0.20}"
+              "value": "${amount * 0.20 * 0.2}"
             }
           ],
           "tooltip": [
@@ -79,12 +79,12 @@
     "cDot": "${amount * 1}",
     "reward": {
       "total": "10% of initial 4-year supply",
-      "fixed": [{ "value": 3, "suffix": "+", "unit": "INTR" }],
+      "fixed": [{ "value": 6.25, "suffix": "+", "unit": "INTR" }],
       "unit": "INTR",
       "detail": [
         {
           "label": "Est. Project Rewards",
-          "formula": "${amount * 3}"
+          "formula": "${amount * 6.25}"
         },
         {
           "label": "Early Bird Bonus",
@@ -93,7 +93,7 @@
               "condition": {
                 "beforeDate": "12/23/21"
               },
-              "value": "${amount * 0.1}"
+              "value": "${amount * 0.1 * 6.25}"
             }
           ],
           "tooltip": ["10% INTR bonus before 12/23/21"]
@@ -174,7 +174,7 @@
               "condition": {
                 "beforeDate": "12/23/21"
               },
-              "value": "${amount * .1}"
+              "value": "${amount * 0.1 * 20}"
             }
           ],
           "tooltip": ["For contributions made before 12/23/21"]
