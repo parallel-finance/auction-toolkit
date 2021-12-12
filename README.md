@@ -28,6 +28,11 @@ What we need to do after merging the new changes.
 - Release the tag
 - There is a github action to purge cache automatically, please using [latest url](https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/crowdloans/project/polkadot.json) to check the changes after action is completed.
 
+#### Notes
+
+We created a github action for purge the caching of cdn. But if it doesn't work after release in few minutes. You can try to manually purge the caching.
+Call `https://purge.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/crowdloans/rewards/polkadot.json` in browser, you can change the file name that you want to clear the cache.
+
 ## Resource
 
 ### Crowdloan projects
