@@ -5,6 +5,7 @@
     "website": "https://crust.network",
     "token": "CRU",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/crust.svg",
+    "isStart": true,
     "tokenomics": {
       "totalSupply": 20000000,
       "data": [
@@ -38,6 +39,7 @@
     "website": "https://interlay.io",
     "token": "INTR",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/interlay.svg",
+    "isStart": true,
     "tokenomics": {
       "totalSupply": 1000000000,
       "data": [
