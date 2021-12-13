@@ -46,10 +46,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -126,10 +122,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -206,10 +198,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -325,10 +313,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -422,10 +406,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -496,10 +476,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -570,10 +546,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -652,10 +624,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -770,10 +738,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -908,12 +872,6 @@
       "tooltip": [
         { "text": "Referral Bonus*", "value": "10% PARA" },
         { "text": "Early Bird Bonus* ", "value": "40% PARA" }
-      ],
-      "detail": [
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
-        }
       ]
     },
     "cDot": "${amount * 1}",
@@ -1012,10 +970,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -1147,10 +1101,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -1201,10 +1151,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -1226,10 +1172,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -1277,10 +1219,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     },
@@ -1309,10 +1247,6 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-        },
-        {
-          "label": "Reinvest Bonus",
-          "formula": "${amount}"
         }
       ]
     }
