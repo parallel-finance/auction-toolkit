@@ -1,5 +1,19 @@
 [
   {
+    "paraid": "2031",
+    "name": "Centrifuge",
+    "token": "CFG",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/centrifuge.png",
+    "isStart": true
+  },
+  {
+    "paraid": "2027",
+    "name": "Coinversation",
+    "token": "CTO",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/coinversation.png",
+    "isStart": true
+  },
+  {
     "paraid": "2008",
     "name": "Crust Network",
     "website": "https://crust.network",
