@@ -92,7 +92,7 @@
         },
         { "name": "Treasury", "value": 24, "color": "#FFB080" },
         { "name": "Team", "value": 10, "color": "#FAD14B" },
-        { "name": "Early Investor", "value": 25, "color": "#FF8066" },
+        { "name": "Early Investor", "value": 4.5, "color": "#FF8066" },
         {
           "name": "Other",
           "value": 1.5,
