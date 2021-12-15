@@ -598,11 +598,12 @@
     ]
   },
   "2004": {
+    "token": "GLMR",
     "reward": {
       "total": "10%",
       "min": 1,
       "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 1}" }
+        { "label": "Est. Project Rewards", "formula": "${amount * 4.1946}" }
       ]
     },
     "parallelBonus": {
