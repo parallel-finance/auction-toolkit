@@ -2,13 +2,12 @@
   "2027": {
     "cDot": "${amount * 1}",
     "reward": {
-      // "total": "5% of Total Supply",
       "fixed": [{ "value": 3.75, "suffix": "+", "unit": "CTO" }],
       "unit": "CTO",
       "detail": [
         {
           "label": "Est. Project Rewards",
-          "formula": "${amount * 3.65}"
+          "formula": "${amount * 3.75}"
         }
       ]
     },
@@ -32,14 +31,6 @@
       {
         "label": "Parallel Additional Bonus",
         "content": ["4 PARA per DOT contributed"]
-      },
-      {
-        // vesting schedule?
-        "label": "Vesting schedule",
-        "content": [
-          "30% will be available to claim immediately",
-          "70% be released in 10% increments each lease period"
-        ]
       }
     ],
     "maxCoin": "100M"
@@ -59,7 +50,6 @@
           "label": "Early Bird Bonus",
           "formula": [
             {
-              // starting when for 72 hours?
               "condition": { "rangeDate": ["12/15/21", "12/19/21"] },
               "value": "${amount * 3.65 * 0.1}"
             }
@@ -113,7 +103,6 @@
         "content": ["4 PARA per DOT contributed"]
       },
       {
-        // vesting schedule?
         "label": "Vesting schedule",
         "content": [
           "30% will be available to claim immediately",
