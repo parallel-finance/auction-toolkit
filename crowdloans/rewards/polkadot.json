@@ -1,4 +1,84 @@
 {
+  "2019": {
+    "cDot": "${amount * 1}",
+    "reward": {
+      "total": "5% of Total Supply",
+      "fixed": [{ "value": 0.48, "suffix": "+", "unit": "LAYR" }],
+      "unit": "LAYR",
+      "detail": [
+        {
+          "label": "Est. Project Rewards",
+          "formula": "${amount * 0.48}"
+        },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {
+              "condition": { "rangeDate": ["12/15/21", "12/15/21"] },
+              "value": "${amount * .48 * 0.15}"
+            },
+            {
+              "condition": { "rangeDate": ["12/16/21", "12/17/21"] },
+              "value": "${amount * .48 * 0.1}"
+            }
+          ],
+          "tooltip": [
+            "15% Bonus for contributions made during 12/15/21 before 9pm EST and 10% before 12/18/21 before 9pm EST"
+          ]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        { "formula": "0.15" }
+      ],
+      "tooltip": [
+        { "text": "Parallel Referral Bonus", "value": "5% PARA" },
+        { "text": "Early Bird: On 12/15/21", "value": "15% LAYR" },
+        { "text": "Early Bird: From 12/16/21 to 12/17/21", "value": "10% LAYR" }
+      ],
+      "detail": [
+        {
+          "label": "Parallel Bonus",
+          "formula": "${amount * 4}"
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["12,000,000 LAYR (12% of Total Supply)"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          "Earlier Bird: ",
+          "- 5% bonus to those who staked in the first 24 hours, by 12/15/21 at 9PM EST",
+          "- 10% bonus to stakers in the first three days of opening the crowdloan",
+          "Refer: 20% bonus for those that refer a total of at least 1000 DOT using our referral codes",
+          "Loyalty: 5% bonus for those who previously contributed KSM and stablecoins to the Picasso Crowdloan"
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": ["4 PARA per DOT contributed"]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "25% vesting on TGE",
+          "75% vesting linearly over following 1.5 years"
+        ]
+      }
+    ],
+    "maxCoin": "100M"
+  },
+
   "2027": {
     "cDot": "${amount * 1}",
     "reward": {
@@ -112,7 +192,6 @@
     ],
     "maxCoin": "100M"
   },
-
   "2008": {
     "cDot": "${amount * 1}",
     "reward": {
