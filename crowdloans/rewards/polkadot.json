@@ -72,7 +72,7 @@
         "label": "Vesting schedule",
         "content": [
           "25% vesting on TGE",
-          "75% vesting linearly over following 1.5 years"
+          "75% vesting linearly over following 2 years"
         ]
       }
     ],
@@ -272,12 +272,12 @@
     "cDot": "${amount * 1}",
     "reward": {
       "total": "10% of initial 4-year supply",
-      "fixed": [{ "value": 3, "suffix": "+", "unit": "INTR" }],
+      "fixed": [{ "value": 3.463, "suffix": "+", "unit": "INTR" }],
       "unit": "INTR",
       "detail": [
         {
           "label": "Est. Project Rewards",
-          "formula": "${amount * 3}"
+          "formula": "${amount * 3.463}"
         },
         {
           "label": "Early Bird Bonus",
@@ -286,14 +286,14 @@
               "condition": {
                 "beforeDate": "12/23/21"
               },
-              "value": "${amount * 0.1 * 3}"
+              "value": "${amount * 0.1 * 3.463}"
             }
           ],
           "tooltip": ["10% INTR bonus before 12/23/21"]
         },
         {
           "label": "Strong Supporter Bonus",
-          "formula": "${amount > 50000 ? amount * 3 * 0.1 : 0}",
+          "formula": "${amount > 50000 ? amount * 3.463 * 0.1 : 0}",
           "tooltip": ["10% Bonus for contributions over 50,000 DOT"]
         }
       ]
