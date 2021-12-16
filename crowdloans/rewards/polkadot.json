@@ -118,7 +118,7 @@
   "2031": {
     "cDot": "${amount * 1}",
     "reward": {
-      "total": "12% of supply reserve",
+      "total": "15% of supply reserve",
       "fixed": [{ "value": 3.65, "suffix": "+", "unit": "CFG" }],
       "unit": "CFG",
       "detail": [
@@ -168,7 +168,7 @@
     "rewardRules": [
       {
         "label": "Total Crowdloan Rewards",
-        "content": ["51,000,000 CFG (12% of Supply Reserve)"]
+        "content": ["63,750,000 CFG (15% of Supply Reserve)"]
       },
       {
         "label": "Bonus",
@@ -185,8 +185,8 @@
       {
         "label": "Vesting schedule",
         "content": [
-          "30% will be available to claim immediately",
-          "70% be released in 10% increments each lease period"
+          "20% will be available to claim immediately",
+          "80% will be released linearly over the duration of the lease"
         ]
       }
     ],
