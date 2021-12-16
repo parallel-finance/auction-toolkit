@@ -296,6 +296,7 @@
     "website": "https://www.litentry.com/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/litentry.png",
     "isStart": true,
+    "disabledContribution": true,
     "tokenomics": {
       "totalSupply": 100000000,
       "data": [
@@ -344,6 +345,7 @@
     "website": "https://clover.finance/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/clover.svg",
     "isStart": true,
+    "disabledContribution": true,
     "tokenomics": {
       "totalSupply": 200000000,
       "data": [
@@ -368,6 +370,7 @@
     "website": "https://manta.network/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/manta.png",
     "isStart": true,
+    "disabledContribution": true,
     "tokenomics": {
       "totalSupply": 1000000000,
       "data": [
@@ -398,6 +401,7 @@
     "website": "https://www.subdao.network/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/subdao.png",
     "isStart": true,
+    "disabledContribution": true,
     "tokenomics": {
       "totalSupply": 1000000000,
       "data": [
@@ -419,6 +423,7 @@
     "website": "https://www.subgame.org/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/subgame.svg",
     "isStart": true,
+    "disabledContribution": true,
     "tokenomics": {
       "totalSupply": 500000000,
       "data": [
@@ -464,7 +469,8 @@
     "description": "A Decentralized Cross-Chain Oracle Platform",
     "website": "https://www.aresprotocol.io/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/ares.svg",
-    "isStart": true
+    "isStart": true,
+    "disabledContribution": true
   },
   {
     "paraid": "2001",
@@ -501,6 +507,7 @@
     "website": "https://efinity.io/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/efinity.png",
     "isStart": true,
+    "disabledContribution": true,
     "tokenomics": {
       "totalSupply": 2000000000,
       "data": [
