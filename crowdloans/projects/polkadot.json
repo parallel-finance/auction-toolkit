@@ -14,6 +14,42 @@
     "isStart": true
   },
   {
+    "paraid": "2019",
+    "name": "Composable Finance",
+    "website": "https://www.composable.finance/",
+    "token": "LAYR",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/composable.png",
+    "isStart": true,
+    "tokenomics": {
+      "totalSupply": 100000000,
+      "data": [
+        {
+          "name": "Team",
+          "value": 25,
+          "color": "#45E6DC"
+        },
+        { "name": "Seed Investors", "value": 20, "color": "#FFB080" },
+        { "name": "Protocol Emissions", "value": 10, "color": "#FAD14B" },
+        { "name": "Treasury", "value": 20, "color": "#FF8066" },
+        {
+          "name": "Crowdloans",
+          "value": 15,
+          "color": "#F0549F"
+        },
+        {
+          "name": "Polka Vault Strategy",
+          "value": 5,
+          "color": "#e1147b"
+        },
+        {
+          "name": "Developer Advocate Fund",
+          "value": 5,
+          "color": "#f089bd"
+        }
+      ]
+    }
+  },
+  {
     "paraid": "2008",
     "name": "Crust Network",
     "website": "https://crust.network",
