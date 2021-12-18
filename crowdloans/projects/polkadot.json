@@ -15,7 +15,7 @@
   },
   {
     "paraid": "2019",
-    "name": "Composable Finance",
+    "name": "Composable",
     "website": "https://www.composable.finance/",
     "token": "LAYR",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/composable.png",
@@ -528,22 +528,13 @@
     "token": "EQ",
     "description": "TBD",
     "overview": "TBD",
-    "website": "",
-    "icon": "",
+    "website": "https://equilibrium.io/",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/equilibrium.svg",
     "isStart": true,
     "disabledContribution": false,
     "tokenomics": {
       "totalSupply": 2000000000,
-      "data": [
-        { "name": "Ecosystem", "value": 35, "color": "#4fdfd4" },
-        { "name": "Staking & Pools", "value": 15, "color": "#7b93de" },
-        { "name": "Company", "value": 20, "color": "#9caee6" },
-        { "name": "Team", "value": 10, "color": "#bdc9ef" },
-        { "name": "Seed Round", "value": 3, "color": "#77bab4" },
-        { "name": "Early Round", "value": 7, "color": "#8ec6c2" },
-        { "name": "Strategic Round", "value": 5, "color": "#a7c2df" },
-        { "name": "Public Sale", "value": 5, "color": "#c0dfdd" }
-      ]
+      "data": []
     }
   }
 ]
