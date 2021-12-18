@@ -1398,9 +1398,54 @@
   },
   "2021": {
     "reward": {
+      "total": "10% of Total Supply",
       "min": 4,
       "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 4}" }
+        { "label": "Est. Project Rewards", "formula": "${amount * 4}" },
+        {
+          "label": "Early Bird Bonus (Parallel Re-Contributors)",
+          "formula": [
+            {
+              "condition": {
+                "beforeDate": "11/23/21"
+              },
+              "value": "${amount * 0.05 * 4}"
+            },
+            {
+              "condition": {
+                "beforeDate": "11/23/21"
+              },
+              "value": "${amount * 0.25 * 4}"
+            }
+          ],
+          "tooltip": [
+            "Users who contributed to the Efinity crowdloan via Parallel in Batch 1 and who re-contribute their DOT to Efinity in Batch 2 will receive the following bonus rewards:",
+            "- Additional EFI bonus equal to 5% of the EFI Reward",
+            "- 25% additional PARA bonus."
+          ]
+        },
+        {
+          "label": "Early Bird Bonus (Binance Re-Contributors)",
+          "formula": [
+            {
+              "condition": {
+                "beforeDate": "11/23/21"
+              },
+              "value": "${amount * 0.05 * 4}"
+            },
+            {
+              "condition": {
+                "beforeDate": "11/23/21"
+              },
+              "value": "${amount * 0.25 * 4}"
+            }
+          ],
+          "tooltip": [
+            "Users who contributed to the Efinity crowdloan through Binance in Batch 1 and who re-contribute their DOT to Efinity in Batch 2 will receive the following bonus rewards:",
+            "- Additional EFI bonus equal to 5% of the EFI Reward",
+            "- 25% additional PARA bonus."
+          ]
+        }
       ]
     },
     "parallelBonus": {
@@ -1419,10 +1464,36 @@
     "cDot": "${amount * 1}",
     "rewardRules": [
       {
+        "label": "Total Crowdloan Rewards",
+        "content": ["2000000000 EFI (10% of Total Supply)"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          "Early Bird Bonus (Parallel Re-Contributors)",
+          "Users who contributed to the Efinity crowdloan via Parallel in Batch 1 and who re-contribute their DOT to Efinity in Batch 2 will receive the following bonus rewards:",
+          "- Additional EFI bonus equal to 5% of the EFI Reward",
+          "- 25% additional PARA bonus.",
+          "\n",
+          "\n",
+          "Early Bird Bonus (Binance Re-Contributors)",
+          "Users who contributed to the Efinity crowdloan through Binance in Batch 1 and who re-contribute their DOT to Efinity in Batch 2 will receive the following bonus rewards:",
+          "- Additional EFI bonus equal to 5% of the EFI Reward",
+          "- 25% additional PARA bonus."
+        ]
+      },
+      {
         "label": "Parallel Additional Bonus",
         "content": [{ "bulletPoints": ["4 PARA per DOT contributed"] }]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "100% vesting linearly over following 2 years"
+        ]
       }
-    ]
+    ],
+    "maxCoin": "100M"
   },
   "2028": {
     "reward": {
