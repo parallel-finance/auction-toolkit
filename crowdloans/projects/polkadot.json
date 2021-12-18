@@ -507,7 +507,7 @@
     "website": "https://efinity.io/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/efinity.png",
     "isStart": true,
-    "disabledContribution": true,
+    "disabledContribution": false,
     "tokenomics": {
       "totalSupply": 2000000000,
       "data": [
