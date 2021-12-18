@@ -505,14 +505,12 @@
     "tokenomics": {
       "totalSupply": 2000000000,
       "data": [
-        { "name": "Tresury", "value": 35, "color": "#4fdfd4" },
-        { "name": "Staking & Pools", "value": 15, "color": "#7b93de" },
-        { "name": "Company", "value": 20, "color": "#9caee6" },
-        { "name": "Team", "value": 10, "color": "#bdc9ef" },
-        { "name": "Seed Round", "value": 3, "color": "#77bab4" },
-        { "name": "Early Round", "value": 7, "color": "#8ec6c2" },
-        { "name": "Strategic Round", "value": 5, "color": "#a7c2df" },
-        { "name": "Public Sale", "value": 5, "color": "#c0dfdd" }
+        { "name": "Tresury", "value": 25, "color": "#4fdfd4" },
+        { "name": "NUT/EQ Token Swap", "value": 25, "color": "#7b93de" },
+        { "name": "Parachain Auction Reward", "value": 20, "color": "#9caee6" },
+        { "name": "Team", "value": 15, "color": "#bdc9ef" },
+        { "name": "Liquidity Farmer", "value": 10, "color": "#77bab4" },
+        { "name": "Institutional Investor", "value": 5, "color": "#8ec6c2" }
       ]
     }
   }
