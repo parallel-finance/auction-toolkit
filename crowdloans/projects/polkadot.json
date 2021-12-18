@@ -491,5 +491,27 @@
         { "name": "Public Sale", "value": 5, "color": "#c0dfdd" }
       ]
     }
+  },
+  {
+    "paraid": "2011",
+    "name": "Equilibrium",
+    "token": "EQ",
+    "description": "Unified DeFi multi-tool",
+    "overview": "If you are familiar with EOS, you might have heard about Equilibrium. Equilibrium used to be a project on the EOS network but now it is coming to Polkadot Ecosystem to add the fuel to the DeFi fire. Equilibrium's cross-chain protocol will offer pooled lending, borrowing, trading, and staking services, according to the project team. The protocol's developers intend to make Ethereum and other blockchains 'fully compatible with each other' by offering a 'unified interface' for DeFi use cases. On the first day of October in 2020, Equilibrium raised $5.5 Million via its new “token swap”. In this token swap, users of EOS network will swap their NUT token on EOS to receive the EQ token on Polkadot network. Beside, Equilibrium team received many grants from Web3 Foundation to pioneer services that facilitate other projects' migration to Polkadot.",
+    "website": "https://equilibrium.io/",
+    "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/equilibrium.svg",
+    "isStart": true,
+    "disabledContribution": false,
+    "tokenomics": {
+      "totalSupply": 2000000000,
+      "data": [
+        { "name": "Tresury", "value": 25, "color": "#4fdfd4" },
+        { "name": "NUT/EQ Token Swap", "value": 25, "color": "#7b93de" },
+        { "name": "Parachain Auction Reward", "value": 20, "color": "#9caee6" },
+        { "name": "Team", "value": 15, "color": "#bdc9ef" },
+        { "name": "Liquidity Farmer", "value": 10, "color": "#77bab4" },
+        { "name": "Institutional Investor", "value": 5, "color": "#8ec6c2" }
+      ]
+    }
   }
 ]

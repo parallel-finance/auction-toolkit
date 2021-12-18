@@ -1515,5 +1515,46 @@
         }
       ]
     }
+  },
+  "2011": {
+    "reward": {
+      "total": "16.67% of Total Supply",
+      "min": 200,
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 4}" }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.10", "logo": "/static/media/para.e1be6567.svg" }
+      ],
+      "tooltip": [{ "text": "Parallel Referral Bonus", "value": "10% PARA" }],
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.10 : 0}"
+        }
+      ]
+    },
+    "cDot": "${amount * 1}",
+    "rewardRules": [
+      {
+        "label": "Project Bonus",
+        "content": [
+          "-Extra 3% bonus for both the referrer and referee.",
+          "\n",
+          "\n",
+          "Heavyweight Bonus",
+          "- Extra 33% bonus when you contribute 10k-100k DOT.",
+          "- Extra 35% bonus when you contribute 100k-500k DOT.",
+          "- Extra 40% bonus when you contribute over 500k DOT."
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": [{ "bulletPoints": ["4 PARA per DOT contributed"] }]
+      }
+    ]
   }
 }
