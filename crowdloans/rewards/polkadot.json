@@ -1490,10 +1490,10 @@
       ],
       "tooltip": [{ "text": "Parallel Referral Bonus", "value": "10% PARA" }],
       "detail": [
-        { "label": "Parallel Bonus", "formula": "${amount * 200}" },
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
         {
           "label": "Parallel Referral Bonus",
-          "formula": "${referralAvailable ? amount * 200 * 0.10 : 0}"
+          "formula": "${referralAvailable ? amount * 4 * 0.10 : 0}"
         }
       ]
     },
