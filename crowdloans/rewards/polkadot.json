@@ -371,6 +371,10 @@
             }
           ],
           "tooltip": ["For contributions made before 12/23/21"]
+        },
+        {
+          "label": "Strong Supporters Bonus",
+          "formula": "${amount > 200 ? amount * 20 * 0.05 : 0}"
         }
       ]
     },
