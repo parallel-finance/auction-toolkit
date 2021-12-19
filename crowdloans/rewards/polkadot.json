@@ -407,6 +407,12 @@
         ]
       },
       {
+        "label": "Strong Supporters Bonus",
+        "content": [
+          "People contributing over 200 DOTs now get a 5% NODL bonus."
+        ]
+      },
+      {
         "label": "Parallel Additional Bonus",
         "content": ["4 PARA per DOT contributed"]
       },
@@ -1104,40 +1110,19 @@
   },
   "2013": {
     "reward": {
-      "total": "20%",
-      "min": 2.5,
+      "total": "20+% of Total Supply",
+      "min": 5,
       "tooltip": [
         "In addition to the base reward, earn up to 10% early bird bonus + 10% bonus by completing identity-related tasks."
       ],
       "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 2.5}" },
+        { "label": "Est. Project Rewards", "formula": "${amount * 5}" },
         {
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": { "beforeDate": "11/18/21" },
-              "value": "${amount * 2.5 * 0.1}"
-            },
-            {
-              "condition": { "rangeDate": ["11/18/21", "11/25/21"] },
-              "value": "${amount * 2.5 * 0.05}"
-            }
-          ]
-        },
-        {
-          "label": "Parallel Early Bird Bonus",
-          "formula": [
-            {
-              "condition": { "beforeDate": "11/18/21" },
-              "value": "${amount * 2.5 * 0.1}"
-            },
-            {
-              "condition": { "rangeDate": ["11/18/21", "11/25/21"] },
-              "value": "${amount * 2.5 * 0.05}"
-            },
-            {
-              "condition": { "afterDate": "11/25/21" },
-              "value": "${amount * 2.5 * 0.02}"
+              "condition": { "beforeDate": "12/30/21" },
+              "value": "${amount * 5 * 0.1}"
             }
           ]
         }
@@ -1145,29 +1130,21 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
-        { "formula": "${0.10 + 42000 / contributions / 2.5}" }
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
       ],
       "timeBased": true,
       "tooltip": [
-        { "text": "Early Bird: Before 11/18/21", "value": "10% LIT" },
-        { "text": "Early Bird: 11/19/21 - 11/25/21", "value": "5% LIT" },
-        { "text": "Early Bird: After 11/15/21", "value": "2% LIT" },
-        {
-          "text": "Shared LIT Pool (distributed to contributors on Parallel, if this crowdloan wins)",
-          "value": "~42K"
-        },
+        { "text": "Early Bird: Before 12/30/21", "value": "10% LIT" },
         { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
       ],
       "detail": [
-        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        { "label": "Parallel Bonus", "formula": "${amount * 5}" },
         {
           "label": "Parallel Referral Bonus",
-          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+          "formula": "${referralAvailable ? amount * 5 * 0.05 : 0}"
         }
       ]
     },
-    "sharedPools": [{ "label": "LIT Pool Rewards", "content": "~42K Shared" }],
     "cDot": "${amount * 1}",
     "rewardRules": [
       {
@@ -1178,24 +1155,28 @@
         "label": "Project Bonus",
         "content": [
           {
-            "text": "Applies to contributions through polkadot.js and Litentry Crowdloan WebApp",
+            "text": "Referral Bonus",
             "bulletPoints": [
-              "10% additional bonus before 11/18/21",
-              "5% additional bonus within the first 7 days since parachain auction starts"
+              "Refer friends and share a 5% referral bonus(Referer 2.5%, referee 2.5%). Referral bonus equals 5% of the amount of basic reward the referee receives: Referral bonus = Basic Reward * 5%."
+            ]
+          },
+          {
+            "text": "Early Bird Bonus",
+            "bulletPoints": [
+              "+10% bonus if contribute before December 30, 2021."
             ]
           },
           {
             "text": "Identity-Related Tasks",
             "bulletPoints": [
-              "Completing tasks to earn 10% additional auction bonus reward"
+              "+10% bonus for contributors who complete special identity tasks"
             ]
           },
           {
             "text": "Loyalty",
             "bulletPoints": [
-              "If Litentry doesn’t win a slot in batch 1 auctions, Litentry will compensate the previous batch contributors in the new crowdloan campaign with extra LIT until it wins a slot in the auctions",
-              "The compensate ratio is DOT : LIT = 1 : 0.12",
-              "The expected compensation APY is 13%(Crowdloan periods about 5 weeks)"
+              "Previous participants in Polkadot auction batch #1 will receive compensation if re-enter Litentry Crowdloan in Polkadot auction batch #2. The compensation ratio is LIT : DOT= 0.12 : 1.",
+              "If Litentry doesn't win a slot in batch 2 auctions, Litentry will compensate the previous batch contributors in the new crowdloan campaign with extra LIT until it wins a slot in the auctions"
             ]
           }
         ]
@@ -1212,17 +1193,8 @@
           {
             "bulletPoints": [
               "4 PARA per DOT contributed",
-              "Up to 10% LIT early bird"
+              "+25% PARA as compensation for batch 1 contributors"
             ]
-          },
-          {
-            "text": "10% additional bonus when users contribute before 11/18/21."
-          },
-          {
-            "text": "5% additional bonus when users contribute between 11/19/21 - 11/25/21."
-          },
-          {
-            "text": "2% additional bonus when Parallel users contribute after 11/25/21."
           }
         ]
       }
@@ -1406,19 +1378,11 @@
           "label": "Early Bird Bonus (Parallel Re-Contributors)",
           "formula": [
             {
-              "condition": {
-                "beforeDate": "11/23/21"
-              },
               "value": "${amount * 0.05 * 4}"
-            },
-            {
-              "condition": {
-                "beforeDate": "11/23/21"
-              },
-              "value": "${amount * 0.25 * 4}"
             }
           ],
           "tooltip": [
+            "Parallel Re-Contributors (Early Bird, before 11/23/2021)",
             "Users who contributed to the Efinity crowdloan via Parallel in Batch 1 and who re-contribute their DOT to Efinity in Batch 2 will receive the following bonus rewards:",
             "- Additional EFI bonus equal to 5% of the EFI Reward",
             "- 25% additional PARA bonus."
@@ -1428,19 +1392,11 @@
           "label": "Early Bird Bonus (Binance Re-Contributors)",
           "formula": [
             {
-              "condition": {
-                "beforeDate": "11/23/21"
-              },
               "value": "${amount * 0.05 * 4}"
-            },
-            {
-              "condition": {
-                "beforeDate": "11/23/21"
-              },
-              "value": "${amount * 0.25 * 4}"
             }
           ],
           "tooltip": [
+            "Binance Re-Contributors (Early Bird, before 11/23/2021)",
             "Users who contributed to the Efinity crowdloan through Binance in Batch 1 and who re-contribute their DOT to Efinity in Batch 2 will receive the following bonus rewards:",
             "- Additional EFI bonus equal to 5% of the EFI Reward",
             "- 25% additional PARA bonus."
@@ -1458,6 +1414,14 @@
         {
           "label": "Parallel Referral Bonus",
           "formula": "${referralAvailable ? amount * 4 * 0.10 : 0}"
+        },
+        {
+          "label": "Parallel Re-Contributors (Early Bird, before 11/23/2021)",
+          "formula": "${amount * 5 * 0.25}"
+        },
+        {
+          "label": "Binance Re-Contributors (Early Bird, before 11/23/2021)",
+          "formula": "${amount * 5 * 0.25}"
         }
       ]
     },
@@ -1465,7 +1429,7 @@
     "rewardRules": [
       {
         "label": "Total Crowdloan Rewards",
-        "content": ["2000000000 EFI (10% of Total Supply)"]
+        "content": ["200,000,000 EFI (10% of Total Supply)"]
       },
       {
         "label": "Project Bonus",
@@ -1521,7 +1485,7 @@
       "total": "16.67% of Total Supply",
       "min": 200,
       "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 4}" }
+        { "label": "Est. Project Rewards", "formula": "${amount * 200}" }
       ]
     },
     "parallelBonus": {
@@ -1530,10 +1494,10 @@
       ],
       "tooltip": [{ "text": "Parallel Referral Bonus", "value": "10% PARA" }],
       "detail": [
-        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        { "label": "Parallel Bonus", "formula": "${amount * 200}" },
         {
           "label": "Parallel Referral Bonus",
-          "formula": "${referralAvailable ? amount * 4 * 0.10 : 0}"
+          "formula": "${referralAvailable ? amount * 200 * 0.10 : 0}"
         }
       ]
     },
