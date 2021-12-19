@@ -371,6 +371,10 @@
             }
           ],
           "tooltip": ["For contributions made before 12/23/21"]
+        },
+        {
+          "label": "Strong Supporters Bonus",
+          "formula": "${amount > 200 ? amount * 20 * 0.05 : 0}"
         }
       ]
     },
@@ -1149,7 +1153,7 @@
     "rewardRules": [
       {
         "label": "Total Crowdloan Rewards",
-        "content": ["20,000,000 LIT (20% of total token supply)"]
+        "content": ["20,000,000+ LIT (20+% of total token supply)"]
       },
       {
         "label": "Project Bonus",
@@ -1376,11 +1380,7 @@
         { "label": "Est. Project Rewards", "formula": "${amount * 4}" },
         {
           "label": "Early Bird Bonus (Parallel Re-Contributors)",
-          "formula": [
-            {
-              "value": "${amount * 0.05 * 4}"
-            }
-          ],
+          "formula": "${amount * 0.05 * 4}",
           "tooltip": [
             "Parallel Re-Contributors (Early Bird, before 11/23/2021)",
             "Users who contributed to the Efinity crowdloan via Parallel in Batch 1 and who re-contribute their DOT to Efinity in Batch 2 will receive the following bonus rewards:",
@@ -1390,11 +1390,7 @@
         },
         {
           "label": "Early Bird Bonus (Binance Re-Contributors)",
-          "formula": [
-            {
-              "value": "${amount * 0.05 * 4}"
-            }
-          ],
+          "formula": "${amount * 0.05 * 4}",
           "tooltip": [
             "Binance Re-Contributors (Early Bird, before 11/23/2021)",
             "Users who contributed to the Efinity crowdloan through Binance in Batch 1 and who re-contribute their DOT to Efinity in Batch 2 will receive the following bonus rewards:",
