@@ -281,10 +281,12 @@
     "token": "LIT",
     "description": "A Decentralised Identity Aggregation protocol across multiple networks",
     "overview": "Litentry is a Decentralized Identity Aggregation protocol across multiple networks. It features a DID indexing mechanism and a Substrate-based credit computation network. The protocol provides a decentralized, interoperable identity aggregation service that mitigates the difficulty of resolving agnostic DID mechanisms. Litentry provides a secure vehicle through which users manage their identities and dApps obtain real-time credit/reputation of an identity owner across different blockchains.",
+    "isStart": true,
+    "disabledContribution": false,
     "website": "https://www.litentry.com/",
     "icon": "https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/icons/chains/litentry.png",
     "tokenomics": {
-      "totalSupply": 100000000,
+      "totalSupply": 20000000,
       "data": [
         { "name": "Binance Launchpool", "value": 3, "color": "#f089bd" },
         { "name": "Seed Sale", "value": 8.11, "color": "#e1147b" },
