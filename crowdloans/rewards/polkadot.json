@@ -1429,7 +1429,7 @@
     "rewardRules": [
       {
         "label": "Total Crowdloan Rewards",
-        "content": ["2,000,000,000 EFI (10% of Total Supply)"]
+        "content": ["200,000,000 EFI (10% of Total Supply)"]
       },
       {
         "label": "Project Bonus",
