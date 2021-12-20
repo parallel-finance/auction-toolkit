@@ -140,7 +140,7 @@
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": { "rangeDate": ["12/15/21", "12/19/21"] },
+              "condition": { "rangeDate": ["12/15/21", "12/21/21"] },
               "value": "${amount * 3.65 * 0.1}"
             }
           ],
@@ -172,7 +172,7 @@
       ],
       "tooltip": [
         { "text": "Parallel Referral Bonus", "value": "5% PARA" },
-        { "text": "Early Bird: Until 12/19/21", "value": "10% CFG" }
+        { "text": "Early Bird: Until 12/21/21", "value": "10% CFG" }
       ],
       "detail": [
         {
@@ -193,7 +193,7 @@
       {
         "label": "Bonus",
         "content": [
-          "Early Bird: 10% extra rewards if you contribute by 12/19/21",
+          "Early Bird: 10% extra rewards if you contribute by 12/21/21",
           "Referral: 5% referral bonus reward each to referral and referee",
           "Loyalty: When you stake in both the Altair and Centrifuge crowdloans, you'll get a 5% loyalty bonus! Make sure you contribute DOT with the same address you used to contribute KSM in order to be eligible.",
           "Heavyweight Bonus: Extra 5% bonus when an account contributes 5,000+ DOT."
@@ -1474,9 +1474,14 @@
     "parallelBonus": {
       "items": [
         { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
-        { "formula": "0.10" }
+        { "formula": "0.05" },
+        { "formula": "0.25", "logo": "/static/media/para.e1be6567.svg" }
       ],
-      "tooltip": [{ "text": "Parallel Referral Bonus", "value": "10% PARA" }],
+      "tooltip": [
+        { "text": "Parallel Referral Bonus", "value": "5% PARA" },
+        { "text": "Early Bird Bonus", "value": "5% EFI" },
+        { "text": "Parallel Re-Contributors", "value": "25% PARA" }
+      ],
       "detail": [
         { "label": "Parallel Bonus", "formula": "${amount * 4}" },
         {
@@ -1484,12 +1489,18 @@
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
         },
         {
-          "label": "Parallel Re-Contributors (Early Bird, before 11/23/2021)",
-          "formula": "${amount * 4 * 0.25}"
+          "label": "Parallel Re-Contributors",
+          "formula": "${amount * 4 * 0.25}",
+          "tooltip": [
+            "Early bird, this applies for users who also contributed in batch 1 before 11/23/2021."
+          ]
         },
         {
-          "label": "Binance Re-Contributors (Early Bird, before 11/23/2021)",
-          "formula": "${amount * 4 * 0.25}"
+          "label": "Binance Re-Contributors",
+          "formula": "${amount * 4 * 0.25}",
+          "tooltip": [
+            "Early bird, this applies for users who also contributed in batch 1 before 11/23/2021."
+          ]
         }
       ]
     },
