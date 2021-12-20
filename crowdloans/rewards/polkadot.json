@@ -1481,7 +1481,7 @@
         { "label": "Parallel Bonus", "formula": "${amount * 4}" },
         {
           "label": "Parallel Referral Bonus",
-          "formula": "${referralAvailable ? amount * 4 * 0.10 : 0}"
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
         },
         {
           "label": "Parallel Re-Contributors (Early Bird, before 11/23/2021)",
