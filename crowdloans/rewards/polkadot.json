@@ -792,7 +792,7 @@
         },
         {
           "label": "NFT",
-          "formula": "${amount >= 10 ? 'Yes' : 'No'}",
+          "content": "TBD",
           "tooltip": ["You can get a Evolution Land Metaverse NFT Package, including Land, Apostle, Drills and treasure boxes, when your contribution share is greater or equal 10 DOT."]
         }
       ]
