@@ -1,9 +1,8 @@
 name: Upload Static Files
 
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [published]
 
 jobs:
   deploy:
