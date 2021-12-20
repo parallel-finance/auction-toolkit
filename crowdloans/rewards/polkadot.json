@@ -1629,12 +1629,6 @@
       {
         "label": "Parallel Additional Bonus",
         "content": [{ "bulletPoints": ["4 PARA per DOT contributed"] }]
-      },
-      {
-        "label": "Vesting schedule",
-        "content": [
-          "100% vesting linearly over following 2 years"
-        ]
       }
     ]
   }
