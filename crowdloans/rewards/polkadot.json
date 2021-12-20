@@ -25,6 +25,16 @@
           "tooltip": [
             "15% Bonus for contributions made during 12/15/21 before 9pm EST and 10% before 12/18/21 before 9pm EST"
           ]
+        },
+        {
+          "label": "Loyalty Bonus",
+          "formula": "${amount * .48 * 0.05}",
+          "tooltip": ["5% bonus for those who previously contributed KSM and stablecoins to the Picasso Crowdloan"]
+        },
+        {
+          "label": "Referral Bonus",
+          "formula": "${amount * .48 * 0.2}",
+          "tooltip": ["By default, Parallel users will get 20% bonus LAYR if our users collectively contribute more than 1,000 DOTs. This value is an estimate."]
         }
       ]
     },
@@ -57,7 +67,7 @@
       {
         "label": "Project Bonus",
         "content": [
-          "Earlier Bird: ",
+          "Early Bird: ",
           "- 5% bonus to those who staked in the first 24 hours, by 12/15/21 at 9PM EST",
           "- 10% bonus to stakers in the first three days of opening the crowdloan",
           "Refer: 20% bonus for those that refer a total of at least 1000 DOT using our referral codes",
@@ -140,8 +150,18 @@
         },
         {
           "label": "Heavyweight Bonus",
-          "formula": "${amount > 5000 ? amount * 3.65 * 0.05 : 0 }",
-          "tooltip": ["5% bonus when you contribute 5,000+ DOT."]
+          "formula": "${amount * 3.65 * 0.05}",
+          "tooltip": ["If Parallel users collectively contribute more than 5,000 DOTs, we will distribute the 5% CFG bonus back to our users. This value is an estimate and depends on the total contributions."]
+        },
+        {
+          "label": "Loyalty Reward",
+          "formula": "${amount * 3.65 * 0.05}",
+          "tooltip": ["When you stake in both the Altair and Centrifuge crowdloans, you’ll get a 5% loyalty bonus. Make sure you contribute DOT with the same address you used to contribute KSM."]
+        },
+        {
+          "label": "Referral Bonus",
+          "formula": "${amount * 3.65 * 0.05}",
+          "tooltip": ["By default, Parallel users will get the 5% bonus CFG referral rewards."]
         }
       ]
     },
@@ -168,14 +188,15 @@
     "rewardRules": [
       {
         "label": "Total Crowdloan Rewards",
-        "content": ["63,750,000 CFG (15% of Supply Reserve)"]
+        "content": ["67,500,000 CFG (Up to 15% of the supply reserve)"]
       },
       {
         "label": "Bonus",
         "content": [
           "Early Bird: 10% extra rewards if you contribute by 12/19/21",
           "Referral: 5% referral bonus reward each to referral and referee",
-          "Loyalty: When you stake in both the Altair and Centrifuge crowdloans, you’ll get a 5% loyalty bonus! Make sure you contribute DOT with the same address you used to contribute KSM in order to be eligible."
+          "Loyalty: When you stake in both the Altair and Centrifuge crowdloans, you'll get a 5% loyalty bonus! Make sure you contribute DOT with the same address you used to contribute KSM in order to be eligible.",
+          "Heavyweight Bonus: Extra 5% bonus when an account contributes 5,000+ DOT."
         ]
       },
       {
@@ -292,9 +313,24 @@
           "tooltip": ["10% INTR bonus before 12/23/21"]
         },
         {
+          "label": "Referral Bonus",
+          "formula": "${amount * 3.463 * 0.05}",
+          "tooltip": ["By default, Parallel users will get 5% referral bonus INTR"]
+        },
+        {
           "label": "Strong Supporter Bonus",
           "formula": "${amount > 50000 ? amount * 3.463 * 0.1 : 0}",
           "tooltip": ["10% Bonus for contributions over 50,000 DOT"]
+        },
+        {
+          "label": "Kintsugi Legends Bonus",
+          "formula": "${amount * 3.463 * 0.025}",
+          "tooltip": ["2.5% if you contributed to kintsugi crowdloan with same wallet"]
+        },
+        {
+          "label": "Quiz Challenge Bonus",
+          "formula": "${amount * 3.463 * 0.025}",
+          "tooltip": ["2.5% for solving the Interlay quiz, see below in Reward Rules for the link to their website"]
         }
       ]
     },
@@ -371,6 +407,11 @@
             }
           ],
           "tooltip": ["For contributions made before 12/23/21"]
+        },
+        {
+          "label": "Referral Bonus",
+          "formula": "${amount * 20 * 0.05}",
+          "tooltip": ["By default, Parallel users will get the 5% Referral bonus."]
         },
         {
           "label": "Strong Supporters Bonus",
@@ -731,7 +772,29 @@
         "In addition to the base reward, earn up to 20% early bird bonus + 10% referral bonus + KTON commitment tokens + metaverse NFT + BTC rewards (TBD)."
       ],
       "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 200}" }
+        { "label": "Est. Project Rewards", "formula": "${amount * 200}" },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {
+              "condition": {
+                "beforeDate": "12/23/21"
+              },
+              "value": "${amount * 200 * 0.2}"
+            }
+          ],
+          "tooltip": ["Earn 20% bonus when you contribute before 12/23/21"]
+        },
+        {
+          "label": "Referral Bonus",
+          "formula": "${amount * 200 * 0.05}",
+          "tooltip": ["By default, Parallel users will get the 5% Referral bonus under RING Rewards."]
+        },
+        {
+          "label": "NFT",
+          "formula": "${amount >= 10 ? 'Yes' : 'No'}",
+          "tooltip": ["You can get a Evolution Land Metaverse NFT Package, including Land, Apostle, Drills and treasure boxes, when your contribution share is greater or equal 10 DOT."]
+        }
       ]
     },
     "parallelBonus": {
@@ -1115,20 +1178,28 @@
   "2013": {
     "reward": {
       "total": "20+% of Total Supply",
-      "min": 5,
+      "min": 2.5,
       "tooltip": [
         "In addition to the base reward, earn up to 10% early bird bonus + 10% bonus by completing identity-related tasks."
       ],
       "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 5}" },
+        { "label": "Est. Project Rewards", "formula": "${amount * 2.5}" },
         {
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": { "beforeDate": "12/30/21" },
-              "value": "${amount * 5 * 0.1}"
+              "condition": {
+                "beforeDate": "12/30/21"
+              },
+              "value": "${amount * 2.5 * 0.10}"
             }
-          ]
+          ],
+          "tooltip": ["+10% bonus if you contribute before December 30, 2021."]
+        },
+        {
+          "label": "Referral Bonus",
+          "formula": "${amount * 2.5 * 0.05}",
+          "tooltip": ["By default, Parallel users will get 5% referral bonus."]
         }
       ]
     },
@@ -1142,10 +1213,10 @@
         { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
       ],
       "detail": [
-        { "label": "Parallel Bonus", "formula": "${amount * 5}" },
+        { "label": "Parallel Bonus", "formula": "${amount * 2.5}" },
         {
           "label": "Parallel Referral Bonus",
-          "formula": "${referralAvailable ? amount * 5 * 0.05 : 0}"
+          "formula": "${referralAvailable ? amount * 2.5 * 0.05 : 0}"
         }
       ]
     },
@@ -1414,11 +1485,11 @@
         },
         {
           "label": "Parallel Re-Contributors (Early Bird, before 11/23/2021)",
-          "formula": "${amount * 5 * 0.25}"
+          "formula": "${amount * 4 * 0.25}"
         },
         {
           "label": "Binance Re-Contributors (Early Bird, before 11/23/2021)",
-          "formula": "${amount * 5 * 0.25}"
+          "formula": "${amount * 4 * 0.25}"
         }
       ]
     },
@@ -1482,7 +1553,34 @@
       "total": "16.67% of Total Supply",
       "min": 200,
       "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 200}" }
+        { "label": "Est. Project Rewards", "formula": "${amount * 200}" },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {
+              "condition": {
+                "beforeDate": "12/25/21"
+              },
+              "value": "${amount * 200 * 0.3}"
+            }
+          ],
+          "tooltip": ["30% bonus if you contribute before 12/25/21"]
+        },
+        {
+          "label": "Loyalty Bonus",
+          "content": "+Up to 10% EQ",
+          "tooltip": ["Up to estimated 10% bonus for supporters in PLO Phase 1 and Genshiro crowdloan using the same wallet address."]
+        },
+        {
+          "label": "Institutional Bonus",
+          "content": "+Up to 40% EQ",
+          "tooltip": ["Up to estimated 40% bonus if Parallel users collectively contribute >500K DOT, see below for more details"]
+        },
+        {
+          "label": "Referral Bonus",
+          "formula": "${amount * 200 * 0.06}",
+          "tooltip": ["By default, Parallel users get 6% referral bonus."]
+        }
       ]
     },
     "parallelBonus": {
@@ -1501,20 +1599,42 @@
     "cDot": "${amount * 1}",
     "rewardRules": [
       {
+        "label": "Total Crowdloan Rewards",
+        "content": ["2,000,000,000 EQ (16.67% of the total reserve)"]
+      },
+      {
         "label": "Project Bonus",
         "content": [
-          "-Extra 3% bonus for both the referrer and referee.",
+          "Early Bird:",
+          "-30% bonus if you contribute before 12/25/21",
+          "-20% bonus if you contribute between 12/25/21 - 1/8/22",
           "\n",
           "\n",
-          "Heavyweight Bonus",
-          "- Extra 33% bonus when you contribute 10k-100k DOT.",
-          "- Extra 35% bonus when you contribute 100k-500k DOT.",
-          "- Extra 40% bonus when you contribute over 500k DOT."
+          "Referral:",
+          "-Extra 3% each bonus for both the referrer and referee.",
+          "\n",
+          "\n",
+          "Loyalty Bonus",
+          "-10% for PLO phase 1 participation, any participant of Phase 1 in April",
+          "-5% to Genshiro supporters in any batch of Kusama crowdloans",
+          "-10% Genshiro supporters during 15th Kusama auction (between November 15-22)",
+          "\n",
+          "\n",
+          "Institutional Bonus",
+          "-Extra 33% bonus when you contribute 10k-100k DOT.",
+          "-Extra 35% bonus when you contribute 100k-500k DOT",
+          "-Extra 40% bonus when you contribute over 500k DOT."
         ]
       },
       {
         "label": "Parallel Additional Bonus",
         "content": [{ "bulletPoints": ["4 PARA per DOT contributed"] }]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "100% vesting linearly over following 2 years"
+        ]
       }
     ]
   }
