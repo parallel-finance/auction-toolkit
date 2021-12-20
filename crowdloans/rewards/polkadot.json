@@ -1489,12 +1489,18 @@
           "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
         },
         {
-          "label": "Parallel Re-Contributors (Early Bird, before 11/23/2021)",
-          "formula": "${amount * 4 * 0.25}"
+          "label": "Parallel Re-Contributors",
+          "formula": "${amount * 4 * 0.25}",
+          "tooltip": [
+            "Early Bird, before 11/23/2021"
+          ]
         },
         {
-          "label": "Binance Re-Contributors (Early Bird, before 11/23/2021)",
-          "formula": "${amount * 4 * 0.25}"
+          "label": "Binance Re-Contributors",
+          "formula": "${amount * 4 * 0.25}",
+          "tooltip": [
+            "Early Bird, before 11/23/2021"
+          ]
         }
       ]
     },
