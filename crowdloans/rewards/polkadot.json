@@ -29,12 +29,16 @@
         {
           "label": "Loyalty Bonus",
           "formula": "${amount * .48 * 0.05}",
-          "tooltip": ["5% bonus for those who previously contributed KSM and stablecoins to the Picasso Crowdloan"]
+          "tooltip": [
+            "5% bonus for those who previously contributed KSM and stablecoins to the Picasso Crowdloan"
+          ]
         },
         {
           "label": "Referral Bonus",
           "formula": "${amount * .48 * 0.2}",
-          "tooltip": ["By default, Parallel users will get 20% bonus LAYR if our users collectively contribute more than 1,000 DOTs. This value is an estimate."]
+          "tooltip": [
+            "By default, Parallel users will get 20% bonus LAYR if our users collectively contribute more than 1,000 DOTs. This value is an estimate."
+          ]
         }
       ]
     },
@@ -151,17 +155,23 @@
         {
           "label": "Heavyweight Bonus",
           "formula": "${amount * 3.65 * 0.05}",
-          "tooltip": ["If Parallel users collectively contribute more than 5,000 DOTs, we will distribute the 5% CFG bonus back to our users. This value is an estimate and depends on the total contributions."]
+          "tooltip": [
+            "If Parallel users collectively contribute more than 5,000 DOTs, we will distribute the 5% CFG bonus back to our users. This value is an estimate and depends on the total contributions."
+          ]
         },
         {
           "label": "Loyalty Reward",
           "formula": "${amount * 3.65 * 0.05}",
-          "tooltip": ["When you stake in both the Altair and Centrifuge crowdloans, you’ll get a 5% loyalty bonus. Make sure you contribute DOT with the same address you used to contribute KSM."]
+          "tooltip": [
+            "When you stake in both the Altair and Centrifuge crowdloans, you’ll get a 5% loyalty bonus. Make sure you contribute DOT with the same address you used to contribute KSM."
+          ]
         },
         {
           "label": "Referral Bonus",
           "formula": "${amount * 3.65 * 0.05}",
-          "tooltip": ["By default, Parallel users will get the 5% bonus CFG referral rewards."]
+          "tooltip": [
+            "By default, Parallel users will get the 5% bonus CFG referral rewards."
+          ]
         }
       ]
     },
@@ -315,7 +325,9 @@
         {
           "label": "Referral Bonus",
           "formula": "${amount * 3.463 * 0.05}",
-          "tooltip": ["By default, Parallel users will get 5% referral bonus INTR"]
+          "tooltip": [
+            "By default, Parallel users will get 5% referral bonus INTR"
+          ]
         },
         {
           "label": "Strong Supporter Bonus",
@@ -325,12 +337,16 @@
         {
           "label": "Kintsugi Legends Bonus",
           "formula": "${amount * 3.463 * 0.025}",
-          "tooltip": ["2.5% if you contributed to kintsugi crowdloan with same wallet"]
+          "tooltip": [
+            "2.5% if you contributed to kintsugi crowdloan with same wallet"
+          ]
         },
         {
           "label": "Quiz Challenge Bonus",
           "formula": "${amount * 3.463 * 0.025}",
-          "tooltip": ["2.5% for solving the Interlay quiz, see below in Reward Rules for the link to their website"]
+          "tooltip": [
+            "2.5% for solving the Interlay quiz, see below in Reward Rules for the link to their website"
+          ]
         }
       ]
     },
@@ -411,7 +427,9 @@
         {
           "label": "Referral Bonus",
           "formula": "${amount * 20 * 0.05}",
-          "tooltip": ["By default, Parallel users will get the 5% Referral bonus."]
+          "tooltip": [
+            "By default, Parallel users will get the 5% Referral bonus."
+          ]
         },
         {
           "label": "Strong Supporters Bonus",
@@ -788,12 +806,16 @@
         {
           "label": "Referral Bonus",
           "formula": "${amount * 200 * 0.05}",
-          "tooltip": ["By default, Parallel users will get the 5% Referral bonus under RING Rewards."]
+          "tooltip": [
+            "By default, Parallel users will get the 5% Referral bonus under RING Rewards."
+          ]
         },
         {
           "label": "NFT",
           "content": "TBD",
-          "tooltip": ["You can get a Evolution Land Metaverse NFT Package, including Land, Apostle, Drills and treasure boxes, when your contribution share is greater or equal 10 DOT."]
+          "tooltip": [
+            "You can get a Evolution Land Metaverse NFT Package, including Land, Apostle, Drills and treasure boxes, when your contribution share is greater or equal 10 DOT."
+          ]
         }
       ]
     },
@@ -1070,7 +1092,7 @@
     ]
   },
   "2012": {
-    "logo": "https://cdn.jsdelivr.net/gh/parallel-finance/fearless-utils/crowdloan/icons/parallel.svg",
+    "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/parallel.svg",
     "name": "Parallel",
     "home": "https://parallel.fi/index.html",
     "token": "PARA",
@@ -1520,9 +1542,7 @@
       },
       {
         "label": "Vesting schedule",
-        "content": [
-          "100% vesting linearly over following 2 years"
-        ]
+        "content": ["100% vesting linearly over following 2 years"]
       }
     ],
     "maxCoin": "100M"
@@ -1569,12 +1589,16 @@
         {
           "label": "Loyalty Bonus",
           "content": "+Up to 10% EQ",
-          "tooltip": ["Up to estimated 10% bonus for supporters in PLO Phase 1 and Genshiro crowdloan using the same wallet address."]
+          "tooltip": [
+            "Up to estimated 10% bonus for supporters in PLO Phase 1 and Genshiro crowdloan using the same wallet address."
+          ]
         },
         {
           "label": "Institutional Bonus",
           "content": "+Up to 40% EQ",
-          "tooltip": ["Up to estimated 40% bonus if Parallel users collectively contribute >500K DOT, see below for more details"]
+          "tooltip": [
+            "Up to estimated 40% bonus if Parallel users collectively contribute >500K DOT, see below for more details"
+          ]
         },
         {
           "label": "Referral Bonus",
