@@ -1473,9 +1473,8 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
-        { "formula": "0.05" },
-        { "formula": "0.25", "logo": "/static/media/para.e1be6567.svg" }
+        { "formula": "0.30", "logo": "/static/media/para.e1be6567.svg" },
+        { "formula": "0.05" }
       ],
       "tooltip": [
         { "text": "Parallel Referral Bonus", "value": "5% PARA" },
