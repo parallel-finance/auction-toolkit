@@ -4,13 +4,11 @@ This repo is store the static sources for auction.
 
 ## Usage
 
-Use [jsDeliver](https://github.com/jsdelivr/jsdelivr#github) to get the resource from github.
+Use S3 bucket to store all the resource for crowdloan.
 
 e.g.
 
-- https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@v1.0.0/crowdloans/project/polkadot.json
-- https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/crowdloans/project/polkadot.json
-- https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@main/crowdloans/project/polkadot.json
+- https://auction-us-east-2.s3.us-east-2.amazonaws.com/crowdloans/projects/polkadot.json
 
 ### Before release new version
 
@@ -20,18 +18,15 @@ e.g.
 
 ### How to release a new version
 
-Since jsDeliver has their own [caching logic](https://github.com/jsdelivr/jsdelivr#caching), so we cannot use the url directly when you merge the new changes into main branch.
-
 What we need to do after merging the new changes.
 
 - Create a tag for main branch with the new changes
 - Release the tag
-- There is a github action to purge cache automatically, please using [latest url](https://cdn.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/crowdloans/project/polkadot.json) to check the changes after action is completed.
-
-#### Notes
-
-We created a github action for purge the caching of cdn. But if it doesn't work after release in few minutes. You can try to manually purge the caching.
-Call `https://purge.jsdelivr.net/gh/parallel-finance/auction-toolkit@latest/crowdloans/rewards/polkadot.json` in browser, you can change the file name that you want to clear the cache.
+- There is a github action to sync our changes to s3 bucket automatically, please using the following urls to check the changes after action is completed. 
+  - https://auction-us-east-2.s3.us-east-2.amazonaws.com/crowdloans/projects/polkadot.json
+  - https://auction-us-east-2.s3.us-east-2.amazonaws.com/crowdloans/projects/kusama.json
+  - https://auction-us-east-2.s3.us-east-2.amazonaws.com/crowdloans/rewards/polkadot.json
+  - https://auction-us-east-2.s3.us-east-2.amazonaws.com/crowdloans/rewards/kusama.json
 
 ## Resource
 
