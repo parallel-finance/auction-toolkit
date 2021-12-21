@@ -477,8 +477,8 @@
     "name": "Efinity",
     "token": "EFI",
     "description": "Next-generation blockchain for NFTs.",
-    "overview": "Enjin, the creators of the ERC-1155 NFT standard, is developing Efinity, a next-generation blockchain to serve as the infrastructure of the decentralized metaverse. Enjin is designing Efinity on Polkadot in conjunction with the Web3 Foundation. The Efinity blockchain is a parachain with a consensus algorithm based on Polkadot Relay Chain validators, allowing Efinity to have its own economic framework, data and state.",
-    "website": "https://efinity.io/",
+    "overview": "Enjin, the creators of the ERC-1155 NFT standard, are developing Efinity, a next-generation blockchain for NFTs. Built in partnership with Parity Technologies, Efinity aims to to serve as the infrastructure of the open metaverse and will support tokens from any blockchain. As a Polkadot parachain, it's environmentally friendly, scalable, and designed to enable a future where NFTs are as widespread and easy-to-use as smartphones today.",
+    "website": "https://enjin.io/efinity-crowdloan",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/efinity.png",
     "tokenomics": {
       "totalSupply": 2000000000,
