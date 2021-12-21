@@ -1220,8 +1220,8 @@
         },
         {
           "label": "Referral Bonus",
-          "formula": "${amount * 2.5 * 0.05}",
-          "tooltip": ["By default, Parallel users will get 5% referral bonus."]
+          "formula": "${amount * 2.5 * 0.025}",
+          "tooltip": ["By default, Parallel users will get 2.5% referral bonus."]
         }
       ]
     },
