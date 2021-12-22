@@ -1513,14 +1513,14 @@
           "label": "Parallel Re-Contributors",
           "formula": "${amount * 4 * 0.25}",
           "tooltip": [
-            "Early bird, this applies for users who also contributed in batch 1 before 11/23/2021."
+            "Early bird, this applies for users who also contributed in batch 1 before 12/23/2021."
           ]
         },
         {
           "label": "Binance Re-Contributors",
           "formula": "${amount * 4 * 0.25}",
           "tooltip": [
-            "Early bird, this applies for users who also contributed in batch 1 before 11/23/2021."
+            "Early bird, this applies for users who also contributed in batch 1 before 12/23/2021."
           ]
         }
       ]
