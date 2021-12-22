@@ -336,16 +336,23 @@
         },
         {
           "label": "Kintsugi Legends Bonus",
-          "formula": "${amount * 3.463 * 0.025}",
+          "content": "+2.5% INTR",
           "tooltip": [
-            "2.5% if you contributed to kintsugi crowdloan with same wallet"
+            "2.5% if you contributed to kintsugi crowdloan with same wallet till 12/23/21"
           ]
         },
         {
           "label": "Quiz Challenge Bonus",
-          "formula": "${amount * 3.463 * 0.025}",
+          "content": "+2.5% INTR",
           "tooltip": [
-            "2.5% for solving the Interlay quiz, see below in Reward Rules for the link to their website"
+            "2.5% for solving the Interlay quiz, see below in Reward Rules for the link to their website till 12/23/21"
+          ]
+        },
+        {
+          "label": "Test Mint Challenge Bonus",
+          "content": "+2.5% INTR",
+          "tooltip": [
+            "2.5% for minting interBTC on testnet till 12/23/21"
           ]
         }
       ]
@@ -381,8 +388,8 @@
           "Early Bird: 10% extra rewards if you contribute before 12/23/21.",
           "Referral: 5% referral bonus reward each to referral and referee",
           "Strong Supporter: 10% to users who contribute more than 50,000 DOT",
-          "Quiz Challenge: 2.5% for solving Interlay quiz",
-          "Test Mint Challenge: 2.5% for minting interBTC on testnet",
+          "Quiz Challenge: 2.5% for solving Interlay quiz till 12/23/21",
+          "Test Mint Challenge: 2.5% for minting interBTC on testnet till 12/23/21",
           "Kintsugi Legends: 2.5% if you contributed to kintsugi crowdloan with same wallet",
           "kBTC: TBD, Mint kBTC or run a Vault with collateral"
         ]
