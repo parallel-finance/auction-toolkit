@@ -107,9 +107,9 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+        { "formula": "0.10", "logo": "/static/media/para.e1be6567.svg" }
       ],
-      "tooltip": [{ "text": "Parallel Referral Bonus", "value": "5% PARA" }],
+      "tooltip": [{ "text": "Parallel Referral Bonus", "value": "10% PARA" }],
       "detail": [
         {
           "label": "Parallel Bonus",
@@ -117,11 +117,22 @@
         },
         {
           "label": "Parallel Referral Bonus",
-          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+          "formula": "${referralAvailable ? amount * 4 * 0.10 : 0}"
         }
       ]
     },
     "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["22.5M CTO (22.5% of total CTO supply)"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          "-0.1% CTO will be shared by the contributors who vote via Parallel based on their contribution.",
+          "-Contributors with at least 10 DOT contribution will be able to claim the .dot domain from PNS starting from December 22, 2021, 12:00:00 AM UTC."
+        ]
+      },
       {
         "label": "Parallel Additional Bonus",
         "content": ["4 PARA per DOT contributed"]
