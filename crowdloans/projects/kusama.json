@@ -69,6 +69,24 @@
     "rewardRate": 1
   },
   {
+    "paraid": "2102",
+    "name": "Pichiu",
+    "token": "PCHU",
+    "description": "",
+    "website": "",
+    "icon": "https://raw.githubusercontent.com/polkadot-js/apps/master/packages/apps-config/src/ui/logos/nodes/pichiu.png",
+    "rewardRate": 1
+  },
+  {
+    "paraid": "2048",
+    "name": "Robonomics",
+    "token": "XRT",
+    "description": "",
+    "website": "",
+    "icon": "https://raw.githubusercontent.com/polkadot-js/apps/99edd78be12b8ab2b335f25a0e549b618a4d7faf/packages/apps-config/src/ui/logos/nodes/robonomics.svg",
+    "rewardRate": 1
+  },
+  {
     "paraid": "2023",
     "name": "Moonriver",
     "token": "MOVR",

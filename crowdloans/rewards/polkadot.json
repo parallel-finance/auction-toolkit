@@ -908,7 +908,7 @@
     "token": "GLMR",
     "reward": {
       "total": "10%",
-      "min": 1,
+      "min": 4.1946,
       "detail": [
         { "label": "Est. Project Rewards", "formula": "${amount * 4.1946}" }
       ]

@@ -4,8 +4,28 @@
   "2004": { "reward": { "min": 150 } },
   "2007": { "reward": { "min": 80 } },
   "2008": { "reward": { "min": 1000 } },
+  "2102": {
+    "reward": { 
+      "fixed": [
+        { "value": 1, "suffix": "", "unit": "KSM" },
+        { "value": 350, "suffix": "+", "unit": "PCHU" }
+      ]
+    }
+  },
+  "2048": {
+    "reward": { 
+      "fixed": [
+        { "value": 4.2, "suffix": "+", "unit": "XRT" }
+      ]
+    }
+  },
   "2012": {
-    "reward": { "min": 1 },
+    "reward": { 
+      "fixed": [
+        { "value": 1, "suffix": "", "unit": "CRU" },
+        { "value": 1000, "suffix": "", "unit": "CSM" }
+      ]
+    },
     "rewardRules": [
       { "label": "Total Rewards", "content": ["80K CRU, 80M CSM"] },
       {
