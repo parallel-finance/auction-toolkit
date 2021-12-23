@@ -10,7 +10,7 @@
     "name": "Coinversation",
     "token": "CTO",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/coinversation.png",
-    "website": "https://www.coinversation.io/joinus",
+    "website": "https://www.coinversation.io/",
     "overview": "Coinversation Protocol is a synthetic asset issuance protocol and decentralised contract trading exchange based on the Polkadot contract chain. It uses the token CTO issued by Coinversation Protocol and Polkadot(DOT) as collateral, and synthesizes any cryptocurrencies or stocks, bonds, gold and any other off-chain assets through smart contracts and oracles.",
     "tokenomics": {
       "totalSupply": 100000000
