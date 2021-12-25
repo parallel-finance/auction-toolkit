@@ -452,7 +452,21 @@
         },
         {
           "label": "Strong Supporters Bonus",
-          "formula": "${amount > 200 ? amount * 20 * 0.05 : 0}"
+          "formula": [
+            {
+              "condition": {
+                "rangeDate": ["12/24/21 9:00:00", "12/26/21 9:00:00"] 
+              },
+              "value": "${amount > 200 ? amount * 20 * 0.10 : 0}"
+            },
+            {
+              "condition": {
+                "afterDate": "12/26/21, 9:00:01"
+              },
+              "value": "${amount > 200 ? amount * 20 * 0.05 : 0}"
+            }
+          ],
+          "tooltip": ["People contributing over 200 DOTs now get a 5% NODL bonus. From December 24, 2021, 9AM PST to December 26, 2021, 9AM PST, get 10% (instead of 5%) extra rewards."]
         }
       ]
     },
@@ -491,7 +505,7 @@
       {
         "label": "Strong Supporters Bonus",
         "content": [
-          "People contributing over 200 DOTs now get a 5% NODL bonus."
+          "People contributing over 200 DOTs now get a 5% NODL bonus. From December 24, 2021, 9AM PST to December 26, 2021, 9AM PST, get 10% (instead of 5%) extra rewards."
         ]
       },
       {
@@ -1608,13 +1622,22 @@
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": {
-                "beforeDate": "12/25/21"
+              "condition": { 
+                "beforeDate": "12/25/21 23:59:59" 
               },
               "value": "${amount * 200 * 0.3}"
+            },
+            {
+              "condition": {
+                "rangeDate": ["12/26/21", "1/8/22 23:59:59"] 
+              },
+              "value": "${amount * 200 * 0.2}"
             }
           ],
-          "tooltip": ["30% bonus if you contribute before 12/25/21"]
+          "tooltip": [
+            "30% bonus if you contribute until 12/25/21",
+            "20% bonus if you contribute after 12/25/21 until 1/8/22"
+          ]
         },
         {
           "label": "Loyalty Bonus",
@@ -1639,9 +1662,13 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        { "formula": "0.25" }
       ],
-      "tooltip": [{ "text": "Parallel Referral Bonus", "value": "10% PARA" }],
+      "tooltip": [
+        { "text": "Parallel Referral Bonus", "value": "5% PARA" },
+        { "text": "Early Bird Bonus, until 12/25/21", "value": "30%" }
+      ],
       "detail": [
         { "label": "Parallel Bonus", "formula": "${amount * 4}" },
         {
@@ -1660,8 +1687,8 @@
         "label": "Project Bonus",
         "content": [
           "Early Bird:",
-          "-30% bonus if you contribute before 12/25/21",
-          "-20% bonus if you contribute between 12/25/21 - 1/8/22",
+          "-30% bonus if you contribute by December 25, 2021, 11:59:59pm UTC",
+          "-20% bonus if you contribute after December 25, 2021 until January 8, 2022 (11:59pm UTC).",
           "\n",
           "\n",
           "Referral:",
