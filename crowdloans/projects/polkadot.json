@@ -134,6 +134,8 @@
     "website": "https://phala.network/en",
     "token": "PHA",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/phala.svg",
+    "banner": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/phalaBanner.svg",
+    "background": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/phalaBackground.svg",
     "overview": "PHA is the native utility token of the platform and has the following use cases:\n\n- Trusted Computing Resources: Purchase trusted computing resources in the network and the data exchanges (e.g. trusted computing power, on-chain computing and storage resources, and off-chain storage) using PHA tokens.\n\n- Security Guarantee: Gatekeepers must stake a certain amount of PHA tokens, which may be slashed for misbehavior.\n\n- Governance: Stakeholders who own a certain amount of PHA are able to join the Phala DAO to participate in community governance.",
     "tokenomics": {
       "totalSupply": 1000000000,
