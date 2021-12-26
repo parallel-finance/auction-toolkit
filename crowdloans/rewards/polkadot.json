@@ -235,6 +235,71 @@
     ],
     "maxCoin": "100M"
   },
+  "2035": {
+    "cDot": "${amount * 1}",
+    "reward": {
+      "total": "100,000,000 PHA (10% of total supply)",
+      "fixed": [{ "value": 12, "suffix": "+", "unit": "PHA" }],
+      "unit": "PHA",
+      "detail": [
+        {
+          "label": "Est. Project Rewards",
+          "formula": "${amount * 12}"
+        },
+        {
+          "label": "Old Gangster bonus",
+          "content": "~5%",
+          "tooltip": [
+            "Contributors from previous Khala Kusama auction will have a 5% extra reward."
+          ]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.10", "logo": "/static/media/para.e1be6567.svg" }
+      ],
+      "tooltip": [
+        { "text": "Parallel Referral Bonus", "value": "10% PARA" }
+      ],
+      "detail": [
+        {
+          "label": "Parallel Bonus",
+          "formula": "${amount * 4}"
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.10 : 0}"
+        }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["100,000,000 PHA (10% of total supply)"]
+      },
+      {
+        "label": "The extra reward will be:",
+        "content": [
+          "Old Gangster bonus: Contributors from previous Khala Kusama auction will have a 5% extra reward, in addition to the ones who have over 300 $PHA on Khala address before blockheight #902400. Remember to use the same contribution address."
+        ]
+      },
+      {
+        "label": "Note:",
+        "content": [
+          "If we fail to win a slot between #6 - #11, we will drop out of the auction but initiate a public referendum to upgrade Khala Network into Phala Network on Kusama directly. We will join the auction when there is a better opportunity in the future."
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "15% will unlock immediately",
+          "85% will be linearly vesting for 96 weeks."
+        ]
+      }
+    ],
+    "maxCoin": "100M"
+  },
   "2008": {
     "cDot": "${amount * 1}",
     "reward": {
