@@ -540,5 +540,13 @@
         { "name": "Institutional Investor", "value": 5, "color": "#8ec6c2" }
       ]
     }
+  },
+  {
+    "paraid": "2034",
+    "name": "HydraDX",
+    "token": "HDX",
+    "description": "A natural swap solution for all assets built on Substrate",
+    "website": "https://hydradx.io/",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/hydradx.svg"
   }
 ]
