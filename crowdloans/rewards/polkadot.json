@@ -1786,6 +1786,19 @@
       "detail": [
         { "label": "Est. Project Rewards", "formula": "${amount * 12.5}" }
       ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+      ],
+      "tooltip": [{ "text": "Parallel Referral Bonus*", "value": "5% PARA" }],
+      "detail": [
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
     }
   }
 }
