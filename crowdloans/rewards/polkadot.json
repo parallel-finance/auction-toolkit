@@ -248,7 +248,7 @@
         },
         {
           "label": "Old Gangster bonus",
-          "content": "~5%",
+          "formula": "${isOldGangsta ? amount * 12 * 0.05 : 0}",
           "tooltip": [
             "Contributors from previous Khala Kusama auction will have a 5% extra reward."
           ]
