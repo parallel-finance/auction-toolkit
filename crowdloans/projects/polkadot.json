@@ -19,6 +19,7 @@
     "website": "https://www.composable.finance/",
     "token": "LAYR",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/composable.png",
+    "rewardStatus": "PROJECT_TO_DISTRIBUTE",
     "tokenomics": {
       "totalSupply": 100000000,
       "data": [
@@ -159,6 +160,7 @@
     "overview": "Acala is the decentralized finance network and liquidity hub of Polkadot. It’s a layer-1 smart contract platform that’s scalable, Ethereum-compatible, and optimized for DeFi with built-in liquidity and ready-made financial applications.",
     "website": "https://acala.network/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/acala.svg",
+    "rewardStatus": "PARALLEL_IS_DISTRIBUTING",
     "flow": {
       "name": "",
       "data": {
@@ -197,6 +199,7 @@
     "overview": "Moonbeam is a developer-oriented blockchain that strives to provide compatibility with the existing Ethereum developer toolchain and network. It does this by providing a full EVM implementation, a Web3-compatible API, and bridges that connect Moonbeam to existing Ethereum networks. This allows developers to deploy existing Solidity smart contracts and DApp frontends to Moonbeam with minimal changes.",
     "website": "https://moonbeam.network/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/moonbeam.png",
+    "rewardStatus": "PARALLEL_IS_DISTRIBUTING",
     "flow": {
       "name": "moonbeam",
       "data": {
@@ -256,6 +259,7 @@
     "overview": "Astar Network is a scalable and interoperable infrastructure for Web3.0. Since Astar Network is built with Parity’s Substrate framework, it can be a future Polkadot parachain that also acts as a scalable smart contract platform. The Polkadot Relaychain, by design, does not support smart contracts. This allows Astar the opportunity to fill in this gap. Scalability is obviously one of the most crucial demands dApp developers have. Ideally, the developers can build whatever applications on Astar Network without having to consider its scalability.",
     "website": "https://astar.network/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/astar.png",
+    "rewardStatus": "PROJECT_IS_DISTRIBUTING",
     "flow": {
       "name": "astar",
       "data": {
@@ -355,6 +359,7 @@
     "overview": "Clover is building a foundation layer for DeFi applications to seamlessly operate. They aim to reduce the development threshold for upper-layer applications, facilitate a gasless transaction layer to simplify user experience for non-crypto users, and provide a wide range of developer tools from identity-based scripting capabilities to built-in cross-chain interoperability.",
     "website": "https://clover.finance/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/clover.svg",
+    "rewardStatus": "PROJECT_IS_DISTRIBUTING",
     "tokenomics": {
       "totalSupply": 200000000,
       "data": [
@@ -505,6 +510,7 @@
     "overview": "Enjin, the creators of the ERC-1155 NFT standard, are developing Efinity, a next-generation blockchain for NFTs. Built in partnership with Parity Technologies, Efinity aims to to serve as the infrastructure of the open metaverse and will support tokens from any blockchain. As a Polkadot parachain, it's environmentally friendly, scalable, and designed to enable a future where NFTs are as widespread and easy-to-use as smartphones today.",
     "website": "https://enjin.io/efinity-crowdloan",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/efinity.png",
+    "rewardStatus": "PROJECT_TO_DISTRIBUTE",
     "tokenomics": {
       "totalSupply": 2000000000,
       "data": [
