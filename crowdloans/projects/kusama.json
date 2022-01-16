@@ -210,7 +210,7 @@
     "website": "https://www.integritee.network/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/integritee.svg",
     "rewardRate": 10,
-    "hidden": true
+    "hidden": false 
   },
   {
     "paraid": "2092",
