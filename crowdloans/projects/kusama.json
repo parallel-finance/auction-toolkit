@@ -209,8 +209,7 @@
     "description": "Scalable solution for securely processing sensitive data",
     "website": "https://www.integritee.network/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/integritee.svg",
-    "rewardRate": 10,
-    "hidden": false 
+    "rewardRate": 10, 
   },
   {
     "paraid": "2092",
