@@ -507,7 +507,7 @@
           "tooltip": [""]
         },
         {
-          "label": "Referral Bonus",10% extra rewards if you contribute in the first two weeks.（Before December 23rd)
+          "label": "Referral Bonus",(10% extra rewards if you contribute in the first two weeks,Before December 23rd)
           "formula": "${amount * 20 * 0.05}",
           "tooltip": [
             "By default, Parallel users will get the 5% Referral bonus."
