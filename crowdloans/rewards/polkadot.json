@@ -93,6 +93,73 @@
     ],
     "maxCoin": "100M"
   },
+  {
+"2036": {
+    "cDot": "${amount * 1}",
+    "reward": {
+      "total": "10% of Total Supply",
+      "fixed": [{ "value": 0.1875, "suffix": "+", "unit": "PDEX" }],
+      "unit": "PDEX",
+      "detail": [
+        {
+          "label": "Est. Project Rewards",
+          "formula": "${amount * 0.1875}"
+        },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {
+              "condition": {
+                "beforeDate": "22/01/22"
+              },
+              "value": "${amount * 0.1875 * 0.15}"
+            }
+            {
+              "condition": { "rangeDate": ["22/01/22", "22/01/22"] },
+              "value": "${amount * 0.1875 * 0.5}"
+            }
+          ],
+          "tooltip": [
+            " Bonus rewards for early bird entries by 1 pm Jan, 22th (CET) & 5% Bonus rewards for afterward contribution from 1 pm Jan, 22th to 1 pm Jan, 27th (CET)"
+          ]
+        },
+        {
+          "label": "Referral Bonus",
+          "formula": "${amount * 0.1875 * 0.5}",
+          "tooltip": [
+            ""
+          ]
+        }
+      ]
+    },
+    
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["-2M PDEX (10% of the total supply)"
+		            "-Base pool:1.5M PDEX(75% of the total crowdloan rewards)"
+					"-Bonus pool: 0.5M PDEX(25% of the total crowdloan reward)"
+					 ]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          "Early Bird: ",
+          "- 15% Bonus rewards for early bird entries by 1 pm Jan, 22th (CET).",
+          "- 5% Bonus rewards for afterward contribution from 1 pm Jan, 22th to 1 pm Jan, 27th (CET)",
+          "Refer: 5% to Referee and Referred",
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "25% Immediate unlock.",
+          "75% Linear unlock over 96 weeks"
+        ]
+      }
+    ],
+    "maxCoin": "100M"
+  },
 
   "2027": {
     "cDot": "${amount * 1}",

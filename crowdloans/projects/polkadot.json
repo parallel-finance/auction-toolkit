@@ -554,5 +554,13 @@
     "description": "A natural swap solution for all assets built on Substrate",
     "website": "https://hydradx.io/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/hydradx.svg"
+  },
+   {
+    "paraid": "2036",
+    "name": "Polkadex",
+    "token": "PDEX",
+    "description": "Polkadex brings liquidity via the Parachain in the Polkadot and Ethereum ecosystem",
+    "website": "https://docs.polkadex.trade/",
+    "icon": "https://docs.polkadex.trade/img/logo.svg"
   }
 ]
