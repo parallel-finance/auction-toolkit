@@ -561,6 +561,6 @@
     "token": "PDEX",
     "description": "Polkadex brings liquidity via the Parachain in the Polkadot and Ethereum ecosystem",
     "website": "https://docs.polkadex.trade/",
-    "icon": "https://docs.polkadex.trade/img/logo.svg"
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/polkadex.svg"
   }
 ]
