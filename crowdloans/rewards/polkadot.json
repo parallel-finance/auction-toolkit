@@ -119,13 +119,6 @@
           "tooltip": [
             "15% Bonus rewards for early bird entries by 11:59 pm Jan, 22th (CET) & 5% Bonus rewards for afterward contribution from 11:59 pm Jan, 22th to 11:59 pm Jan, 27th (CET)"
           ]
-        },
-        {
-          "label": "Referral Bonus",
-          "formula": "${amount * 0.1875 * 0.05}",
-          "tooltip": [
-            "5% bonus PDEX to referrer and referee each, depending on referee DOT contribution amount."
-          ]
         }
       ]
     },
