@@ -108,18 +108,16 @@
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": {
-                "beforeDate": "22/01/22"
-              },
+              "condition": { "beforeDate": "01/22/22 23:59:59"},
               "value": "${amount * 0.1875 * 0.15}"
             },
             {
-              "condition": { "rangeDate": ["22/01/22", "22/01/22"] },
+              "condition": { "rangeDate": ["01/22/22", "01/27/22 23:59:59"] },
               "value": "${amount * 0.1875 * 0.5}"
             }
           ],
           "tooltip": [
-            " Bonus rewards for early bird entries by 1 pm Jan, 22th (CET) & 5% Bonus rewards for afterward contribution from 1 pm Jan, 22th to 1 pm Jan, 27th (CET)"
+            " Bonus rewards for early bird entries by 11:59 pm Jan, 22th (CET) & 5% Bonus rewards for afterward contribution from 11:59 pm Jan, 22th to 11:59 pm Jan, 27th (CET)"
           ]
         },
         {
@@ -142,8 +140,8 @@
         "label": "Project Bonus",
         "content": [
           "Early Bird",
-          "- 15% Bonus rewards for early bird entries by 1 pm Jan, 22th (CET).",
-          "- 5% Bonus rewards for afterward contribution from 1 pm Jan, 22th to 1 pm Jan, 27th (CET)",
+          "- 15% Bonus rewards for early bird entries by 11:59 pm Jan, 22th (CET).",
+          "- 5% Bonus rewards for afterward contribution from 11:59 pm Jan, 22th to 11:59 pm Jan, 27th (CET)",
           "Refer: 5% to Referee and Referred"
         ]
       },
