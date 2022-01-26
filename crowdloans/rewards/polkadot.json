@@ -388,7 +388,7 @@
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": { "beforeDate": ["1/20/2022"] },
+              "condition": { "beforeDate":"1/20/2022"},
               "value": "${amount * 0.20 * 0.30}"
             },
             {
