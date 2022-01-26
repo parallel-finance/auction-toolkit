@@ -163,6 +163,10 @@
         ]
       },
       {
+        "label": "Additional project rewards",
+        "content": ["Polkadex NFTs: Top-1000 contributors.(Note: The NFTs will allow early access to Polkadex products & features.)"]
+      },
+      {
         "label": "Vesting schedule",
         "content": ["25% Immediate unlock.", "75% Linear unlock over 96 weeks"]
       }
@@ -1338,9 +1342,10 @@
     },
     "cDot": "${amount * 1}",
     "rewardRules": [
+      { "label": "Vesting schedule", "content": ["24 months linear vesting."] },
       {
         "label": "Total Crowdloan Rewards",
-        "content": ["1,500,000,000 PARA (up to 15% of total token supply)"]
+        "content": ["1,250,000,000 PARA (12.5% of total token supply)"]
       },
       {
         "label": "Project Bonus",
@@ -1366,8 +1371,8 @@
             "bulletPoints": ["For 1,000 randomly selected contributors"]
           }
         ]
-      },
-      { "label": "Vesting schedule", "content": ["24 months linear vesting."] }
+      }
+      
     ]
   },
   "2013": {
