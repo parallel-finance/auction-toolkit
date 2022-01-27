@@ -160,7 +160,7 @@
     "overview": "Acala is the decentralized finance network and liquidity hub of Polkadot. It’s a layer-1 smart contract platform that’s scalable, Ethereum-compatible, and optimized for DeFi with built-in liquidity and ready-made financial applications.",
     "website": "https://acala.network/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/acala.svg",
-    "rewardStatus": "PARALLEL_IS_DISTRIBUTE",
+    "rewardStatus": "PARALLEL_TO_DISTRIBUTE",
     "flow": {
       "name": "",
       "data": {
