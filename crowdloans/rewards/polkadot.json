@@ -392,7 +392,7 @@
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": { "rangeDate": ["12/10/21", "1/20/22"] },
+              "condition": { "beforeDate":"1/20/2022"},
               "value": "${amount * 0.20 * 0.30}"
             },
             {
@@ -401,7 +401,7 @@
             }
           ],
           "tooltip": [
-            "30% Bonus for contributions made until 1/20/2022 and 20% after"
+            "-Before 1/20/2022 (UTC+8),extra 30% CRU.After 1/20/2022 (UTC+8), extra 20% CRU."
           ]
         }
       ]
@@ -435,8 +435,8 @@
       {
         "label": "Bonus",
         "content": [
-          "Earlier Bird: 30% extra rewards if you contribute by 1/20/2022, 20% extra rewards after",
-          "Lucky Draw: 10,000 CRU shared by 10 randomly selected contributors (1 entry per 1 DOT)"
+          "Early Bird: Before 1/20/2022 (UTC+8),extra 30% CRU.After 1/20/2022 (UTC+8), extra 20% CRU",
+          "Lucky Draw: Total 10000CRU lucky draw for 10 randomly selected contributors (1 DOT per 1 lottery ticket）"
         ]
       },
       {
