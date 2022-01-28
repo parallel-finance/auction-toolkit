@@ -282,5 +282,18 @@
     "description": "Subsocial - Decentralized social network on Polkadot & IPFS",
     "website": "https://subsocial.network/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/subsocial.svg"
+  },
+  {
+    "paraid": "2106",
+    "name": "Litmus",
+    "token": "LIT",
+    "website": "https://kusama-crowdloan.litentry.com/",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/litmus.svg"
+  },
+  {
+    "paraid": "2011",
+    "name": "Sora",
+    "website": "https://wiki.sora.org/sora-kusama-parachain-crowdloan",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/sora_logo.svg"
   }
 ]
