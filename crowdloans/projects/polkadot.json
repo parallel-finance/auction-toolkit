@@ -338,6 +338,7 @@
     "overview": "Parallel Finance is a Decentralized Money Market Protocol that offers lending, staking, and borrowing in the Polkadot ecosystem. Depositors can lend and stake simultaneously to earn double yield on their staked coins, and borrowers can collateralize to borrow. We refer to this feature as 'leverage staking', because users can lever up agains their staking collateral to increase their yield overall. In addition, when a user's DOT and KSM are staked through Parallel, a reputation-determining algorithm is applied which maximizes staking yield on behalf of the user. In the future, projects and individual users will also be able to source their auction loans through Parallel's interface--a feature we call 'auction loans.' This feature will give users the ability to stay liquid while their DOT/KSM is locked in parachains, and it will give projects direct access to the liquidity they need to win parachain auctions.",
     "website": "https://parallel.fi/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/parallel.svg",
+    "rewardStatus": "PARALLEL_TO_DISTRIBUTE",
     "tokenomics": {
       "totalSupply": 10000000000,
       "data": [
