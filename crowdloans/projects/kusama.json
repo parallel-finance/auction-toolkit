@@ -295,5 +295,17 @@
     "name": "Sora",
     "website": "https://wiki.sora.org/sora-kusama-parachain-crowdloan",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/sora_logo.svg"
+  },
+  {
+    "paraid": "2101",
+    "name": "Zeitgeist",
+    "website": "https://zeitgeist.pm/ztg",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/zeitgeist.svg"
+  },
+  {
+    "paraid": "2105",
+    "name": "Darwinia Crab",
+    "website": "https://darwinia.network/",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/darwinia.svg"
   }
 ]
