@@ -306,5 +306,10 @@
     "paraid": "2105",
     "name": "Darwinia Crab",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/crab.svg"
+  },
+  {
+    "paraid": "2107",
+    "name": "KICO",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/kico.svg"
   }
 ]
