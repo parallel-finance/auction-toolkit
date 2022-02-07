@@ -6,14 +6,6 @@
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/centrifuge.png"
   },
   {
-    "paraid": "2027",
-    "name": "Coinversation",
-    "token": "CTO",
-    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/coinversation.png",
-    "website": "https://www.coinversation.io/",
-    "overview": "Coinversation Protocol is a synthetic asset issuance protocol and decentralised contract trading exchange based on the Polkadot contract chain. It uses the token CTO issued by Coinversation Protocol and Polkadot(DOT) as collateral, and synthesizes any cryptocurrencies or stocks, bonds, gold and any other off-chain assets through smart contracts and oracles."
-  },
-  {
     "paraid": "2019",
     "name": "Composable",
     "website": "https://www.composable.finance/",
@@ -55,6 +47,7 @@
     "website": "https://crust.network",
     "token": "CRU",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/crust.svg",
+    "overview": "Crust implements the incentive layer protocol for decentralized storage. It is adaptable to multiple storage layer protocols such as IPFS, and provides support for the application layer. Crust’s architecture also has the capability of supporting a decentralized computing layer and building a decentralized cloud ecosystem.Crust's decentralized storage layer provides a distributed file system. At the same time, Crust encapsulates some standard interfaces such as Amazon S3-like. Any application scenarios involving data storage, such as cloud services, edge computing, and decentralized applications, are the scenarios that Crust can adapt.",
     "tokenomics": {
       "totalSupply": 20000000,
       "data": [
@@ -80,6 +73,7 @@
     "website": "https://nodle.com",
     "token": "NODL",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/nodle.png",
+    "overview" : "Nodle's mission is to connect the next trillion things to the Internet. Nodle leverages Bluetooth Low Energy (BLE) via millions of smartphones and routers to allow enterprises and smart cities to connect IoT devices to the Internet at a low-cost while maintaining privacy and security. Nodle's decentralized wireless network is currently comprised of 5M daily active smartphones with 30 million IoT devices discovered daily in over 100 countries, moving approximately 100 GB of data. Anyone with a smartphone can help build the network and get rewarded in Nodle Cash (NODL) for providing BLE connectivity to nearby devices and sensors. ",
     "tokenomics": {
       "totalSupply": 8500000000,
       "data": [
@@ -105,6 +99,7 @@
     "website": "https://interlay.io",
     "token": "INTR",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/interlay.svg",
+    "overview":"Interlay is a decentralized network dedicated to connecting crypto-currencies like Bitcoin with DeFi platforms like Polkadot and Ethereum. The Interlay network is hosted as a Polkadot parachain and will be connected to Cosmos, Ethereum, and other major DeFi networks. Read more about Interlay’s vision of blockchain interoperability.InterBTC, Interlay’s flagship product, is Bitcoin on any blockchain. A 1:1 Bitcoin-backed asset, fully collateralized, interoperable, and censorship-resistant.",
     "tokenomics": {
       "totalSupply": 1000000000,
       "data": [
@@ -474,8 +469,22 @@
     "name": "Ares Protocol",
     "token": "ARES",
     "description": "A Decentralized Cross-Chain Oracle Platform",
+    "overview": "Ares protocol is the first decentralized cross-chain oracle service protocol in the Polkadot ecosystem. It is also the first new-generation protocol service protocol that implements verification on the data chain. Ares is the first to open up compensation channels for data users when they suffer business losses due to the use of oracle data.As an infrastructure builder that connects the real world and the blockchain network, under the grand vision of the WEB3.0 era, it provides safe and reliable data services for multi-chain interconnection and the development of the digital economy.",
     "website": "https://www.aresprotocol.io/",
-    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/ares.svg"
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/ares.svg",
+    "tokenomics":{
+      "totalSupply": 1000000000,
+      "data":[
+        { "name": "Ares Ecological Construsion", "value": 20, "color": "#438de3" },
+        {"name": "Private Placement", "value": 20, "color": "#9146f0" },
+        {"name": "Ares Pledge Mining", "value": 10, "color": "#68dbeb" },
+        {"name": "Team", "value": 20, "color": "#e86044"},
+        {"name": "Ares Foundation", "value": 10, "color": "#f6c262" },
+        { "name": "Consultants", "value": 5, "color": "#ffcdff" },
+        { "name": "Community", "value": 5, "color": "#7b93de" }
+
+      ]
+    }
   },
   {
     "paraid": "2001",
@@ -552,15 +561,58 @@
     "name": "HydraDX",
     "token": "HDX",
     "description": "A natural swap solution for all assets built on Substrate",
+    "overview": "HydraDX is a natural swap solution for all assets built on Substrate and in the fast-growing Polkadot ecosystem – a place to bootstrap liquidity. It is designed to communicate with other networks. Ethereum based assets will be ultimately liquid on HydraDX.",
     "website": "https://hydradx.io/",
-    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/hydradx.svg"
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/hydradx.svg",
+    "tokenomics": {
+      "totalSupply": 10000000000,
+      "data": [
+        { "name": "Liquidity Provision & staking Rewards", "value": 75, "color": "#4fdfd4" },
+        { "name": "Incentivized Stakenet", "value": 5, "color": "#7b93de" },
+        { "name": "Founders, Investors & Advisors", "value": 15, "color": "#9caee6" }
+      ]
+    }
+  },
+  {
+    "paraid": "2027",
+    "name": "Coinversation",
+    "token": "CTO",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/coinversation.png",
+    "website": "https://www.coinversation.io/",
+    "overview": "Coinversation Protocol is a synthetic asset issuance protocol and decentralised contract trading exchange based on the Polkadot contract chain. It uses the token CTO issued by Coinversation Protocol and Polkadot(DOT) as collateral, and synthesizes any cryptocurrencies or stocks, bonds, gold and any other off-chain assets through smart contracts and oracles.",
+    "tokenomics":{
+      "totalSupply": 1000000000,
+      "data":[
+        {"name": "Ecosystem and Development", "value": 40.3, "color": "#4fdfd4" },
+        {"name": "Auction Reward", "value": 22.5, "color": "#7b93de"},
+        {"name": "Token Sale", "value": 7.2, "color": "#9caee6"},
+        { "name": "Foundation", "value": 15, "color": "#bdc9ef" },
+        { "name": "Team", "value": 15, "color": "#8ec6c2" }
+
+      ]
+    }
   },
    {
     "paraid": "2036",
     "name": "Polkadex",
     "token": "PDEX",
     "description": "Polkadex brings liquidity via the Parachain in the Polkadot and Ethereum ecosystem",
+    "overview": "Polkadex Orderbook is a non-custodial, peer-to-peer trading platform that merges the benefits of both centralized and decentralized exchanges into a next-generation decentralized product suite. Thanks to Polkadex's unique tech architecture, users get the best of both CEX and DEX worlds while trading trust-lessly on Polkadex.Additional functionality of Polkadex includes PolkaIDO, a revolutionary, fully on-chain IDO platform to make IDOs fairer and more transparent, fungible assets for teams that want to mint their native tokens, NFTs and other features down the line. The goal of Polkadex is to bring masses to DeFi through products that can be used by novice and professional crypto traders, institutions and blockchain project teams.",
     "website": "https://docs.polkadex.trade/",
-    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/polkadex.svg"
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/polkadex.svg",
+    "tokenomics": {
+      "totalSupply": 20000000,
+      "data": [
+        { "name": "Treasury", "value": 41, "color": "#4fdfd4" },
+        { "name": "Parachain Auction", "value": 10, "color": "#7b93de" },
+        { "name": "Advisors", "value": 6, "color": "#9caee6" },
+        { "name": "Community Round", "value": 2, "color": "#bdc9ef" },
+        { "name": "Private Round", "value": 10.193, "color": "#77bab4" },
+        { "name": "Strategic Round", "value": 8, "color": "#8ec6c2" },
+        { "name": "Seed Round", "value": 7, "color": "#a7c2df" },
+        { "name": "Founders and Team", "value": 5, "color": "#c0dfdd" },
+        { "name": "Marketing,Ecosystem & Partnerships", "value": 6.807, "color": "#609c96" }
+      ]
+    }
   }
 ]
