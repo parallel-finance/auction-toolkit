@@ -19,6 +19,13 @@
       ]
     }
   },
+  "2107": {
+    "reward": { 
+      "fixed":[
+        { "value": 20000, "suffix": "", "unit": "KICO" }
+      ]
+    }
+  },
   "2012": {
     "reward": { 
       "fixed": [
