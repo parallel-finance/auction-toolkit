@@ -22,7 +22,8 @@
   "2107": {
     "reward": { 
       "fixed":[
-        { "value": 20000, "suffix": "", "unit": "KICO" }
+        { "value": 20000, "suffix": "", "unit": "KICO" },
+        {"unit": "KICO"}
       ]
     }
   },
