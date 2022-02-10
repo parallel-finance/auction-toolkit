@@ -21,8 +21,7 @@
   },
   "2107": {
     "reward": { 
-      "fixed": [
-        { "value": 1, "suffix": "", "unit": "KSM" },
+      "fixed":[
         { "value": 20000, "suffix": "", "unit": "KICO" }
       ]
     }
