@@ -1873,12 +1873,7 @@
           "-Contributions made after HydraDX is leading the race by 15-25% will start dropping linearly.",
           "-Contributions made after HydraDX is leading the race by 25% will receive between 28 and 12.5 HDX per DOT."
         ]
-      },
-      {
-        "label":"Vesting schedule",
-        "content":"HDX rewards are distributed linearly. The distribution will start after HydraDX has been onboarded as a Polkadot parachain and the transition from Snakenet (our testnet) has been completed."
       }
-      
     ],
     "parallelBonus": {
       "items": [
