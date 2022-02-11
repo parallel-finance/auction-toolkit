@@ -1864,6 +1864,19 @@
           "-1,000,000,000 HDX (10% of total supply)",
           "-All participants in the HydraDX crowdloan will receive HDX in exchange for their contributions. The amount of the rewards depends on our rank in the parachain auction race at the time of your contribution, as well as the total amount of DOT which have been contributed by others."
         ]
+      },
+      {
+        "label": "Project Bonus",
+        "content":[
+          "-HDX rewards will be distributed linearly.",
+          "-HydraDX is leading the race by 15% will receive between 280 and 125 HDX per DOT.",
+          "-Contributions made after HydraDX is leading the race by 15-25% will start dropping linearly.",
+          "-Contributions made after HydraDX is leading the race by 25% will receive between 28 and 12.5 HDX per DOT."
+        ]
+      },
+      {
+        "label":"Vesting schedule",
+        "content":"HDX rewards are distributed linearly. The distribution will start after HydraDX has been onboarded as a Polkadot parachain and the transition from Snakenet (our testnet) has been completed."
       }
       
     ],
