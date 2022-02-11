@@ -1857,6 +1857,16 @@
         { "label": "Est. Project Rewards", "formula": "${amount * 12.5}" }
       ]
     },
+    "rewardRules":[
+      {
+        "label":"Total Crowdloan Rewards",
+        "content":[
+          "-1,000,000,000 HDX (10% of total supply)",
+          "-All participants in the HydraDX crowdloan will receive HDX in exchange for their contributions. The amount of the rewards depends on our rank in the parachain auction race at the time of your contribution, as well as the total amount of DOT which have been contributed by others."
+        ]
+      }
+      
+    ],
     "parallelBonus": {
       "items": [
         { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
