@@ -1866,9 +1866,14 @@
         ]
       },
       {
+        "label":"Project Bonus"
+
+      },
+      {
         "label": "Vesting schedule",
         "content": ["DX rewards are distributed linearly. The distribution will start after HydraDX has been onboarded as a Polkadot parachain and the transition from Snakenet (our testnet) has been completed."]
       } 
+
     ],
     "parallelBonus": {
       "items": [
