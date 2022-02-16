@@ -435,7 +435,7 @@
       {
         "label": "Bonus",
         "content": [
-          "Early Bird: Before 1/20/2022 (UTC+8),extra 30% CRU.After 1/20/2022 (UTC+8), extra 20% CRU",
+          "Early Bird: Before 0:00 1/20/2022 (UTC+8),extra 30% CRU.After 0:00 1/20/2022 (UTC+8), extra 20% CRU",
           "Lucky Draw: Total 10000CRU lucky draw for 10 randomly selected contributors (1 DOT per 1 lottery ticket）"
         ]
       },
@@ -520,11 +520,7 @@
         "content": [
           "Early Bird: 10% extra rewards if you contribute before 12/23/21.",
           "Referral: 5% referral bonus reward each to referral and referee",
-          "Strong Supporter: 10% to users who contribute more than 50,000 DOT",
-          "Quiz Challenge: 2.5% for solving Interlay quiz before December 23, 2021, 18:00 UTC. Refer here: https://interlay.io/",
-          "Test Mint Challenge: 2.5% for minting interBTC on testnet before December 23, 2021, 18:00 UTC. Refer here: https://interlay.io/",
-          "Kintsugi Legends: 2.5% if you contributed to kintsugi crowdloan with same wallet",
-          "kBTC: TBD, Mint kBTC or run a Vault with collateral"
+          "Strong Supporter: 10% to users who contribute more than 50,000 DOT"
         ]
       },
       {
