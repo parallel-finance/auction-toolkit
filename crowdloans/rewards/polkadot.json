@@ -392,16 +392,16 @@
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": { "beforeDate":"1/20/2022"},
+              "condition": { "beforeDate":"1/20/2022 0:00"},
               "value": "${amount * 0.20 * 0.30}"
             },
             {
-              "condition": { "afterDate": "1/20/22" },
+              "condition": { "afterDate": "1/20/22 0:00" },
               "value": "${amount * 0.20 * 0.2}"
             }
           ],
           "tooltip": [
-            "-Before 1/20/2022 (UTC+8),extra 30% CRU.After 1/20/2022 (UTC+8), extra 20% CRU."
+            "-Before 0:00 1/20/2022 (UTC+8),extra 30% CRU.After 0:00 1/20/2022 (UTC+8), extra 20% CRU."
           ]
         }
       ]
@@ -435,7 +435,7 @@
       {
         "label": "Bonus",
         "content": [
-          "Early Bird: Before 1/20/2022 (UTC+8),extra 30% CRU.After 1/20/2022 (UTC+8), extra 20% CRU",
+          "Early Bird: Before 0:00 1/20/2022 (UTC+8),extra 30% CRU.After 0:00 1/20/2022 (UTC+8), extra 20% CRU",
           "Lucky Draw: Total 10000CRU lucky draw for 10 randomly selected contributors (1 DOT per 1 lottery ticket）"
         ]
       },
@@ -487,27 +487,6 @@
           "label": "Strong Supporter Bonus",
           "formula": "${amount > 50000 ? amount * 3.463 * 0.1 : 0}",
           "tooltip": ["10% Bonus for contributions over 50,000 DOT"]
-        },
-        {
-          "label": "Kintsugi Legends Bonus",
-          "content": "+2.5% INTR",
-          "tooltip": [
-            "2.5% if you contributed to kintsugi crowdloan with same wallet till 12/23/21"
-          ]
-        },
-        {
-          "label": "Quiz Challenge Bonus",
-          "content": "+2.5% INTR",
-          "tooltip": [
-            "2.5% for solving the Interlay quiz before December 23, 2021, 18:00 UTC; see below in Reward Rules for the link to their website."
-          ]
-        },
-        {
-          "label": "Test Mint Challenge Bonus",
-          "content": "+2.5% INTR",
-          "tooltip": [
-            "2.5% for minting interBTC on testnet before December 23, 2021, December 23, 2021, 18:00 UTC."
-          ]
         }
       ]
     },
@@ -541,11 +520,7 @@
         "content": [
           "Early Bird: 10% extra rewards if you contribute before 12/23/21.",
           "Referral: 5% referral bonus reward each to referral and referee",
-          "Strong Supporter: 10% to users who contribute more than 50,000 DOT",
-          "Quiz Challenge: 2.5% for solving Interlay quiz before December 23, 2021, 18:00 UTC. Refer here: https://interlay.io/",
-          "Test Mint Challenge: 2.5% for minting interBTC on testnet before December 23, 2021, 18:00 UTC. Refer here: https://interlay.io/",
-          "Kintsugi Legends: 2.5% if you contributed to kintsugi crowdloan with same wallet",
-          "kBTC: TBD, Mint kBTC or run a Vault with collateral"
+          "Strong Supporter: 10% to users who contribute more than 50,000 DOT"
         ]
       },
       {
@@ -577,13 +552,11 @@
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": {
-                "beforeDate": "12/23/21"
-              },
+              "condition": {"beforeDate": "12/23/22 0:00"},
               "value": "${amount * 0.1 * 20}"
             }
           ],
-          "tooltip": ["For contributions made before 12/23/21"]
+          "tooltip": ["10% extra rewards if you contribute before 0:00, 23rd December PST"]
         },
         {
           "label": "Referral Bonus",
@@ -620,7 +593,7 @@
         { "formula": "0.10" }
       ],
       "tooltip": [
-        { "text": "Early Bonus: 12/9/21 - 12/23/21", "value": "10% NODL" },
+        { "text": "Early Bird: Before 12/23/22", "value": "10% NODL" },
         { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
       ],
       "detail": [
@@ -642,7 +615,7 @@
       {
         "label": "Bonus",
         "content": [
-          "Early Bird: 10% extra rewards if you contribute in the first two weeks.",
+          "Early Bird: 10% extra rewards if you contribute before 0:00, 23rd December PST.",
           "Referral: 5% referral bonus reward each to referral and referee"
         ]
       },
@@ -656,6 +629,11 @@
         "label": "Parallel Additional Bonus",
         "content": ["4 PARA per DOT contributed"]
       },
+      {
+        "label": "NFT",
+        "content": ["NFT An exclusive matrix inspired “Decentralized” NFT based on a secret artist's work will be rewarded to the 10,000 highest contributors that commit their DOTS to the crowdloan."]
+      },
+      
       {
         "label": "Vesting schedule",
         "content": [
@@ -1863,6 +1841,15 @@
         "content":[
           "-1,000,000,000 HDX (10% of total supply)",
           "-All participants in the HydraDX crowdloan will receive HDX in exchange for their contributions. The amount of the rewards depends on our rank in the parachain auction race at the time of your contribution, as well as the total amount of DOT which have been contributed by others."
+        ]
+      },
+      {
+        "label": "Project Bonus",
+        "content":[
+          "- HDX rewards will be distributed linearly",
+          "- contributions made before HydraDX is leading the race by 15% will receive between 280 and 125 HDX per DOT",
+          "- contributions made after HydraDX is leading the race by 15-25% will start dropping linearly",
+          "- contributions made after HydraDX is leading the race by 25% will receive between 28 and 12.5 HDX per DOT"
         ]
       },
       {
