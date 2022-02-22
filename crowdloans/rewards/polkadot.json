@@ -524,6 +524,10 @@
         ]
       },
       {
+        "label": "Notes",
+        "content": "-kBTC user bonus (tbc): Mint kBTC or run a Vault with collateral. (tbc): Mint kBTC and/or run a Vault with collateral. Will be announced ad-hoc!"
+      },
+      {
         "label": "Parallel Additional Bonus",
         "content": ["4 PARA per DOT contributed"]
       },
