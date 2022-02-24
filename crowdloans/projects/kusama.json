@@ -308,6 +308,11 @@
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/crab.svg"
   },
   {
+    "paraid": "2110",
+    "name": "Mangata",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/mangata.svg"
+  },
+  {
     "paraid": "2107",
     "name": "KICO",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/kico.svg"
