@@ -6,6 +6,11 @@
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/centrifuge.png"
   },
   {
+    "paraid": "2038",
+    "name": "Geminis",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/geminis.png"
+  },
+  {
     "paraid": "2019",
     "name": "Composable",
     "website": "https://www.composable.finance/",
