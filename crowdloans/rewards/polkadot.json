@@ -617,6 +617,21 @@
         "content": ["850,000,000 NODL (10% of effective circulating supply)"]
       },
       {
+        "label": "Extra Rewards",
+        "content": [
+          "Campaign 1: Stock up on NODL",
+          "Duration: 72 hours. Starting on Tuesday, March 1st at 9 am PT until March 4th, Friday 9 am PT. NOT RETROACTIVE.",
+          "50 + DOTs = 125 extra NODL",
+          "100 + DOTs = 250 extra NODL",
+          "200 + DOTs = 500 extra NODL",
+          "500 + DOTs = 1,250 extra NODL",
+          "1,000 + DOTs = 2,500 extra NODL",
+          "1,500 + DOTs = 3,750 extra NODL",
+          "2,000 + DOTs = 5,000 extra NODL",
+          "Note:These extra rewards will be reflected in the Est Project Rewards line"
+        ]
+      },
+      {
         "label": "Bonus",
         "content": [
           "Early Bird: 10% extra rewards if you contribute before 0:00, 23rd December PST.",
