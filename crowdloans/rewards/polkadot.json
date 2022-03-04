@@ -553,9 +553,9 @@
           "formula": [
             {
               "condition": {
-                "rangeDate": ["03/04/22 09:00", "03/06/22 09:00"]
+                "rangeDate": ["03/01/22 09:00", "03/09/22 09:00"]
               },
-              "value": "${amount >= 25 ? amount * 20 * 2 : amount * 20}"
+              "value": "${amount >= 20 ? amount * 30 : amount * 20}"
             }
           ]
         },
@@ -626,10 +626,10 @@
       {
         "label": "Extra Rewards",
         "content": [
-          "Drop the hammer - 100% more NODL",
-          "Duration:  48 hours. Starting on Friday, March 4th at 9 am PT until Sunday, March 6th at 9 am PT. NOT RETROACTIVE.",
-          "100% More NODL. Minimum 25 DOTs Contribution.",
-          "From 20 NODL per DOT To 40 NODL per DOT",
+         "Campaign 3: Parachain Final Countdown Bonus",
+         "Duration: 72 hours. Starting Sunday, March 6th at 9 am PT until March 9th at 9 am PT. NOT RETROACTIVE.",
+         "50% More NODL. Minimum 20 DOTs Contribution.",
+         "From 20 NODL per DOT To 30 NODL per DOT.",
           "Note:These extra rewards will be reflected in the Est Project Rewards line"
         ]
       },
