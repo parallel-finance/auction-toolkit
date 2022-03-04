@@ -553,7 +553,7 @@
           "formula": [
             {
               "condition": {
-                "rangeDate": ["03/01/22 09:00", "03/09/22 09:00"]
+                "rangeDate": ["03/06/22 09:00", "03/09/22 09:00"]
               },
               "value": "${amount >= 20 ? amount * 30 : amount * 20}"
             }
