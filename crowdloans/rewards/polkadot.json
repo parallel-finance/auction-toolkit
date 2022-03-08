@@ -550,14 +550,7 @@
       "detail": [
         {
           "label": "Est. Project Rewards",
-          "formula": [
-            {
-              "condition": {
-                "rangeDate": ["03/06/22 09:00", "03/09/22 09:00"]
-              },
-              "value": "${amount >= 20 ? amount * 30 : amount * 20}"
-            }
-          ]
+          "formula":"${amount * 20}"
         },
         {
           "label": "Early Bird Bonus",
