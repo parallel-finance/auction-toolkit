@@ -235,20 +235,18 @@
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": { "rangeDate": ["12/15/21", "12/21/21"] },
+              "condition": { "rangeDate": ["12/15/21 10:03", "12/21/21 10:03"] },
               "value": "${amount * 3.65 * 0.1}"
             }
           ],
           "tooltip": [
-            "10% bonus for contributions made during first 72 hours of crowdloan."
+            "10% bonus if you contribute from 10:03am Dec, 15 to 10:03am Dec, 21"
           ]
         },
         {
           "label": "Heavyweight Bonus",
           "formula": "${amount * 3.65 * 0.05}",
-          "tooltip": [
-            "If Parallel users collectively contribute more than 5,000 DOTs, we will distribute the 5% CFG bonus back to our users. This value is an estimate and depends on the total contributions."
-          ]
+          "tooltip": ["Extra 5% bonus when an account contributes 5,000+ DOT."]
         },
         {
           "label": "Loyalty Reward",
@@ -289,7 +287,7 @@
     "rewardRules": [
       {
         "label": "Total Crowdloan Rewards",
-        "content": ["67,500,000 CFG (Up to 15% of the supply reserve)"]
+        "content": ["65,700,000 CFG (Up to 15% of the supply reserve)"]
       },
       {
         "label": "Bonus",
