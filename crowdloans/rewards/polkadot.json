@@ -235,7 +235,7 @@
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": { "rangeDate": ["12/15/22 10:03", "12/21/22 10:03"] },
+              "condition": { "rangeDate": ["12/15/21 10:03", "12/21/21 10:03"] },
               "value": "${amount * 3.65 * 0.1}"
             }
           ],
