@@ -619,5 +619,11 @@
         { "name": "Marketing,Ecosystem & Partnerships", "value": 6.807, "color": "#609c96" }
       ]
     }
-  }
+  },
+  {
+    "paraid": "2037",
+    "name": "Unique Network",
+    "token": "UNQ",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/UniqueNetwork.svg"
+  }  
 ]
