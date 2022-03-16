@@ -98,7 +98,7 @@
     "reward": {
       "total": "15% of Total Supply",
       "fixed": [{ "value": 5.28, "suffix": "+", "unit": "UNQ" }],
-      "unit": "LAYR",
+      "unit": "UNQ",
       "detail": [
         {
           "label": "Est. Project Rewards",
