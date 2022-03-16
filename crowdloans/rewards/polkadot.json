@@ -1857,7 +1857,7 @@
     "rewardRules": [
       {
         "label": "Total Crowdloan Rewards",
-        "content": ["3000000 EQ (16.67% of the total reserve)"]
+        "content": ["3000000"]
       },
       {
         "label": "Project Bonus",
