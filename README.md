@@ -20,9 +20,8 @@ e.g.
 
 What we need to do after merging the new changes.
 
-- Create a tag for main branch with the new changes
-- Release the tag
-- There is a github action to sync our changes to s3 bucket automatically, please using the following urls to check the changes after action is completed. 
+- Go to [production deployment action](https://github.com/parallel-finance/auction-toolkit/actions/workflows/production-deploy.yml), click `Run workflow` dropdown, make sure the branch selection is `main`, then click confirmed button. 
+- After the action finished, please using the following urls to check the changes after action is completed. 
   - https://auction-us-east-2.s3.us-east-2.amazonaws.com/crowdloans/projects/polkadot.json
   - https://auction-us-east-2.s3.us-east-2.amazonaws.com/crowdloans/projects/kusama.json
   - https://auction-us-east-2.s3.us-east-2.amazonaws.com/crowdloans/rewards/polkadot.json
