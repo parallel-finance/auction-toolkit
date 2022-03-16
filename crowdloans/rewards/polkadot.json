@@ -93,6 +93,76 @@
     ],
     "maxCoin": "100M"
   },
+  "2037": {
+    "cDot": "${amount * 1}",
+    "reward": {
+      "total": "15% of Total Supply",
+      "fixed": [{ "value": 5.28, "suffix": "+", "unit": "UNQ" }],
+      "unit": "LAYR",
+      "detail": [
+        {
+          "label": "Est. Project Rewards",
+          "formula": "${amount * 5.28}"
+        },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {"value": "${amount * 5.28 + 20}"}
+           
+          ],
+          "tooltip": [
+            "5.28UNQ + Early reward (20 UNQ for the first DOT contributed, 5.28 for the last."
+          ]
+        }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["15,000,000 UNQ"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          "Early Bird: ",
+          "Early reward(20 UNQ for the first DOT contributed, 5.28 for the last. This is determined by the reward curve"
+        ]
+      },
+      {
+        "label": "Whitelist Criteria:",
+        "content": [
+          "1.NFT Holder: You hold a Chelobrick or a Substrapunk in your wallet as of 14th March 2022 at 2 pm UTC.",
+          "2.Polkadot NFT Ambassador Badge Holder: You have a wallet address that received a Polkadot NFT badge.",
+          "3.Quartz Crowdloan Contributor: You contributed KSM to the Quartz Crowdloan and are currently using the Substrate address.",
+          "4.Participated in Unique Token Public sale: You have a Receiving DOT Address.",
+          "To receive additional 5% in bonus rewards, please use any of the above whitelisted addresses to contribute towards the Unique Network Crowdloan.",
+          "The whitelisting bonuses will be calculated and added to your rewards at teh end of the crowdloan. You only need to make sure that you are participating in the crowdloan from your whitelisted DOT address." 
+        ]
+      },
+      {
+        "label": "MintFest Bonus for Crowdloan Contribution",
+        "content": [
+          "To receive an extra 5% bonus reward for your crowdloan contribution, you will need to mint an NFT collection with at least one NFT on UniqueMinter between 14th March at 2 p.m. UTC and the end of the crowdloan."
+          
+        ]
+      },
+      {
+        "label": "Super Supporters Program (SSP)",
+        "content": [
+          "15% in bonus rewards for 10,000 DOT or more in contributions from one wallet address (total contribution by each address will be counted at the end of the crowdloan).",
+          "30% in bonus rewards for 100,000 DOT or more in contribution from one wallet address (total contribution by each address will be counted at the end of the crowdloan)."
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+         "20 months linear vesting"
+        ]
+      }
+    ],
+    "maxCoin": "100M"
+  },
+
   "2036": {
     "cDot": "${amount * 1}",
     "reward": {
@@ -316,12 +386,12 @@
     "cDot": "${amount * 1}",
     "reward": {
       "total": "100,000,000 PHA (10% of total supply)",
-      "fixed": [{ "value": 12, "suffix": "+", "unit": "PHA" }],
+      "fixed": [{ "value": 24, "suffix": "+", "unit": "PHA" }],
       "unit": "PHA",
       "detail": [
         {
           "label": "Est. Project Rewards",
-          "formula": "${amount * 12}"
+          "formula": "${amount * 24}"
         },
         {
           "label": "Old Gangster bonus",
@@ -354,15 +424,18 @@
         "content": ["100,000,000 PHA (10% of total supply)"]
       },
       {
-        "label": "The extra reward will be:",
+        "label": "Basic Rewards",
         "content": [
-          "Old Gangster bonus: Contributors from previous Khala Kusama auction will have a 5% extra reward, in addition to the ones who have over 300 $PHA on Khala address before blockheight #902400. Remember to use the same contribution address."
+          "- Contribution of 1 $DOT will return 24 $PHA as reward. 15% will unlock immediately, and the rest will be linearly vesting for 96 weeks.",
+          "- No whitelist, No early birds, No referral reward. We think you are already tired of this! We distribute bonuses directly to all contributors equally."
         ]
       },
       {
-        "label": "Note:",
+        "label": "The extra reward will be:",
         "content": [
-          "If we fail to win a slot between #6 - #11, we will drop out of the auction but initiate a public referendum to upgrade Khala Network into Phala Network on Kusama directly. We will join the auction when there is a better opportunity in the future."
+          "- Old Gangster bonus: Contributors from previous Khala Kusama auction will have a 10% extra reward, in addition to the ones who have over 300 $PHA on Khala address before blockheight #902400. Remember to use the same contribution address.",
+          "- Time-limited reward ",
+          "- limited Phala World NFT whitelist eligibility: Phala will give out a special reward: NFT whitelist qualification for Phala Network's native metaverse game-mode project Phala World (PW). There are a total of 1,500 whitelist qualifications for the reward.  The effective time of the reward competition will end before the PW official whitelist qualification competition begins. Phala Crowdloan contributors who are ranked in the top 1,500 according to the DOT contribution will receive this reward. Please refer to the official announcement time of PW for the specific end date of the event."
         ]
       },
       {
@@ -1750,20 +1823,13 @@
           "formula": [
             {
               "condition": {
-                "beforeDate": "12/25/21 23:59:59"
+                "rangeDate": ["03/17/22", "03/20/22 23:59:59"]
               },
-              "value": "${amount * 200 * 0.3}"
-            },
-            {
-              "condition": {
-                "rangeDate": ["12/26/21", "1/8/22 23:59:59"]
-              },
-              "value": "${amount * 200 * 0.2}"
+              "value": "${amount * 200 * 0.5}"
             }
           ],
           "tooltip": [
-            "30% bonus if you contribute until 12/25/21",
-            "20% bonus if you contribute after 12/25/21 until 1/8/22"
+            "50% early bird bonus applicable until 20 Mar 2022 23:59 UTC"
           ]
         },
         {
@@ -1782,8 +1848,8 @@
         },
         {
           "label": "Referral Bonus",
-          "formula": "${amount * 200 * 0.06}",
-          "tooltip": ["By default, Parallel users get 6% referral bonus."]
+          "formula": "${amount * 200 * 0.05}",
+          "tooltip": ["5% referrer bonus (7% for designated partners)5% referee bonus"]
         }
       ]
     },
@@ -1814,12 +1880,11 @@
         "label": "Project Bonus",
         "content": [
           "Early Bird:",
-          "-30% bonus if you contribute by December 25, 2021, 11:59:59pm UTC",
-          "-20% bonus if you contribute after December 25, 2021 until January 8, 2022 (11:59pm UTC).",
+          "50% early bird bonus applicable until 20 Mar 2022 23:59 UTC",
           "\n",
           "\n",
           "Referral:",
-          "-Extra 3% each bonus for both the referrer and referee.",
+          "-5% referrer bonus (7% for designated partners)5% referee bonus",
           "\n",
           "\n",
           "Loyalty Bonus",
@@ -1833,10 +1898,6 @@
           "-Extra 35% bonus when you contribute 100k-500k DOT",
           "-Extra 40% bonus when you contribute over 500k DOT."
         ]
-      },
-      {
-        "label": "Parallel Additional Bonus",
-        "content": [{ "bulletPoints": ["4 PARA per DOT contributed"] }]
       }
     ]
   },
