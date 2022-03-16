@@ -106,8 +106,7 @@
         },
         {
           "label": "Early Bird Bonus",
-          "formula": [
-            {"value": "${amount * 5.28 + 20}"}
+          "formula": ["${amount * 5.28 + 20}"
            
           ],
           "tooltip": [
