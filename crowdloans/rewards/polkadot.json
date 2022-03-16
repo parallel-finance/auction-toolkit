@@ -106,7 +106,7 @@
         },
         {
           "label": "Early Bird Bonus",
-          "formula": "${(amount * 5.28) + 20}",
+          // "formula": "${(amount * 5.28) + 20}",
           "tooltip": [
             "5.28UNQ + Early reward (20 UNQ for the first DOT contributed, 5.28 for the last."
           ]
@@ -1820,27 +1820,13 @@
           "formula": [
             {
               "condition": {
-                "rangeDate": ["03/17/22", "03/20/22 23:59:59"]
+                "rangeDate": ["03/16/22 09:00:00", "03/20/22 23:59:59"]
               },
               "value": "${amount * 200 * 0.5}"
             }
           ],
           "tooltip": [
             "50% early bird bonus applicable until 20 Mar 2022 23:59 UTC"
-          ]
-        },
-        {
-          "label": "Loyalty Bonus",
-          "content": "+Up to 10% EQ",
-          "tooltip": [
-            "Up to estimated 10% bonus for supporters in PLO Phase 1 and Genshiro crowdloan using the same wallet address."
-          ]
-        },
-        {
-          "label": "Institutional Bonus",
-          "content": "+Up to 40% EQ",
-          "tooltip": [
-            "Up to estimated 40% bonus if Parallel users collectively contribute >500K DOT, see below for more details"
           ]
         },
         {
@@ -1857,7 +1843,7 @@
       ],
       "tooltip": [
         { "text": "Parallel Referral Bonus", "value": "5% PARA" },
-        { "text": "Early Bird Bonus, until 12/25/21", "value": "30%" }
+        { "text": "Early Bird Bonus, until 03/20/22", "value": "50%" }
       ],
       "detail": [
         { "label": "Parallel Bonus", "formula": "${amount * 4}" },
@@ -1871,7 +1857,7 @@
     "rewardRules": [
       {
         "label": "Total Crowdloan Rewards",
-        "content": ["2,000,000,000 EQ (16.67% of the total reserve)"]
+        "content": ["3000000 EQ"]
       },
       {
         "label": "Project Bonus",
@@ -1881,19 +1867,7 @@
           "\n",
           "\n",
           "Referral:",
-          "-5% referrer bonus (7% for designated partners)5% referee bonus",
-          "\n",
-          "\n",
-          "Loyalty Bonus",
-          "-10% for PLO phase 1 participation, any participant of Phase 1 in April",
-          "-5% to Genshiro supporters in any batch of Kusama crowdloans",
-          "-10% Genshiro supporters during 15th Kusama auction (between November 15-22)",
-          "\n",
-          "\n",
-          "Institutional Bonus",
-          "-Extra 33% bonus when you contribute 10k-100k DOT.",
-          "-Extra 35% bonus when you contribute 100k-500k DOT",
-          "-Extra 40% bonus when you contribute over 500k DOT."
+          "-5% referrer bonus (7% for designated partners)5% referee bonus"
         ]
       }
     ]
