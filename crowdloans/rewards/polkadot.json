@@ -106,7 +106,7 @@
         },
         {
           "label": "Early Bird Bonus",
-          // "formula": "${(amount * 5.28) + 20}",
+          "formula": "${(amount * 5.28) + 20}",
           "tooltip": [
             "5.28UNQ + Early reward (20 UNQ for the first DOT contributed, 5.28 for the last."
           ]
