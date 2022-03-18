@@ -5,7 +5,7 @@
   "2007": { "reward": { "min": 80 } },
   "2008": { "reward": { "min": 1000 } },
   "2102": {
-    "reward": { 
+    "reward": {
       "fixed": [
         { "value": 1, "suffix": "", "unit": "KSM" },
         { "value": 350, "suffix": "+", "unit": "PCHU" }
@@ -13,21 +13,17 @@
     }
   },
   "2048": {
-    "reward": { 
-      "fixed": [
-        { "value": 4.2, "suffix": "+", "unit": "XRT" }
-      ]
+    "reward": {
+      "min": 4.2
     }
   },
   "2107": {
-    "reward": { 
-      "fixed":[
-        { "value": 20000, "suffix": "", "unit": "KICO" }
-      ]
+    "reward": {
+      "min": 20000
     }
   },
   "2012": {
-    "reward": { 
+    "reward": {
       "fixed": [
         { "value": 1, "suffix": "", "unit": "CRU" },
         { "value": 1000, "suffix": "", "unit": "CSM" }
@@ -316,10 +312,8 @@
   },
   "2100": { "reward": { "min": 150 } },
   "2114": {
-    "reward": { 
-      "fixed":[
-        { "value": 1150, "suffix": "", "unit": "TUR" }
-      ]
+    "reward": {
+      "min": 1150
     },
     "rewardRules": [
       {
@@ -337,7 +331,9 @@
       },
       {
         "label": "Vesting schedule",
-        "content": ["30% on 04 May 2022, 70% linear release every 4 months for 12 months."]
+        "content": [
+          "30% on 04 May 2022, 70% linear release every 4 months for 12 months."
+        ]
       }
     ]
   }
