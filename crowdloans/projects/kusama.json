@@ -316,5 +316,28 @@
     "paraid": "2107",
     "name": "KICO",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/kico.svg"
+  },
+  {
+    "paraid": "2114",
+    "name": "Turing",
+    "token": "TUR",
+    "description": "Automation Blockchain for Kusama",
+    "overview": "Turing is an automation blockchain for Defi and recurring payments across protocols. Turing aims to be the best-in-class automation utility across protocols, offering on-chain automation not possible today.",
+    "website": "https://oak.tech/turing/home/",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/turing.png",
+    "tokenomics":{
+      "totalSupply": 1000000000,
+      "data":[
+        { "name": "Early Backers", "value": 8, "color": "#4fdfd4" },
+        { "name": "Team", "value": 16, "color": "#7b93de" },
+        { "name": "Collator Fund", "value": 5, "color": "#9caee6" },
+        { "name": "Crowdloan", "value": 16, "color": "#bdc9ef" },
+        { "name": "Developer Incentives", "value": 15, "color": "#77bab4" },
+        { "name": "Ecosystem Development", "value": 15, "color": "#8ec6c2" },
+        { "name": "Strategic Partnerships", "value": 10, "color": "#a7c2df" },
+        { "name": "Community DAO", "value": 10, "color": "#c0dfdd" },
+        { "name": "Parachain Slot Reserve", "value": 5, "color": "#609c96" }
+      ]
+    }
   }
 ]

@@ -314,5 +314,31 @@
       }
     ]
   },
-  "2100": { "reward": { "min": 150 } }
+  "2100": { "reward": { "min": 150 } },
+  "2114": {
+    "reward": { 
+      "fixed":[
+        { "value": 1150, "suffix": "", "unit": "TUR" }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["Up to 160,000,000 TUR (16% of total token supply)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "Crowdloan Opening Bonus: Contributors who contribute before 22 Mar 2022 18:00 UTC get extra 10%",
+          "Crowdloan Ending Bonus: Contributors who contribute after 22 Mar 2022 18:00 UTC get extra 5%",
+          "Referral: Reward 10% of receivers' base split between sender and receiver",
+          "Community Bonus: TUR crowdloan tokens earned through group effort of all participants who contributed above 1 KSM. Every participant who contributes a minimum of 1 KSM will receive a community bonus based on the total number of contributors. This reward is to encourage decentralization and incentivize contributors to grow the community."
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": ["30% on 04 May 2022, 70% linear release every 4 months for 12 months."]
+      }
+    ]
+  }
 }
