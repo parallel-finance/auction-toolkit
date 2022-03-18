@@ -324,7 +324,7 @@
     "description": "Automation Blockchain for Kusama",
     "overview": "Turing is an automation blockchain for Defi and recurring payments across protocols. Turing aims to be the best-in-class automation utility across protocols, offering on-chain automation not possible today.",
     "website": "https://oak.tech/turing/home/",
-    "icon": "https://s3.amazonaws.com/docs.oak.tech/assets/img/turing.png",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/turing.png",
     "tokenomics":{
       "totalSupply": 1000000000,
       "data":[
