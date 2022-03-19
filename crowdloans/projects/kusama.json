@@ -338,8 +338,7 @@
         { "name": "Community DAO", "value": 10, "color": "#c0dfdd" },
         { "name": "Parachain Slot Reserve", "value": 5, "color": "#609c96" }
       ]
-    },
-    
+  },  
   {
     "paraid": "2115",
     "name": "DORA KSM Parachain",
