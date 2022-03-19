@@ -338,6 +338,16 @@
         { "name": "Community DAO", "value": 10, "color": "#c0dfdd" },
         { "name": "Parachain Slot Reserve", "value": 5, "color": "#609c96" }
       ]
-    }
+    },
+    
+  {
+    "paraid": "2115",
+    "name": "DORA KSM Parachain",
+    "token": "DORA",
+    "description": "DoraFactory Kusama parachain",
+    "overview": "Dora Factory is the DAO-as-a-Service infrastructure that empowers decentralized organizations and open source ventures. The DORA KSM Parachain is Dora Factory’s Kusama parachain, which supports pallets like quadratic funding and multisig wallet. In connection with DoraHacks, the Dora Factory KSM Parachain will be able to support open source communities, hackathons, quadratic funding grants, and DAOs in general from the Kusama ecosystem.",
+    "website": "https://dorafactory.org",
+    "icon": "https://dorafacory-assets.s3.ap-southeast-1.amazonaws.com/dorafactory-logo.svg",
+    "tokenomics": "https://dorafactory.medium.com/introducing-dora-all-tokenomics-that-you-should-know-38f93851fe38"
   }
 ]
