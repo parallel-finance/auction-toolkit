@@ -97,7 +97,7 @@
     "cDot": "${amount * 1}",
     "reward": {
       "total": "15% of Total Supply",
-      "fixed": [{ "value": 5.28, "suffix": "+", "unit": "UNQ" }],
+      "fixed": [{ "value": 5.28, "suffix": "", "unit": "UNQ" }],
       "unit": "UNQ",
       "detail": [
         {
@@ -106,7 +106,7 @@
         },
         {
           "label": "Early Bird Bonus",
-          "formula": "${(amount * 5.28) + 20}",
+          "formula": "${(amount * 5.28)+20}",
           "tooltip": [
             "5.28UNQ + Early reward (20 UNQ for the first DOT contributed, 5.28 for the last."
           ]
@@ -123,6 +123,12 @@
         "content": [
           "Early Bird: ",
           "Early reward(20 UNQ for the first DOT contributed, 5.28 for the last. This is determined by the reward curve"
+        ]
+      },
+      {
+        "label": "Note",
+        "content": [
+          "Please use the reward Calculator on Unique Network's website to estimate your UNQ rewards at the time of the contribution,Link to Reward Calculator - (https://unique.network/token/crowdloan/contribute/)"
         ]
       },
       {
