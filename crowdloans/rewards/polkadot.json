@@ -97,7 +97,7 @@
     "cDot": "${amount * 1}",
     "reward": {
       "total": "15% of Total Supply",
-      "fixed": [{ "value": 5.28, "suffix": "", "unit": "UNQ" }],
+      "fixed": [{ "value": 5.28, "suffix": "*", "unit": "UNQ" }],
       "unit": "UNQ",
       "detail": [
         {
