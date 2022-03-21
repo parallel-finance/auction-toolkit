@@ -210,7 +210,7 @@
     "website": "https://www.integritee.network/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/integritee.svg",
     "rewardRate": 10,
-    "hidden": false 
+    "hidden": false
   },
   {
     "paraid": "2092",
@@ -293,29 +293,36 @@
   {
     "paraid": "2011",
     "name": "Sora",
+    "token": "XOR",
     "website": "https://wiki.sora.org/sora-kusama-parachain-crowdloan",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/sora_logo.svg"
   },
   {
     "paraid": "2101",
     "name": "Zeitgeist",
+    "token": "ZTG",
     "website": "https://zeitgeist.pm/ztg",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/zeitgeist.svg"
   },
   {
     "paraid": "2105",
     "name": "Darwinia Crab",
+    "token": "CRAB",
+    "website": "https://crab.network/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/crab.svg"
   },
   {
     "paraid": "2110",
     "name": "Mangata",
+    "token": "MGX",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/mangata.svg"
   },
   {
     "paraid": "2107",
     "name": "KICO",
-    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/kico.svg"
+    "token": "KICO",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/kico.png",
+    "website": "https://dico.io/"
   },
   {
     "paraid": "2114",
@@ -325,9 +332,9 @@
     "overview": "Turing is an automation blockchain for Defi and recurring payments across protocols. Turing aims to be the best-in-class automation utility across protocols, offering on-chain automation not possible today.",
     "website": "https://oak.tech/turing/home/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/turing.png",
-    "tokenomics":{
+    "tokenomics": {
       "totalSupply": 1000000000,
-      "data":[
+      "data": [
         { "name": "Early Backers", "value": 8, "color": "#4fdfd4" },
         { "name": "Team", "value": 16, "color": "#7b93de" },
         { "name": "Collator Fund", "value": 5, "color": "#9caee6" },
