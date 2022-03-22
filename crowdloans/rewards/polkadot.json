@@ -97,7 +97,7 @@
     "cDot": "${amount * 1}",
     "reward": {
       "total": "15% of Total Supply",
-      "fixed": [{ "value": 5.28, "suffix": "+", "unit": "UNQ" }],
+      "fixed": [{ "value": 5.28, "suffix": "", "unit": "UNQ" }],
       "unit": "UNQ",
       "detail": [
         {
@@ -106,10 +106,25 @@
         },
         {
           "label": "Early Bird Bonus",
-          "formula": "${(amount * 5.28) + 20}",
           "tooltip": [
-            "5.28UNQ + Early reward (20 UNQ for the first DOT contributed, 5.28 for the last."
+            "Read the text below for full set of rewards, they’re great!"
           ]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+      ],
+      "tooltip": [{ "text": "Parallel Referral Bonus", "value": "5% PARA" }],
+      "detail": [
+        {
+          "label": "Parallel Bonus",
+          "formula": "${amount * 4}"
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
         }
       ]
     },
@@ -122,7 +137,14 @@
         "label": "Project Bonus",
         "content": [
           "Early Bird: ",
-          "Early reward(20 UNQ for the first DOT contributed, 5.28 for the last. This is determined by the reward curve"
+          "Early reward(20 UNQ for the first DOT contributed, 5.28 for the last. This is determined by the reward curve",
+          "This is determined by the reward curve. Link to the curve https://unique.network/token/crowdloan/"
+        ]
+      },
+      {
+        "label": "Note",
+        "content": [
+           "Please use the reward Calculator on Unique Network's website to estimate your UNQ rewards at the time of the contribution. Link o the calculator https://unique.network/token/crowdloan/contribute/"
         ]
       },
       {
