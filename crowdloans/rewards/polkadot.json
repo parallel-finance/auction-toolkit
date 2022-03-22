@@ -137,14 +137,14 @@
         "label": "Project Bonus",
         "content": [
           "Early Bird: ",
-          "Early reward(20 UNQ for the first DOT contributed, 5.28 for the last. This is determined by the reward curve",
+          "Early reward(20 UNQ for the first DOT contributed, 5.28 for the last.",
           "This is determined by the reward curve. Link to the curve https://unique.network/token/crowdloan/"
         ]
       },
       {
         "label": "Note",
         "content": [
-           "Please use the reward Calculator on Unique Network's website to estimate your UNQ rewards at the time of the contribution. Link o the calculator https://unique.network/token/crowdloan/contribute/"
+           "Please use the reward Calculator on Unique Network's website to estimate your UNQ rewards at the time of the contribution. Link to the calculator https://unique.network/token/crowdloan/contribute/"
         ]
       },
       {
