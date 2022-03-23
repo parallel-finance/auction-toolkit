@@ -1,0 +1,25 @@
+name: Check
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    name: Json format Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use node version 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          registry-url: https://registry.npmjs.org
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn
+
+      - run: yarn lint

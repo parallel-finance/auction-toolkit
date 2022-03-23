@@ -1,17 +1,38 @@
-name: Upload Static Files
+name: Deploy to production
 
 on: workflow_dispatch
 
 jobs:
+  check:
+    name: Json format Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use node version 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          registry-url: https://registry.npmjs.org
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn
+
+      - run: yarn lint
+    
   deploy:
     name: Deploy to production s3 bucket
+    needs: check
     environment: production
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - uses: jakejarvis/s3-sync-action@master
+      - uses: actions/checkout@v2
+    
+      - name: Upload
+        uses: jakejarvis/s3-sync-action@master
         with:
-          args: --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*' --exclude '.gitignore' --exclude README.md
+          args: --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*' --exclude '.gitignore' --exclude package.json --exclude yarn.lock --exclude README.md
         env:
           AWS_S3_BUCKET: auction-us-east-2
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
