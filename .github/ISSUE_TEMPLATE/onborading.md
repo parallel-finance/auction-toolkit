@@ -1,5 +1,6 @@
 ---
-name: onBoarding projects
+name: onBoarding
+about: Provide the mandatory information for onboarding projects
 title: "[onBoarding]: "
 labels: [onBoarding]
 ---
@@ -8,7 +9,7 @@ labels: [onBoarding]
 
 In order to onboarding your project on our platform, you need to provide the correct crowdloan information as following:
 
-- [] ParaId: <!--This is the para ID of your project on relaychain. Make sure it is the right one. e.g. `2085`-->
+- [] ParaId: <!--This is the para ID of your project on relaychain. Make sure it is the same as relaychain. e.g. `2085`-->
 - [] Lease period: <!-- check the slot duration of Auction schedule, check it from https://kusama.network/auctions/ and https://polkadot.network/auctions/ -->
 - [] Cap: <!-- what's your crowdloan cap balance on relaychain when creating crowdloan? -->
 - [] EndBlock <!-- what's your endblock on relaychain when creating crowdloan? -->
