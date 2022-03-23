@@ -430,9 +430,9 @@
         },
         {
           "label": "Old Gangster bonus",
-          "content": "~5%",
+          "content": "~10",
           "tooltip": [
-            "Contributors from previous Khala Kusama auction will have a 5% extra reward."
+            "Contributors from previous Khala Kusama and Polkadot auction will both have a 10% extra rewards. (If the same address supports both ksm and dot, you can only get a 10% reward once)"
           ]
         }
       ]
