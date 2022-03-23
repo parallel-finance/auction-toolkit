@@ -1,0 +1,13 @@
+{
+  "name": "auction-toolkit",
+  "version": "1.0.0",
+  "description": "A repository for storing static information of crowdloan.",
+  "scripts": {
+    "lint:projects": "jsonlint ./crowdloans/projects/* -q -c",
+    "lint:rewards": "jsonlint ./crowdloans/rewards/* -q -c",
+    "lint": "yarn lint:projects & yarn lint:rewards"
+  },
+  "dependencies": {
+    "jsonlint": "^1.6.3"
+  }
+}

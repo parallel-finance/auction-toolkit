@@ -2,6 +2,10 @@
 
 This repo is store the static sources for auction.
 
+## Development
+
+Before creating a pull request, please run `yarn lint` to check if the json format is correct.
+
 ## Usage
 
 Use S3 bucket to store all the resource for crowdloan.
