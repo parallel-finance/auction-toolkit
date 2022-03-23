@@ -44,7 +44,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        },
         { "formula": "0.15" }
       ],
       "tooltip": [
@@ -114,7 +117,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
       ],
       "tooltip": [{ "text": "Parallel Referral Bonus", "value": "5% PARA" }],
       "detail": [
@@ -144,7 +150,7 @@
       {
         "label": "Note",
         "content": [
-           "Please use the reward Calculator on Unique Network's website to estimate your UNQ rewards at the time of the contribution. Link to the calculator https://unique.network/token/crowdloan/contribute/"
+          "Please use the reward Calculator on Unique Network's website to estimate your UNQ rewards at the time of the contribution. Link to the calculator https://unique.network/token/crowdloan/contribute/"
         ]
       },
       {
@@ -155,14 +161,13 @@
           "3.Quartz Crowdloan Contributor: You contributed KSM to the Quartz Crowdloan and are currently using the Substrate address.",
           "4.Participated in Unique Token Public sale: You have a Receiving DOT Address.",
           "To receive additional 5% in bonus rewards, please use any of the above whitelisted addresses to contribute towards the Unique Network Crowdloan.",
-          "The whitelisting bonuses will be calculated and added to your rewards at teh end of the crowdloan. You only need to make sure that you are participating in the crowdloan from your whitelisted DOT address." 
+          "The whitelisting bonuses will be calculated and added to your rewards at teh end of the crowdloan. You only need to make sure that you are participating in the crowdloan from your whitelisted DOT address."
         ]
       },
       {
         "label": "MintFest Bonus for Crowdloan Contribution",
         "content": [
           "To receive an extra 5% bonus reward for your crowdloan contribution, you will need to mint an NFT collection with at least one NFT on UniqueMinter between 14th March at 2 p.m. UTC and the end of the crowdloan."
-          
         ]
       },
       {
@@ -174,9 +179,7 @@
       },
       {
         "label": "Vesting schedule",
-        "content": [
-         "20 months linear vesting"
-        ]
+        "content": ["20 months linear vesting"]
       }
     ],
     "maxCoin": "100M"
@@ -220,7 +223,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
       ],
       "detail": [
         {
@@ -253,7 +259,9 @@
       },
       {
         "label": "Additional project rewards",
-        "content": ["Polkadex NFTs: Top-1000 contributors.(Note: The NFTs will allow early access to Polkadex products & features.)"]
+        "content": [
+          "Polkadex NFTs: Top-1000 contributors.(Note: The NFTs will allow early access to Polkadex products & features.)"
+        ]
       },
       {
         "label": "Vesting schedule",
@@ -276,7 +284,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
       ],
       "tooltip": [{ "text": "Parallel Referral Bonus", "value": "5% PARA" }],
       "detail": [
@@ -324,7 +335,9 @@
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": { "rangeDate": ["12/15/21 10:03", "12/21/21 10:03"] },
+              "condition": {
+                "rangeDate": ["12/15/21 10:03", "12/21/21 10:03"]
+              },
               "value": "${amount * 3.65 * 0.1}"
             }
           ],
@@ -355,7 +368,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        },
         { "formula": "0.30" }
       ],
       "tooltip": [
@@ -423,7 +439,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
       ],
       "tooltip": [{ "text": "Parallel Referral Bonus", "value": "5% PARA" }],
       "detail": [
@@ -482,7 +501,7 @@
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": { "beforeDate":"1/20/2022 0:00"},
+              "condition": { "beforeDate": "1/20/2022 0:00" },
               "value": "${amount * 0.20 * 0.30}"
             },
             {
@@ -498,7 +517,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        },
         { "formula": "0.30" }
       ],
       "tooltip": [
@@ -582,7 +604,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        },
         { "formula": "0.10" }
       ],
       "tooltip": [
@@ -619,7 +644,9 @@
       },
       {
         "label": "Project Rewards",
-        "content": ["-kBTC user bonus (tbc): Mint kBTC or run a Vault with collateral. (tbc): Mint kBTC and/or run a Vault with collateral. Will be announced ad-hoc!"]
+        "content": [
+          "-kBTC user bonus (tbc): Mint kBTC or run a Vault with collateral. (tbc): Mint kBTC and/or run a Vault with collateral. Will be announced ad-hoc!"
+        ]
       },
       {
         "label": "Vesting schedule",
@@ -640,17 +667,19 @@
       "detail": [
         {
           "label": "Est. Project Rewards",
-          "formula":"${amount * 20}"
+          "formula": "${amount * 20}"
         },
         {
           "label": "Early Bird Bonus",
           "formula": [
             {
-              "condition": {"beforeDate": "12/23/22 0:00"},
+              "condition": { "beforeDate": "12/23/22 0:00" },
               "value": "${amount * 0.1 * 20}"
             }
           ],
-          "tooltip": ["10% extra rewards if you contribute before 0:00, 23rd December PST"]
+          "tooltip": [
+            "10% extra rewards if you contribute before 0:00, 23rd December PST"
+          ]
         },
         {
           "label": "Referral Bonus",
@@ -683,7 +712,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        },
         { "formula": "0.10" }
       ],
       "tooltip": [
@@ -735,9 +767,11 @@
       },
       {
         "label": "NFT",
-        "content": ["NFT An exclusive matrix inspired “Decentralized” NFT based on a secret artist's work will be rewarded to the 10,000 highest contributors that commit their DOTS to the crowdloan."]
+        "content": [
+          "NFT An exclusive matrix inspired “Decentralized” NFT based on a secret artist's work will be rewarded to the 10,000 highest contributors that commit their DOTS to the crowdloan."
+        ]
       },
-      
+
       {
         "label": "Vesting schedule",
         "content": [
@@ -808,7 +842,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.15", "logo": "/static/media/para.e1be6567.svg" },
+        {
+          "formula": "0.15",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        },
         { "formula": "0.35" }
       ],
       "tooltip": [
@@ -919,7 +956,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
       ],
       "tooltip": [{ "text": "Parallel Referral Bonus*", "value": "5% PARA" }],
       "detail": [
@@ -973,7 +1013,7 @@
       "items": [
         {
           "formula": "${0.05 + 2000000 / contributions / 4}",
-          "logo": "/static/media/para.e1be6567.svg"
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
         },
         { "formula": "${0.12 + 4200000 / contributions / 4}" }
       ],
@@ -1005,7 +1045,7 @@
       {
         "label": "PARA Pool Rewards",
         "content": "2M Shared",
-        "logo": "/static/media/para.e1be6567.svg"
+        "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
       }
     ],
     "cDot": "${amount * 1}",
@@ -1069,7 +1109,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
       ],
       "tooltip": [
         { "text": "Early Bird, before batch 2", "value": "~120% RING" },
@@ -1101,8 +1144,10 @@
             ]
           },
           {
-            "text":"Early Bird:",
-            "bulletPoints": [" Up to an extra 20% reward if you contribute early"]
+            "text": "Early Bird:",
+            "bulletPoints": [
+              " Up to an extra 20% reward if you contribute early"
+            ]
           },
           {
             "text": "Referral:",
@@ -1113,11 +1158,15 @@
           },
           {
             "text": "Contribution Pioneers:",
-            "bulletPoints": [" Before the second round auction starts, supporters contributing more than 10,000 DOT (third-party exchanges or PLO aggregators are not eligible) and ranking top 5 will share the 1 BTC reward proportionally. BTC reward will be released immediately."]
+            "bulletPoints": [
+              " Before the second round auction starts, supporters contributing more than 10,000 DOT (third-party exchanges or PLO aggregators are not eligible) and ranking top 5 will share the 1 BTC reward proportionally. BTC reward will be released immediately."
+            ]
           },
           {
             "text": "Metaverse NFT Package:",
-            "bulletPoints": [" Get a Evolution Land Metaverse NFT Package, including Land, Apostle, Drills and treasure boxes, when your contribution share greater or equal 10 DOT, and you will have a chance to get a limited edition commemorative NFT in the Package. The package will be awarded immediately after the second round auction is terminated regardless of whether Darwinia Network wins the slot auction or not."]
+            "bulletPoints": [
+              " Get a Evolution Land Metaverse NFT Package, including Land, Apostle, Drills and treasure boxes, when your contribution share greater or equal 10 DOT, and you will have a chance to get a limited edition commemorative NFT in the Package. The package will be awarded immediately after the second round auction is terminated regardless of whether Darwinia Network wins the slot auction or not."
+            ]
           }
         ]
       },
@@ -1147,7 +1196,7 @@
       "items": [
         {
           "formula": "${0.05 + 1000000 / contributions / 4}",
-          "logo": "/static/media/para.e1be6567.svg"
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
         }
       ],
       "tooltip": [
@@ -1169,7 +1218,7 @@
       {
         "label": "PARA Pool Rewards",
         "content": "1M Shared",
-        "logo": "/static/media/para.e1be6567.svg"
+        "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
       }
     ],
     "cDot": "${amount * 1}",
@@ -1249,7 +1298,7 @@
       "items": [
         {
           "formula": "${0.05 + 2000000 / contributions / 4}",
-          "logo": "/static/media/para.e1be6567.svg"
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
         },
         { "formula": "${0.06 + 200000 / contributions / 35}" }
       ],
@@ -1284,7 +1333,7 @@
       {
         "label": "PARA Pool Rewards",
         "content": "2M Shared",
-        "logo": "/static/media/para.e1be6567.svg"
+        "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
       }
     ],
     "cDot": "${amount * 1}",
@@ -1405,7 +1454,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.5", "logo": "/static/media/para.e1be6567.svg" }
+        {
+          "formula": "0.5",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
       ],
       "tooltip": [
         { "text": "Referral Bonus*", "value": "10% PARA" },
@@ -1444,7 +1496,6 @@
           }
         ]
       }
-      
     ]
   },
   "2013": {
@@ -1479,7 +1530,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.30", "logo": "/static/media/para.e1be6567.svg" },
+        {
+          "formula": "0.30",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        },
         { "formula": "0.25" }
       ],
       "timeBased": true,
@@ -1603,7 +1657,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        },
         { "formula": "0.10" }
       ],
       "timeBased": true,
@@ -1659,7 +1716,10 @@
   "2017": {
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
       ],
       "tooltip": [{ "text": "Parallel Referral Bonus*", "value": "5% PARA" }],
       "detail": [
@@ -1680,7 +1740,10 @@
   "2018": {
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
       ],
       "tooltip": [{ "text": "Parallel Referral Bonus*", "value": "5% PARA" }],
       "detail": [
@@ -1748,7 +1811,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.30", "logo": "/static/media/para.e1be6567.svg" },
+        {
+          "formula": "0.30",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        },
         { "formula": "0.05" }
       ],
       "tooltip": [
@@ -1819,7 +1885,10 @@
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
       ],
       "tooltip": [{ "text": "Parallel Referral Bonus*", "value": "5% PARA" }],
       "detail": [
@@ -1854,13 +1923,18 @@
         {
           "label": "Referral Bonus",
           "formula": "${amount * 200 * 0.05}",
-          "tooltip": ["5% referrer bonus (7% for designated partners)5% referee bonus"]
+          "tooltip": [
+            "5% referrer bonus (7% for designated partners)5% referee bonus"
+          ]
         }
       ]
     },
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" },
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        },
         { "formula": "0.25" }
       ],
       "tooltip": [
@@ -1901,17 +1975,17 @@
         { "label": "Est. Project Rewards", "formula": "${amount * 12.5}" }
       ]
     },
-    "rewardRules":[
+    "rewardRules": [
       {
-        "label":"Total Crowdloan Rewards",
-        "content":[
+        "label": "Total Crowdloan Rewards",
+        "content": [
           "-1,000,000,000 HDX (10% of total supply)",
           "-All participants in the HydraDX crowdloan will receive HDX in exchange for their contributions. The amount of the rewards depends on our rank in the parachain auction race at the time of your contribution, as well as the total amount of DOT which have been contributed by others."
         ]
       },
       {
         "label": "Project Bonus",
-        "content":[
+        "content": [
           "- HDX rewards will be distributed linearly",
           "- contributions made before HydraDX is leading the race by 15% will receive between 280 and 125 HDX per DOT",
           "- contributions made after HydraDX is leading the race by 15-25% will start dropping linearly",
@@ -1920,13 +1994,17 @@
       },
       {
         "label": "Vesting schedule",
-        "content": ["DX rewards are distributed linearly. The distribution will start after HydraDX has been onboarded as a Polkadot parachain and the transition from Snakenet (our testnet) has been completed."]
-      } 
-
+        "content": [
+          "DX rewards are distributed linearly. The distribution will start after HydraDX has been onboarded as a Polkadot parachain and the transition from Snakenet (our testnet) has been completed."
+        ]
+      }
     ],
     "parallelBonus": {
       "items": [
-        { "formula": "0.05", "logo": "/static/media/para.e1be6567.svg" }
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
       ],
       "tooltip": [{ "text": "Parallel Referral Bonus*", "value": "5% PARA" }],
       "detail": [
