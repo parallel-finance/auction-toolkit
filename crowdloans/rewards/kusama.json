@@ -336,5 +336,24 @@
         ]
       }
     ]
+  },
+  "2115": {
+    "reward": { "min": 3 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["Up to 33,000 DORA (100% of total token allocation)"]
+      },
+      {
+        "label": "Heiko Additional Bonus",
+        "content": ["4 HKO per KSM contributed"]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "100% vests over the lease period of 48 weeks."
+        ]
+      }
+    ]
   }
 }
