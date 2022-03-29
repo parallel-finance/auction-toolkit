@@ -553,7 +553,7 @@
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/equilibrium.svg",
     "isStart": true,
     "disabledContribution": false,
-    "rewardStatus": "PROJECT_TO_DISTRIBUTE",
+    "rewardStatus": "PROJECT_IS_DISTRIBUTING",
     "tokenomics": {
       "totalSupply": 2000000000,
       "data": [
