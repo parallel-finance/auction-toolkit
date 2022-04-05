@@ -1490,24 +1490,13 @@
         "In addition to the base reward, earn up to 10% early bird bonus + 10% bonus by completing identity-related tasks."
       ],
       "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 2.5}" },
-        {
-          "label": "Early Bird Bonus",
-          "formula": [
-            {
-              "condition": {
-                "beforeDate": "12/30/21"
-              },
-              "value": "${amount * 2.5 * 0.10}"
-            }
-          ],
-          "tooltip": ["+10% bonus if you contribute before December 30, 2021."]
-        },
+        { "label": "Est. Project Rewards", 
+          "formula": "${amount =< 500000 ? amount * 12 : amount >= 500001 && amount <= 1500000 ? 6000000 + ((amount - 500000) * 8 : amount >= 1500001 && amount <= 3000000 ? 7999992 + ((amount - 1500000) * 4}" },
         {
           "label": "Referral Bonus",
-          "formula": "${amount * 2.5 * 0.025}",
+          "formula": "${amount * 2.5 * 0.1}",
           "tooltip": [
-            "By default, Parallel users will get 2.5% referral bonus."
+            "Refer friends and share a 10% referral bonus(Referer 5%, referee 5%)."
           ]
         }
       ]
