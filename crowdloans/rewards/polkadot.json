@@ -1491,7 +1491,7 @@
       ],
       "detail": [
         { "label": "Est. Project Rewards", 
-          "formula": "${amount =< 500000 ? amount * 12 : amount >= 500001 && amount <= 1500000 ? 6000000 + ((amount - 500000) * 8 : amount >= 1500001 && amount <= 3000000 ? 7999992 + ((amount - 1500000) * 4}" },
+          "formula": "${amount =< 500000 ? amount * 12 : amount >= 500001 && amount <= 1500000 ? 6000000 + (amount - 500000) * 8 : amount >= 1500001 && amount <= 3000000 ? 7999992 + (amount - 1500000) * 4}" },
         {
           "label": "Referral Bonus",
           "formula": "${amount * 2.5 * 0.1}",
