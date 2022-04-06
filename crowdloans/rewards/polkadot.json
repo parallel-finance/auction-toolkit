@@ -1485,7 +1485,7 @@
   "2013": {
     "reward": {
       "total": "20+% of Total Supply",
-      "min": 2.5,
+      "min": 12,
       "tooltip": [
         "In addition to the base reward, earn up to 10% early bird bonus + 10% bonus by completing identity-related tasks."
       ],
@@ -1495,7 +1495,7 @@
         },
         {
           "label": "Referral Bonus",
-          "formula": "${amount * 2.5 * 0.1}",
+          "formula": "${amount * 12 * 0.1}",
           "tooltip": [
             "Refer friends and share a 10% referral bonus(Referer 5%, referee 5%)."
           ]
