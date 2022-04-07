@@ -1612,12 +1612,10 @@
         {
           "formula": "0.30",
           "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
-        },
-        { "formula": "0.25" }
+        }
       ],
       "timeBased": true,
       "tooltip": [
-        { "text": "Early Bird: Before 12/30/21", "value": "10% LIT" },
         { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
       ],
       "detail": [
