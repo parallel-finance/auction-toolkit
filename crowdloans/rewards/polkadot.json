@@ -1610,7 +1610,7 @@
     "parallelBonus": {
       "items": [
         {
-          "formula": "0.30",
+          "formula": "0.5",
           "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
         }
       ],
