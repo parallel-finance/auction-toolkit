@@ -100,8 +100,8 @@
     "cDot": "${amount * 1}",
     "reward": {
       "total": "15% of GEM token's total supply",
-      "fixed": [{ "value": 10, "suffix": "+", "unit": "DOT" }],
-      "unit": "DOT",
+      "fixed": [{ "value": 10, "suffix": "+", "unit": "GEM" }],
+      "unit": "GEM",
       "detail": [
         {
           "label": "Est. Project Rewards",
