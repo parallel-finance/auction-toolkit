@@ -134,7 +134,7 @@
           "content": ["2M PDEX (10% of the total supply)"]
         },
         {
-          "label": "Additional",
+          "label": "Project Bonus",
           "content": [ "Polkadex special utility NFTs to Top-1000 contributors, with exciting benefits, including a 20%-50% discount on Polkadex Orderbook trading fees."]
         },
         {
@@ -147,6 +147,60 @@
       ],
       "maxCoin": "100M"
     },
+    "parallelBonus": {
+      "items": [
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        },
+        { "formula": "0.15" }
+      ],
+      "tooltip": [
+        { "text": "Parallel Referral Bonus", "value": "5% PARA" },
+        { "text": "Early Bird: On 12/15/21", "value": "15% LAYR" },
+        { "text": "Early Bird: From 12/16/21 to 12/17/21", "value": "10% LAYR" }
+      ],
+      "detail": [
+        {
+          "label": "Parallel Bonus",
+          "formula": "${amount * 4}"
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["12,000,000 LAYR (12% of Total Supply)"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          "Early Bird: ",
+          "- 5% bonus to those who staked in the first 24 hours, by 12/15/21 at 9PM EST",
+          "- 10% bonus to stakers in the first three days of opening the crowdloan",
+          "Refer: 20% bonus for those that refer a total of at least 1000 DOT using our referral codes",
+          "2.5% LAYR Referral Bonus: 2.5% bonus for contributing through our crowdloan partner — Parallel Finance's (https://bit.ly/3yTvX3d) — referral link (https://bit.ly/3suf91q)",
+          "Loyalty: 5% bonus for those who previously contributed KSM and stablecoins to the Picasso Crowdloan"
+        ]
+      },
+      {
+        "label": "Parallel Additional Bonus",
+        "content": ["4 PARA per DOT contributed"]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "25% vesting on TGE",
+          "75% vesting linearly over following 2 years"
+        ]
+      }
+    ],
+    "maxCoin": "100M"
+  },
   "2037": {
     "cDot": "${amount * 1}",
     "reward": {
@@ -1556,12 +1610,14 @@
     "parallelBonus": {
       "items": [
         {
-          "formula": "0.5",
+          "formula": "0.30",
           "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
-        }
+        },
+        { "formula": "0.25" }
       ],
       "timeBased": true,
       "tooltip": [
+        { "text": "Early Bird: Before 12/30/21", "value": "10% LIT" },
         { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
       ],
       "detail": [
