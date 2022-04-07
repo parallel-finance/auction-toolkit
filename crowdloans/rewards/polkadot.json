@@ -42,111 +42,6 @@
         }
       ]
     },
-    "2038": {
-      "cDot": "${amount * 1}",
-      "reward": {
-        "total": "15% of GEM token's total supply",
-        "fixed": [{ "value": 10, "suffix": "+", "unit": "DOT" }],
-        "unit": "DOT",
-        "detail": [
-          {
-            "label": "Est. Project Rewards",
-            "formula": "${amount * 10}"
-          }
-        ]
-      },
-      "parallelBonus": {
-        "items": [
-          {
-            "formula": "0.05",
-            "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
-          }
-        ],
-        "tooltip": [{ "text": "Parallel Referral Bonus", "value": "5% PARA" }],
-        "detail": [
-          {
-            "label": "Parallel Bonus",
-            "formula": "${amount * 4}"
-          },
-          {
-            "label": "Parallel Referral Bonus",
-            "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-          }
-        ]
-      },
-      "rewardRules": [
-        {
-          "label": "Total Crowdloan Rewards",
-          "content": ["15% of GEM token's total supply equals to 31,500,000"]
-        },
-        {
-          "label": "Project Bonus",
-          "content": [
-            "If the Geminis network wins, every DOT that supports Geminis in the ParaChain slot auction will split the 31,500,000 GEM token pro rata as a reward for all DOT contributors."
-          ]
-        },
-        {
-          "label": "Vesting schedule",
-          "content": [
-            "20% distributed at TGE after slot is won, 80% linear distributed in the whole 98 weeks’ slot period"
-          ]
-        }
-      ],
-      "maxCoin": "100M"
-    },
-    "2040": {
-      "cDot": "${amount * 1}",
-      "reward": {
-        "total": "10% of total supply",
-        "fixed": [{ "value": 2, "suffix": "+", "unit": "PDEX" }],
-        "unit": "PDEX",
-        "detail": [
-          {
-            "label": "Est. Project Rewards",
-            "formula": "${amount * 2}"
-          }
-        ]
-      },
-      "parallelBonus": {
-        "items": [
-          {
-            "formula": "0.05",
-            "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
-          }
-        ],
-        "tooltip": [
-          { "text": "Parallel Referral Bonus", "value": "5% PARA" }
-        ],
-        "detail": [
-          {
-            "label": "Parallel Bonus",
-            "formula": "${amount * 4}"
-          },
-          {
-            "label": "Parallel Referral Bonus",
-            "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
-          }
-        ]
-      },
-      "rewardRules": [
-        {
-          "label": "Total Crowdloan Rewards",
-          "content": ["2M PDEX (10% of the total supply)"]
-        },
-        {
-          "label": "Project Bonus",
-          "content": [ "Polkadex special utility NFTs to Top-1000 contributors, with exciting benefits, including a 20%-50% discount on Polkadex Orderbook trading fees."]
-        },
-        {
-          "label": "Vesting schedule",
-          "content": [
-            "25%: Immediate unlock.",
-            "75%: Linear unlock over 96 weeks."
-          ]
-        }
-      ],
-      "maxCoin": "100M"
-    },
     "parallelBonus": {
       "items": [
         {
@@ -196,6 +91,111 @@
         "content": [
           "25% vesting on TGE",
           "75% vesting linearly over following 2 years"
+        ]
+      }
+    ],
+    "maxCoin": "100M"
+  },
+  "2038": {
+    "cDot": "${amount * 1}",
+    "reward": {
+      "total": "15% of GEM token's total supply",
+      "fixed": [{ "value": 10, "suffix": "+", "unit": "GEM" }],
+      "unit": "GEM",
+      "detail": [
+        {
+          "label": "Est. Project Rewards",
+          "formula": "${amount * 10}"
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
+      ],
+      "tooltip": [{ "text": "Parallel Referral Bonus", "value": "5% PARA" }],
+      "detail": [
+        {
+          "label": "Parallel Bonus",
+          "formula": "${amount * 4}"
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["15% of GEM token's total supply equals to 31,500,000"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [
+          "If the Geminis network wins, every DOT that supports Geminis in the ParaChain slot auction will split the 31,500,000 GEM token pro rata as a reward for all DOT contributors."
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "20% distributed at TGE after slot is won, 80% linear distributed in the whole 98 weeks’ slot period"
+        ]
+      }
+    ],
+    "maxCoin": "100M"
+  },
+  "2040": {
+    "cDot": "${amount * 1}",
+    "reward": {
+      "total": "10% of total supply",
+      "fixed": [{ "value": 2, "suffix": "+", "unit": "PDEX" }],
+      "unit": "PDEX",
+      "detail": [
+        {
+          "label": "Est. Project Rewards",
+          "formula": "${amount * 2}"
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
+      ],
+      "tooltip": [
+        { "text": "Parallel Referral Bonus", "value": "5% PARA" }
+      ],
+      "detail": [
+        {
+          "label": "Parallel Bonus",
+          "formula": "${amount * 4}"
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Crowdloan Rewards",
+        "content": ["2M PDEX (10% of the total supply)"]
+      },
+      {
+        "label": "Project Bonus",
+        "content": [ "Polkadex special utility NFTs to Top-1000 contributors, with exciting benefits, including a 20%-50% discount on Polkadex Orderbook trading fees."]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "25%: Immediate unlock.",
+          "75%: Linear unlock over 96 weeks."
         ]
       }
     ],
@@ -1610,14 +1610,12 @@
     "parallelBonus": {
       "items": [
         {
-          "formula": "0.30",
+          "formula": "0.05",
           "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
-        },
-        { "formula": "0.25" }
+        }
       ],
       "timeBased": true,
       "tooltip": [
-        { "text": "Early Bird: Before 12/30/21", "value": "10% LIT" },
         { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
       ],
       "detail": [
