@@ -1590,7 +1590,7 @@
   "2013": {
     "reward": {
       "total": "20+% of Total Supply",
-      "min": 12,
+      "min": 8,
       "tooltip": [
         "In addition to the base reward, earn up to 10% early bird bonus + 10% bonus by completing identity-related tasks."
       ],
@@ -1600,9 +1600,9 @@
         },
         {
           "label": "Referral Bonus",
-          "formula": "${amount * 12 * 0.1}",
+          "formula": "${amount * 8 * 0.8}",
           "tooltip": [
-            "Refer friends and share a 10% referral bonus(Referer 5%, referee 5%)."
+            "Refer friends and share a 8% referral bonus."
           ]
         }
       ]
@@ -1647,7 +1647,7 @@
           {
             "text": "Referral Bonus",
             "bulletPoints": [
-              "Refer friends and share a 10% referral bonus(Referer 5%, referee 5%).",
+              "Refer friends and share a 8% referral bonus.",
               "Referral bonus equals 10% of the amount of basic reward the referee receives: Referral bonus = Basic Reward * 10%."
             ]
           },
