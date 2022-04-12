@@ -1596,13 +1596,13 @@
       ],
       "detail": [
         { "label": "Est. Project Rewards", 
-          "formula": "${amount <= 500000 ? amount * 12 : amount >= 500001 && amount <= 1500000 ? 6000000 + (amount - 500000) * 8 : amount >= 1500001 && amount <= 3000000 ? 14000000 + (amount - 1500000) * 4 : 20000000 + (amount - 3000000) * 2.5}"
+          "formula": "${amount <= 500000 ? amount * 8 : amount >= 500001 && amount <= 1500000 ? 6000000 + (amount - 500000) * 8 : amount >= 1500001 && amount <= 3000000 ? 14000000 + (amount - 1500000) * 4 : 20000000 + (amount - 3000000) * 2.5}"
         },
         {
           "label": "Referral Bonus",
-          "formula": "${amount * 8 * 0.8}",
+          "formula": "${amount * 8 * 0.1}",
           "tooltip": [
-            "Refer friends and share a 8% referral bonus."
+            "Refer friends and share a 10% referral bonus(Referer 5%, referee 5%)."
           ]
         }
       ]
@@ -1616,7 +1616,8 @@
       ],
       "timeBased": true,
       "tooltip": [
-        { "text": "Parallel Referral Bonus*", "value": "5% PARA" }
+        { "text": "Parallel Referral Bonus*", "value": "5% PARA" },
+        { "text": "Referral Bonus", "value": "10% LIT" }
       ],
       "detail": [
         { "label": "Parallel Bonus", "formula": "${amount * 4}" },
@@ -1647,7 +1648,7 @@
           {
             "text": "Referral Bonus",
             "bulletPoints": [
-              "Refer friends and share a 8% referral bonus.",
+              "Refer friends and share a 10% referral bonus(Referer 5%, referee 5%).",
               "Referral bonus equals 10% of the amount of basic reward the referee receives: Referral bonus = Basic Reward * 10%."
             ]
           },
