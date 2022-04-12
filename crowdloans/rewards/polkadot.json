@@ -1612,7 +1612,8 @@
         {
           "formula": "0.05",
           "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
-        }
+        },
+        { "formula": "0.8" }
       ],
       "timeBased": true,
       "tooltip": [
