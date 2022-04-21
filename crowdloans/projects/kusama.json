@@ -30,6 +30,34 @@
     "rewardRate": 25
   },
   {
+    "paraid": "2115",
+    "name": "Dora",
+    "token": "DORA",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/dora.png",
+    "rewardRate": 3
+  },
+  {
+    "paraid": "2118",
+    "name": "Tanganika Network",
+    "token": "DHX",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/datahighway.png",
+    "rewardRate": 20
+  },
+  {
+    "paraid": "2116",
+    "name": "Listen",
+    "token": "LT",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/listen.png",
+    "rewardRate": 5000
+  },
+  {
+    "paraid": "2113",
+    "name": "Kabocha",
+    "token": "KAB",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/kabocha.png",
+    "rewardRate": 160
+  },
+  {
     "paraid": "2001",
     "name": "Bifrost",
     "token": "BNC",

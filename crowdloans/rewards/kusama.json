@@ -63,6 +63,60 @@
       }
     ]
   },
+  "2118": {
+    "reward": { "min": 5000 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": [
+          "100m of 10b (1%)"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "• 30% will be released at TGE",
+          "• 70% will be released by block over duration"
+        ]
+      }
+    ]
+  },
+  "2116": {
+    "reward": { "min": 20 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": [
+          "300k of 100m (0.3%)"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "• 30% of the total reward pool will be distributed upon successful launch",
+          "• the remaining 70% of the reward pool will vest over the slot lease duration (48 weeks)"
+        ]
+      }
+    ]
+  },
+  "2113": {
+    "reward": { "min": 160 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": [
+          "3.2m of 64.3m (4.98%)"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "• 30% will be released at TGE",
+          "• 70% will be released by block over duration"
+        ]
+      }
+    ]
+  },
   "2015": {
     "reward": { "min": 10 },
     "rewardRules": [
@@ -340,14 +394,6 @@
   "2115": {
     "reward": { "min": 3 },
     "rewardRules": [
-      {
-        "label": "Total Rewards",
-        "content": ["Up to 33,000 DORA (100% of total token allocation)"]
-      },
-      {
-        "label": "Heiko Additional Bonus",
-        "content": ["4 HKO per KSM contributed"]
-      },
       {
         "label": "Vesting schedule",
         "content": [
