@@ -1590,9 +1590,6 @@
     "reward": {
       "total": "20+% of Total Supply",
       "min": 8,
-      "tooltip": [
-        "In addition to the base reward, earn up to 10% early bird bonus + 10% bonus by completing identity-related tasks."
-      ],
       "detail": [
         { "label": "Est. Project Rewards", 
           "formula": "${amount <= 500000 ? amount * 8 : amount >= 500001 && amount <= 1500000 ? 6000000 + (amount - 500000) * 8 : amount >= 1500001 && amount <= 3000000 ? 14000000 + (amount - 1500000) * 4 : 20000000 + (amount - 3000000) * 2.5}"
