@@ -13,6 +13,13 @@
     "overview": "Genesis token supply 210Mn, annual inflation rate 2 Parachain auction Cap 25%, target to cover 2-3 auction slot period (20% distributed at TGE after slot is won, 80% linear distributed in the whole 98 weeks’ slot period).Collactor reward 8% (distributed per block, target to cover 2-3 slot period).ParaState DAO treasury airdrop 20% (linear released per block in 48 months) Team 10% (linear released per block in 48 months).Dapp deployment hosting reward 30%2 GEM/block, weekly distributed to the top 20 TVL&Txn fees (50/50 weighted) Dapps' deployment account pro rata.Liquidity mining pool incentives reservation 7% Token symbol, GEM Small unit, Wei (10^18 Wei = 1 GEM),Transaction fee mechanics.Basic gas fee 0.00001 GEM 50% burned 45% to ParaState DAO treasury 5% to Long-term Development Reserve  Transaction fee mechanics of “Plato” mainnet basic gas fee 0.00001 STATE 50% burned 45% to ParaState DAO treasury 5% to Long-term Development Reservetags: ParaState DAO is governanced by all STATE token holders."
   },
   {
+    "paraid": "2030",
+    "name": "Bifrost",
+    "token": "BNC",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/bifrost.png",
+    "overview":"Bifrost is a web3 derivatives protocol that provides decentralized cross-chain liquidity for staked assets. By leveraging on the cross-chain message (XCM) it can provide cross-chain liquid staking services for multiple chains.Bifrost’s mission is to provide standardized cross-chain interest-bearing derivatives for Polkadot relay chains, parachains, and heterogeneous chains bridged with Polkadot. Furthermore, by aggregating over 80% of PoS consensus chains’ staking liquidity through cross-chain derivatives, our protocol lowers users’ staking threshold, increases multi-chain staking ratio, and improves the ecosystems application interest base, by creating a three-way positive cycle for the StakeFi ecosystem by empowering users, multi-chains, and ecosystem applications.Bifrost has raised over USD 2M from top-tier venture capital firms by the likes of NGC, SNZ, DFG, CMS and other institutions. In addition to being an early receiver of a Web3 Foundation Grant, Bifrost is also a member of the Substrate Builders Program and the Web3 Bootcamp."
+  },
+  {
     "paraid": "2040",
     "name": "Polkadex",
     "token": "PDEX",

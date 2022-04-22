@@ -96,6 +96,79 @@
     ],
     "maxCoin": "100M"
   },
+  "2030": {
+    "cDot": "${amount * 1}",
+    "reward": {
+      "fixed": [{ "value": 10, "suffix": "", "unit": "BNC" }],
+      "unit": "BNC",
+      "detail": [
+        {
+          "label": "Est. Project Rewards",
+          "formula": "${amount * 10}"
+        },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {
+              "condition": { "rangeDate": ["04/22/22 10:00:00", "04/30/22 10:00"] },
+              "value": "${amount * 10 * 0.20}"
+            }
+          ]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
+      ],
+      "tooltip": [{ "text": "Parallel Referral Bonus", "value": "5% PARA" }],
+      "detail": [
+        {
+          "label": "Parallel Bonus",
+          "formula": "${amount * 4}"
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Basic BiddinG Rules",
+        "content": [
+          "• Early Bird Bonus: 1 DOT : 12 BNC (+20%)",
+          "• Early bird period: 4/22 10am ~ 4/30 10am (UTC)",
+          "• Base Bonus: 1 DOT : 10 BNC",
+          "• SALP Extra Bonus: 0.1 BNC/DOT",
+          "• Soft Cap: 300,000 DOT (no bonus for exceeding the soft cap)",
+          "• Total Auction Bonus: 3,600,000 BNC",
+          "• Unlocking method: linear release in blocks within 96 weeks"
+        ]
+      },
+      {
+        "label": "Last Winner Rules",
+        "content": [
+          "• Initial Prize Pool: 5,000 BNCs",
+          "• Prize pool injection: additional 5% of the BNC reward earned for participation (matched by the Bifrost Foundation, no participant reward taken)",
+          "• Launch Date: 4/22 10am UTC",
+          "• Refresh countdown: 3min (30 blocks, countdown refreshes every time an address successfully participates)",
+          "• Participation threshold: 5 DOT / 10 DOT / 20 DOT (every 6 hours without ending, the participation threshold doubles)",
+          "• Winning method: the last participant at the end of the countdown gets all BNCs in the prize pool"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "linear release in blocks within 96 weeks"
+        ]
+      }
+    ],
+    "maxCoin": "100M"
+  },
   "2038": {
     "cDot": "${amount * 1}",
     "reward": {
