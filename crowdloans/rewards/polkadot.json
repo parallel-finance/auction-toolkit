@@ -99,7 +99,7 @@
   "2030": {
     "cDot": "${amount * 1}",
     "reward": {
-      "fixed": [{ "value": 10, "suffix": "", "unit": "BNC" }],
+      "fixed": [{ "value": 10, "suffix": "+", "unit": "BNC" }],
       "unit": "BNC",
       "detail": [
         {
