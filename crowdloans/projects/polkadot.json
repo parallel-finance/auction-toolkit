@@ -16,7 +16,7 @@
     "paraid": "2030",
     "name": "Bifrost",
     "token": "BNC",
-    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/bifrost.png",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/bifrost.svg",
     "overview":"Bifrost is a web3 derivatives protocol that provides decentralized cross-chain liquidity for staked assets. By leveraging on the cross-chain message (XCM) it can provide cross-chain liquid staking services for multiple chains.Bifrost’s mission is to provide standardized cross-chain interest-bearing derivatives for Polkadot relay chains, parachains, and heterogeneous chains bridged with Polkadot. Furthermore, by aggregating over 80% of PoS consensus chains’ staking liquidity through cross-chain derivatives, our protocol lowers users’ staking threshold, increases multi-chain staking ratio, and improves the ecosystems application interest base, by creating a three-way positive cycle for the StakeFi ecosystem by empowering users, multi-chains, and ecosystem applications.Bifrost has raised over USD 2M from top-tier venture capital firms by the likes of NGC, SNZ, DFG, CMS and other institutions. In addition to being an early receiver of a Web3 Foundation Grant, Bifrost is also a member of the Substrate Builders Program and the Web3 Bootcamp."
   },
   {
