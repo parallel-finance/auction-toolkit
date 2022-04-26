@@ -182,16 +182,13 @@
         },
         {
           "label": "Early Bird Bonus",
-          "formula": [
-            {
-              "value": "${amount * 20 * 0.05}"
-            }
+          "formula": "${amount * 20 * 0.05}"
+        }
           ],
           "tooltip": [
             "5% Early bird bonus (limited to 5 000 users)"
           ]
         }
-      ]
     },
     "parallelBonus": {
       "items": [
