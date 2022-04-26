@@ -169,6 +169,68 @@
     ],
     "maxCoin": "100M"
   },
+  "2043": {
+    "cDot": "${amount * 1}",
+    "reward": {
+      "total": "1 DOT equals to 20+ OTP",
+      "fixed": [{ "value": 20, "suffix": "+", "unit": "0TP" }],
+      "unit": "OTP",
+      "detail": [
+        {
+          "label": "Est. Project Rewards",
+          "formula": "${amount * 20}"
+        },
+        {
+          "label": "Early Bird Bonus",
+          "formula": [
+            {
+              "value": "${amount * 20 * 0.05}"
+            }
+          ],
+          "tooltip": [
+            "5% Early bird bonus (limited to 5 000 users)"
+          ]
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
+      ],
+      "tooltip": [{ "text": "Parallel Referral Bonus", "value": "5% PARA" }],
+      "detail": [
+        {
+          "label": "Parallel Bonus",
+          "formula": "${amount * 4}"
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": " Reward",
+        "content": [
+          "• 1 DOT :20+OTP",
+          "• 5% Early bird bonus (limited to 5 000 users)",
+          "• 15% Bonus for strategic contributors",
+          "• up to 5% Referral bonus"
+      ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "25% immediately, 75% evenly over the lease period"
+        ]
+      }
+    ],
+    "maxCoin": "100M"
+  },
   "2038": {
     "cDot": "${amount * 1}",
     "reward": {
