@@ -182,13 +182,12 @@
         },
         {
           "label": "Early Bird Bonus",
-          "formula": "${amount * 20 * 0.05}"
-        }
-          ],
+          "formula": "${amount * 20 * .05}",
           "tooltip": [
             "5% Early bird bonus (limited to 5 000 users)"
           ]
         }
+      ]
     },
     "parallelBonus": {
       "items": [
@@ -222,7 +221,7 @@
       {
         "label": "Vesting schedule",
         "content": [
-          "25% immediately, 75% evenly over the lease period"
+          "20% distributed at TGE after slot is won, 80% linear distributed in the whole 98 weeks’ slot period"
         ]
       }
     ],
