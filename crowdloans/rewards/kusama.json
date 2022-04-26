@@ -50,7 +50,7 @@
         ]
       },
       {
-        "label": "Reward Pool",
+        "label": "Bonus",
         "content": [
           "Quantity Bonus:Up to 120% bonus depending on KSM amount",
           "Referral: 5% referral bonus reward each to referral and referee"
@@ -75,7 +75,7 @@
         ]
       },
       {
-        "label": "Bonus",
+        "label": "Reward Pool",
         "content": [
           "- 350k of 70m (0.5%)",
           "- Our Shiden token reward budget is fixed at 350,000 SDN",
