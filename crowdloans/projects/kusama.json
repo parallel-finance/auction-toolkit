@@ -30,6 +30,13 @@
     "rewardRate": 25
   },
   {
+    "paraid": "2120",
+    "name": "Shiden Network",
+    "token": "SDN",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/shidennetwork.svg",
+    "rewardRate": 23.33
+  },
+  {
     "paraid": "2115",
     "name": "Dora",
     "token": "DORA",

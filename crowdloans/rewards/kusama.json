@@ -45,20 +45,47 @@
       {
         "label": "Total Rewards",
         "content": [
-          "Initial supply of 21 million KSX, increased with 10% additional issuance every year"
+           "Initial supply of 21 million KSX, increased with 10% additional issuance every year"
+
         ]
       },
       {
-        "label": "Bonus",
+        "label": "Reward Pool",
         "content": [
           "Quantity Bonus:Up to 120% bonus depending on KSM amount",
           "Referral: 5% referral bonus reward each to referral and referee"
+      
         ]
       },
       {
         "label": "Vesting schedule",
         "content": [
           "KSX will be distributed when the network is launched and connected to Kusama."
+        ]
+      }
+    ]
+  },
+  "2120": {
+    "reward": { "min": 23.23 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": [
+          "350,000 SDN"
+        ]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "- 350k of 70m (0.5%)",
+          "- Our Shiden token reward budget is fixed at 350,000 SDN",
+          "- In other words, if we achieve our goal of 15,000 KSM, then for every 1 KSM contributed, you will be given 23.33 SDN"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "SDN rewards will be distributed linearly in each block (48 weeks)"
         ]
       }
     ]
