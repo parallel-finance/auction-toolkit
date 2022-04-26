@@ -245,13 +245,20 @@
         {
           "formula": "0.05",
           "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
-        }
+        },
+        { "formula": "0.20" }
       ],
-      "tooltip": [{ "text": "Parallel Referral Bonus", "value": "5% PARA" }],
+      "tooltip": [
+        { "text": "Parallel Referral Bonus", "value": "5% PARA" },
+        { "text": "Extra 20% bonus for the first 48 hours of the #11 auction crowdloan", "value": "20% GEM" }
+      
+      ],
+
       "detail": [
         {
           "label": "Parallel Bonus",
           "formula": "${amount * 4}"
+          
         },
         {
           "label": "Parallel Referral Bonus",
