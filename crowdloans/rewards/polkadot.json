@@ -812,7 +812,7 @@
     "cDot": "${amount * 1}",
     "reward": {
       "total": "10% of initial 4-year supply",
-      "fixed": [{ "value": 3.463, "suffix": "+", "unit": "INTR" }],
+      "fixed": [{ "value": 36, "suffix": "+", "unit": "INTR" }],
       "unit": "INTR",
       "detail": [
         {
@@ -876,7 +876,7 @@
       {
         "label": "Bonus",
         "content": [
-          "Early Bird: 10% extra rewards if you contribute before 12/23/21.",
+          "10% rewards if you contribute before 23 Dec 2021 18:00:01 GMT.",
           "Referral: 5% referral bonus reward each to referral and referee",
           "Strong Supporter: 10% to users who contribute more than 50,000 DOT"
         ]
@@ -888,6 +888,7 @@
       {
         "label": "Project Rewards",
         "content": [
+          "-2.5% bonus if you contributed to Kintsugi crowdloan (must use the same account)",
           "-kBTC user bonus (tbc): Mint kBTC or run a Vault with collateral. (tbc): Mint kBTC and/or run a Vault with collateral. Will be announced ad-hoc!"
         ]
       },
