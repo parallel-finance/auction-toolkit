@@ -47,7 +47,7 @@
     "paraid": "2113",
     "name": "Kabocha",
     "token": "KAB",
-    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/kabocha.png",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/kabocha.svg",
     "rewardRate": 160
   },
   {
