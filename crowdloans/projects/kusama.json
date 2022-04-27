@@ -30,14 +30,14 @@
     "rewardRate": 25
   },
   {
-    "paraid": "2116",
+    "paraid": "2118",
     "name": "Tanganika Network",
     "token": "DHX",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/datahighway.svg",
     "rewardRate": 20
   },
   {
-    "paraid": "2118",
+    "paraid": "2116",
     "name": "Listen",
     "token": "LT",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/listen.svg",
