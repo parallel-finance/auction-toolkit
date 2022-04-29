@@ -221,7 +221,7 @@
       {
         "label": "Vesting schedule",
         "content": [
-          "20% distributed at TGE after slot is won, 80% linear distributed in the whole 98 weeks’ slot period"
+          "25% immediately, 75% evenly over the lease period"
         ]
       }
     ],
