@@ -44,24 +44,24 @@
     "rewardRate": 3
   },
   {
-    "paraid": "2118",
+    "paraid": "2116",
     "name": "Tanganika Network",
     "token": "DHX",
-    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/datahighway.png",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/datahighway.svg",
     "rewardRate": 20
   },
   {
-    "paraid": "2116",
+    "paraid": "2118",
     "name": "Listen",
     "token": "LT",
-    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/listen.png",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/listen.svg",
     "rewardRate": 5000
   },
   {
     "paraid": "2113",
     "name": "Kabocha",
     "token": "KAB",
-    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/kabocha.png",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/kabocha.svg",
     "rewardRate": 160
   },
   {
@@ -383,7 +383,7 @@
   },  
   {
     "paraid": "2115",
-    "name": "DORA KSM Parachain",
+    "name": "DORA",
     "token": "DORA",
     "description": "DoraFactory Kusama parachain",
     "overview": "Dora Factory is the DAO-as-a-Service infrastructure that empowers decentralized organizations and open source ventures. The DORA KSM Parachain is Dora Factory’s Kusama parachain, which supports pallets like quadratic funding and multisig wallet. In connection with DoraHacks, the Dora Factory KSM Parachain will be able to support open source communities, hackathons, quadratic funding grants, and DAOs in general from the Kusama ecosystem.",
