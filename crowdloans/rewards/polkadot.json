@@ -144,7 +144,7 @@
           "• Early bird period: 4/22 10am ~ 4/30 10am (UTC)",
           "• Base Bonus: 1 DOT : 10 BNC",
           "• SALP Extra Bonus: 0.1 BNC/DOT",
-          "• Soft Cap: 300,000 DOT (no bonus for exceeding the soft cap)",
+          "• Soft Cap: 300,000 DOT (NO BNC rewards after exceeding the soft cap)",
           "• Total Auction Bonus: 3,600,000 BNC",
           "• Unlocking method: linear release in blocks within 96 weeks"
         ]
