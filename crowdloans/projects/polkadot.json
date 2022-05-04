@@ -13,6 +13,13 @@
     "overview": "Genesis token supply 210Mn, annual inflation rate 2 Parachain auction Cap 25%, target to cover 2-3 auction slot period (20% distributed at TGE after slot is won, 80% linear distributed in the whole 98 weeks’ slot period).Collactor reward 8% (distributed per block, target to cover 2-3 slot period).ParaState DAO treasury airdrop 20% (linear released per block in 48 months) Team 10% (linear released per block in 48 months).Dapp deployment hosting reward 30%2 GEM/block, weekly distributed to the top 20 TVL&Txn fees (50/50 weighted) Dapps' deployment account pro rata.Liquidity mining pool incentives reservation 7% Token symbol, GEM Small unit, Wei (10^18 Wei = 1 GEM),Transaction fee mechanics.Basic gas fee 0.00001 GEM 50% burned 45% to ParaState DAO treasury 5% to Long-term Development Reserve  Transaction fee mechanics of “Plato” mainnet basic gas fee 0.00001 STATE 50% burned 45% to ParaState DAO treasury 5% to Long-term Development Reservetags: ParaState DAO is governanced by all STATE token holders."
   },
   {
+    "paraid": "2007",
+    "name": "Totem KAPEX",
+    "token": "KAPEX",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/kapex.svg",
+    "overview": "Totem makes use of the peer-2-peer connectivity and real-time consensus properties of their blockchain to ensure that all parties to a transaction have their accounting records updated at the time of the event in a way that leaves no room for fraud, corruption or manipulation. The global nature of the network defies politically motivated bad actors from restricting trade between consenting parties whilst preserving goals of personal and business privacy.As a side-effect you'll be excited to learn that Totem also takes accounting off the todo list for everyone."
+  },
+  {
     "paraid": "2043",
     "name": "OriginTrail ",
     "token": "OTP",
