@@ -428,5 +428,31 @@
         ]
       }
     ]
+  },
+  "2119": {
+    "reward": {
+      "min": 110
+    },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["5,000,000 BAJU (10% of total token supply)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "Early Bird Bonus #1: First 1000 contributions of at least 5 KSM get extra 10% Bonus.",
+          "Early Bird Bonus #2: First 500 contributions of at least 1 KSM get extra 5% Bonus.",
+          "Referral Bonus: Refer a friend and share a 10% referral bonus (Referrer gets 5%, the referee gets 5%).",
+          "NFT Reward Bonus: Here comes the fun part! For each KSM you contribute, you get at least two free-mints* of the exclusive Awesome Ajuna Avatars (AAAs). Awesome Ajuna Avatars (AAAs) is a game about minting and forging legendary avatars as NFTs. (*free-mints: only gas fee apply)"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "35% initially unlocked, 65% linearly vested over lease period 48 weeks."
+        ]
+      }
+    ]
   }
 }

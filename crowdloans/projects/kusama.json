@@ -380,5 +380,24 @@
         { "name": "Community DAO", "value": 10, "color": "#c0dfdd" },
         { "name": "Parachain Slot Reserve", "value": 5, "color": "#609c96" }
       ]}
+  },
+  {
+    "paraid": "2119",
+    "name": "Bajun Network",
+    "token": "BAJU",
+    "description": "Decentralized gaming platform on Kusama",
+    "overview": "Bajun Network the Kusama parachain of Ajuna Network is a decentralized gaming platform that delivers real value to gamers, without compromising on gameplay. It empowers you to truly own your in-game assets, protect and control their functionality, and have a voice in the future of the games you love.",
+    "website": "https://ajuna.io/",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/bajun.png",
+    "tokenomics": {
+      "totalSupply": 50000000,
+      "data": [
+        { "name": "Founder & Team", "value": 15, "color": "#c73866" },
+        { "name": "Development & Marketing", "value": 30, "color": "#fe676e" },
+        { "name": "Advisor", "value": 5, "color": "#fd8f52" },
+        { "name": "Treasury & Reserves", "value": 22, "color": "#ffdca2" },
+        { "name": "Crowdloan", "value": 10, "color": "#ffbd71" },
+        { "name": "Early Contributors", "value": 18, "color": "#f9e07f" }
+      ]}
   }
 ]
