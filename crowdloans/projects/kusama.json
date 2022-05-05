@@ -388,7 +388,7 @@
     "description": "Decentralized gaming platform on Kusama",
     "overview": "Bajun Network the Kusama parachain of Ajuna Network is a decentralized gaming platform that delivers real value to gamers, without compromising on gameplay. It empowers you to truly own your in-game assets, protect and control their functionality, and have a voice in the future of the games you love.",
     "website": "https://ajuna.io/",
-    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/bajun.png",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/bajun.svg",
     "tokenomics": {
       "totalSupply": 50000000,
       "data": [
