@@ -812,7 +812,7 @@
     "cDot": "${amount * 1}",
     "reward": {
       "total": "10% of initial 4-year supply",
-      "fixed": [{ "value": 36, "suffix": "+", "unit": "INTR" }],
+      "fixed": [{ "value": 22.71, "suffix": "+", "unit": "INTR" }],
       "unit": "INTR",
       "detail": [
         {
