@@ -2209,5 +2209,76 @@
         }
       ]
     }
-  }
+  },
+  "2007": {
+    "cDot": "${amount * 1}",
+    "reward": {
+        "fixed": [{ "value": 0.1, "suffix": "+", "unit": "KAPEX" }],
+        "unit": "KAPEX",
+        "detail": [
+        {
+            "label": "Est. Project Rewards",
+            "formula": "${amount * 0.1}"
+        },
+        ]
+    },
+    "parallelBonus": {
+        "items": [
+        {
+            "formula": "0.05",
+            "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
+        ],
+        "tooltip": [{ "text": "Parallel Referral Bonus", "value": "5% PARA" }],
+        "detail": [
+        {
+            "label": "Parallel Bonus",
+            "formula": "${amount * 4}"
+        },
+        {
+            "label": "Parallel Referral Bonus",
+            "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
+        }
+        ]
+    },
+    "rewardRules": [
+        {
+        "label": "Crowdloan Contribution Guarantee",
+        "content": [
+          "• All participants share in 22% of Total Supply (568000 KAPEX) regardless of cap status",
+          "• All participants contributing to the Crowdloan via Parallel Finance earn 5% bonus",
+        ]
+    },
+        {
+        "label": "Crowdloan Contribution Rewards",
+        "content": [
+            "• Base Allocation: 1 DOT : 0.1+ KAPEX",
+            "• Softcap 568000 DOT ~ 56800 KAPEX",
+            "• Softcap Bonus 10% of contribution",
+            "• Base Allocation: 1 DOT : 0.1+ KAPEX",
+            "• Targetcap 1775000 DOT ~ 177500 KAPEX",
+            "• Targetcap further Bonus 10% of contribution (total 20% bonus)",
+            "• Hardcap 5680000 DOT ~ 568000 KAPEX (guaranteed distribution pool for all participants)",
+        ]
+    },
+    {
+        "label": "Pledge Rewards",
+        "content": [
+            "• All contributors through Parallel Finance will have the option to acquire KAPEX for DOT after the Crowdloan via the Pledge",
+            "• The Pledge is a non-binding signal of intent to fund the team (becoming community VC)",
+            "• Pledge Base allocations: 1 DOT : 0.32+ KAPEX ",
+            "• Softcap and Target Cap Bonuses from Crowdloan auto-applied to pledge amounts",
+            "• Softcap 177500 DOT pledged ~ 56800 KAPEX",
+            "• Hardcap 1775000 DOT pledged ~ max 568000 KAPEX allocated to pledge",
+        ]
+        },
+        {
+        "label": "Vesting schedule",
+        "content": [
+            "No vesting period after transaction lock is lifted."
+        ]
+        }
+    ],
+    "maxCoin": "2.58M"
+    }
 }
