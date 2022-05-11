@@ -2218,7 +2218,7 @@
         "detail": [
         {
             "label": "Est. Project Rewards",
-            "formula": "${amount * 0.1}"
+            "formula": "${amount * 0.1 * 1.1}"
         },
         ]
     },
@@ -2246,7 +2246,7 @@
         "label": "Crowdloan Contribution Guarantee",
         "content": [
           "• All participants share in 22% of Total Supply (568000 KAPEX) regardless of cap status",
-          "• All participants contributing to the Crowdloan via Parallel Finance earn 5% bonus",
+          "• All participants contributing to the Crowdloan via Parallel Finance earn 10% bonus",
         ]
     },
         {
