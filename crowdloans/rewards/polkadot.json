@@ -96,6 +96,57 @@
     ],
     "maxCoin": "100M"
   },
+  "2007": {
+    "cDot": "${amount * 1}",
+    "reward": {
+      "fixed": [{ "value": 0.1, "suffix": "+", "unit": "KAPEX" }],
+      "unit": "KAPEX",
+      "detail": [
+        {
+          "label": "Est. Project Rewards",
+          "formula": "${amount * 0.1}"
+        }
+      ]
+    },
+    "parallelBonus": {
+      "items": [
+        {
+          "formula": "0.05",
+          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
+        }
+      ],
+      "tooltip": [{ "text": "Parallel Referral Bonus", "value": "10% PARA" }],
+      "detail": [
+        {
+          "label": "Parallel Bonus",
+          "formula": "${amount * 4}"
+        },
+        {
+          "label": "Parallel Referral Bonus",
+          "formula": "${referralAvailable ? amount * 4 * 0.1 : 0}"
+        }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Reward Pool",
+        "content": [
+         "min distribution 568000 KAPEX of 2.58m (22%) to all participants",
+         "• 10% referral bonus for contributing via parallel.fi",
+         "• 10% Soft Cap bonus (568 000 DOT)",
+         "• Further 10% Target Cap bonus (1 775 000 DOT)",
+         "max. 1.42m of 2.58m (55%) for Crowdloan, Pledge, Cap Bonuses & Referrals"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "No vesting period. KAPEX coins will be available to transfer as soon as the balance transfer lock is disabled."
+        ]
+      }
+    ],
+    "maxCoin": "100M"
+  },
   "2030": {
     "cDot": "${amount * 1}",
     "reward": {
