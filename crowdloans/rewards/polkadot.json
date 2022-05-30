@@ -939,9 +939,8 @@
       {
         "label": "Project Rewards",
         "content": [
-          "-2.5% bonus if you contributed to Kintsugi crowdloan (must use the same account)",
-          "-kBTC user bonus (tbc): Mint kBTC or run a Vault with collateral. (tbc): Mint kBTC and/or run a Vault with collateral. Will be announced ad-hoc!"
-        ]
+          "-2.5% bonus if you contributed to Kintsugi crowdloan (must use the same account)"
+                ]
       },
       {
         "label": "Vesting schedule",
@@ -2147,7 +2146,7 @@
   },
   "2011": {
     "reward": {
-      "total": "16.67% of Total Supply",
+      "total": "9.17% of Total Supply",
       "min": 200,
       "detail": [
         { "label": "Est. Project Rewards", "formula": "${amount * 200}" },
@@ -2203,6 +2202,8 @@
       {
         "label": "Project Bonus",
         "content": [
+          "Total Crowdloan Rewards:",
+          "1.1b of 12b (9.17%)",
           "Early Bird:",
           "50% early bird bonus applicable until 20 Mar 2022 23:59 UTC",
           "\n",
