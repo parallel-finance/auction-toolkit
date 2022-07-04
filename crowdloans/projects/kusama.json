@@ -399,5 +399,14 @@
         { "name": "Crowdloan", "value": 10, "color": "#ffbd71" },
         { "name": "Early Contributors", "value": 18, "color": "#f9e07f" }
       ]}
+  },
+  {
+    "paraid": "2126",
+    "name": "Parallel Heiko",
+    "token": "HKO",
+    "description": "Decentralized money market protocol that offers lending, staking, and borrowing",
+    "website": "https://parallel.fi/index.html",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/parallel.svg",
+    "rewardRate": 200
   }
 ]
