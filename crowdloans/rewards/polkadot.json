@@ -2028,12 +2028,12 @@
   "2021": {
     "reward": {
       "total": "10% of Total Supply",
-      "min": 26,
+      "min": 4,
       "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 26}" },
+        { "label": "Est. Project Rewards", "formula": "${amount * 4}" },
         {
           "label": "Early Bird Bonus (Parallel Re-Contributors)",
-          "formula": "${amount * 0.05 * 26}",
+          "formula": "${amount * 0.05 * 4}",
           "tooltip": [
             "Parallel Re-Contributors (Early Bird, before 12/23/2021)",
             "Users who contributed to the Efinity crowdloan via Parallel in Batch 1 and who re-contribute their DOT to Efinity in Batch 2 will receive the following bonus rewards:",
@@ -2043,7 +2043,7 @@
         },
         {
           "label": "Early Bird Bonus (Binance Re-Contributors)",
-          "formula": "${amount * 0.05 * 26}",
+          "formula": "${amount * 0.05 * 4}",
           "tooltip": [
             "Binance Re-Contributors (Early Bird, before 12/23/2021)",
             "Users who contributed to the Efinity crowdloan through Binance in Batch 1 and who re-contribute their DOT to Efinity in Batch 2 will receive the following bonus rewards:",
@@ -2067,21 +2067,21 @@
         { "text": "Parallel Re-Contributors", "value": "25% PARA" }
       ],
       "detail": [
-        { "label": "Parallel Bonus", "formula": "${amount * 26}" },
+        { "label": "Parallel Bonus", "formula": "${amount * 4}" },
         {
           "label": "Parallel Referral Bonus",
-          "formula": "${referralAvailable ? amount * 26 * 0.05 : 0}"
+          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
         },
         {
           "label": "Parallel Re-Contributors",
-          "formula": "${amount * 26 * 0.25}",
+          "formula": "${amount * 4 * 0.25}",
           "tooltip": [
             "Early bird, this applies for users who also contributed in batch 1 before 12/23/2021."
           ]
         },
         {
           "label": "Binance Re-Contributors",
-          "formula": "${amount * 26 * 0.25}",
+          "formula": "${amount * 4 * 0.25}",
           "tooltip": [
             "Early bird, this applies for users who also contributed in batch 1 before 12/23/2021."
           ]
