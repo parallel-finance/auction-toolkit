@@ -460,5 +460,28 @@
         ]
       }
     ]
+  },
+  "2126": {
+    "reward": { "min": 200 },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": [
+          "5,000,000 HKO + cKSM"
+        ]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "10% HKO Bonus reward will be given to investors who participated with the same wallet address in our first crowdloan last year"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "The total reward pool will be distributed upon successful launch on the new parachain slot and will vest linearly over the slot lease duration (~48 weeks)."
+        ]
+      }
+    ]
   }
 }
