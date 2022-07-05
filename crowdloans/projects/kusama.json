@@ -404,7 +404,7 @@
     "paraid": "2126",
     "name": "Parallel Heiko",
     "token": "HKO",
-    "description": "Decentralized money market protocol that offers lending, staking, and borrowing",
+    "description": "Decentralized DeFi protocol that offers a suite of DeFi products from lending, borrowing, liquid staking, AMM, and farming.",
     "website": "https://parallel.fi/index.html",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/parallel.svg",
     "rewardRate": 200
