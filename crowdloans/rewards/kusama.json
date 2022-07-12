@@ -479,7 +479,7 @@
       {
         "label": "Vesting schedule",
         "content": [
-          "The total reward pool will be distributed upon successful launch on the new parachain slot and will vest linearly over the slot lease duration (~48 weeks)."
+          "HKO rewards will be distributed upon successful launch on the new parachain slot and will vest linearly over the slot lease duration (~48 weeks)."
         ]
       }
     ]
