@@ -6,6 +6,20 @@
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/centrifuge.png"
   },
   {
+    "paraid": "2053",
+    "name": "OmniBTC",
+    "token": "SO",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/omnibtc.svg",
+    "overview": "OmniBTC is an omnichain financial platform for web3,including omnichain swap and BTC omnichain lending."
+  },
+  {
+    "paraid": "2039",
+    "name": "Integritee Shell",
+    "token": "TEER",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/integriteeshell.svg",
+    "overview": "Integritee is the most scalable public blockchain solution for securely processing sensitive business or personal data. Harness the speed and confidentiality of trusted execution environments, combined with the trust of a decentralized network, with Integritee."
+  },
+  {
     "paraid": "2038",
     "name": "Geminis",
     "token": "GEM",
