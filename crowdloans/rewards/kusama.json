@@ -45,8 +45,7 @@
       {
         "label": "Total Rewards",
         "content": [
-           "Initial supply of 21 million KSX, increased with 10% additional issuance every year"
-
+          "Initial supply of 21 million KSX, increased with 10% additional issuance every year"
         ]
       },
       {
@@ -54,7 +53,6 @@
         "content": [
           "Quantity Bonus:Up to 120% bonus depending on KSM amount",
           "Referral: 5% referral bonus reward each to referral and referee"
-      
         ]
       },
       {
@@ -70,9 +68,7 @@
     "rewardRules": [
       {
         "label": "Total Rewards",
-        "content": [
-          "350,000 SDN"
-        ]
+        "content": ["350,000 SDN"]
       },
       {
         "label": "Reward Pool",
@@ -95,9 +91,7 @@
     "rewardRules": [
       {
         "label": "Total Rewards",
-        "content": [
-          "100m of 10b (1%)"
-        ]
+        "content": ["100m of 10b (1%)"]
       },
       {
         "label": "Vesting schedule",
@@ -113,9 +107,7 @@
     "rewardRules": [
       {
         "label": "Total Rewards",
-        "content": [
-          "300k of 100m (0.3%)"
-        ]
+        "content": ["300k of 100m (0.3%)"]
       },
       {
         "label": "Project Bonus",
@@ -137,9 +129,7 @@
     "rewardRules": [
       {
         "label": "Total Rewards",
-        "content": [
-          "3.2m of 64.3m (4.98%)"
-        ]
+        "content": ["3.2m of 64.3m (4.98%)"]
       },
       {
         "label": "Vesting schedule",
@@ -429,9 +419,7 @@
     "rewardRules": [
       {
         "label": "Vesting schedule",
-        "content": [
-          "100% vests over the lease period of 48 weeks."
-        ]
+        "content": ["100% vests over the lease period of 48 weeks."]
       }
     ]
   },
@@ -467,7 +455,8 @@
       {
         "label": "Total Rewards",
         "content": [
-          "5,000,000 HKO + cKSM"
+          "5,000,000 HKO + cKSM",
+          "The first 8,000 KSM contributions will be rewarded with 500 HKO per KSM contributed. Afterwards, the reward rate will be 200 HKO per KSM, up to the max cap."
         ]
       },
       {
