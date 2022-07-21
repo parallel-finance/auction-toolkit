@@ -462,12 +462,13 @@
     ]
   },
   "2126": {
-    "reward": { "min": 200 },
+    "reward": { "min": 500 },
     "rewardRules": [
       {
         "label": "Total Rewards",
         "content": [
-          "5,000,000 HKO + cKSM"
+          "5,000,000+ HKO and cKSM",
+          "The first 8,000 KSM contributions will be rewarded with 500 HKO per KSM contributed. Afterwards, the reward rate will be 200 HKO per KSM, up to the max cap."
         ]
       },
       {
