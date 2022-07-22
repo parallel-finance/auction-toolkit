@@ -462,7 +462,7 @@
     ]
   },
   "2126": {
-    "reward": { "min": 500 },
+    "reward": { "min": 200 },
     "rewardRules": [
       {
         "label": "Total Rewards",
