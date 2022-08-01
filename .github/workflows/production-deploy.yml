@@ -1,7 +1,9 @@
 name: Deploy to production
 
-push:
-  branch: main
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   check:
