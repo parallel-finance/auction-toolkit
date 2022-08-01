@@ -670,5 +670,12 @@
     "name": "Unique Network",
     "token": "UNQ",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/uniqueNetwork.svg"
+  },
+  {
+    "paraid": "2052",
+    "name": "Kylin",
+    "token": "KYL",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/kylin.png",
+    "website": "https://kylin.network/"
   }  
 ]
