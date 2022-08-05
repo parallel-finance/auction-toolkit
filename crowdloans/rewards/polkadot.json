@@ -2291,16 +2291,8 @@
     "rewardRules": [
       {
         "label": "Total Rewards",
-        "content": ["150M-15% of total supply (1 billion $KYL) as Kylin Network crowdloan Reward to all DOT contributors"]
-      },
-      {
-        "label": "Early Bird Reward",
-        "content": ["1% will be an early bird reward to the first 10% DOT contributors."]
-      },
-      {
-        "label": "Vesting schedule",
         "content": [
-          "30% rewards will be distributed when parachain launches. The remainin 70% rewards will be distributed by block."
+          "Kylin Network will not be distributing any reward for participating in this crowdloan."
         ]
       }
     ]
