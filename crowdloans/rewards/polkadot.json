@@ -791,10 +791,10 @@
     },
     "rewardRules": [
       {
-        "label": "Total Crowdloan Rewards",
+        "label": "Project Reward rules",
         "content": [
-          "20,000 CRU",
-          "The total number of CRU in the reward pool is 20,000. Contributor rewards will be divided equally according to the actual raised DOT.  If a total of 10,000 DOT are raised, each DOT can be rewarded with 2CRU."
+          "Hardcap: 100,000 DOT",
+          "Reward Pool: The total number of CRU in the reward pool is 20,000. Contributor rewards will be divided equally according to the actual raised DOT.  If a total of 100,000 DOT are raised, each DOT can be rewarded with 0.2CRU."
         ]
       },
       {
