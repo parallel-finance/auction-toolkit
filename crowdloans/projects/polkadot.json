@@ -97,7 +97,7 @@
     "website": "https://crust.network",
     "token": "CRU",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/crust.svg",
-    "overview": "Crust implements the incentive layer protocol for decentralized storage. It is adaptable to multiple storage layer protocols such as IPFS, and provides support for the application layer. Crust’s architecture also has the capability of supporting a decentralized computing layer and building a decentralized cloud ecosystem.Crust's decentralized storage layer provides a distributed file system. At the same time, Crust encapsulates some standard interfaces such as Amazon S3-like. Any application scenarios involving data storage, such as cloud services, edge computing, and decentralized applications, are the scenarios that Crust can adapt.",
+    "overview": "Crust Network is a versatile, purpose-built storage blockchain that delivers truly decentralized file storage and hosting capabilities for the entire Web3 ecosystem, empowering privacy and data ownership. Crust supports multiple storage-layer protocols such as IPFS, and exposes instant accessible on-chain storage functions to users.",
     "tokenomics": {
       "totalSupply": 20000000,
       "data": [
