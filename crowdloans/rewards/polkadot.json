@@ -780,81 +780,30 @@
   "2008": {
     "cDot": "${amount * 1}",
     "reward": {
-      "total": "5% of Total Supply",
       "fixed": [{ "value": 0.2, "suffix": "+", "unit": "CRU" }],
       "unit": "CRU",
       "detail": [
         {
           "label": "Est. Project Rewards",
           "formula": "${amount * 0.2}"
-        },
-        {
-          "label": "Early Bird Bonus",
-          "formula": [
-            {
-              "condition": { "beforeDate": "1/20/2022 0:00" },
-              "value": "${amount * 0.20 * 0.30}"
-            },
-            {
-              "condition": { "afterDate": "1/20/22 0:00" },
-              "value": "${amount * 0.20 * 0.2}"
-            }
-          ],
-          "tooltip": [
-            "-Before 0:00 1/20/2022 (UTC+8),extra 30% CRU.After 0:00 1/20/2022 (UTC+8), extra 20% CRU."
-          ]
-        }
-      ]
-    },
-    "parallelBonus": {
-      "items": [
-        {
-          "formula": "0.05",
-          "logo": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/assets/images/para.svg"
-        },
-        { "formula": "0.30" }
-      ],
-      "tooltip": [
-        { "text": "Parallel Referral Bonus", "value": "5% PARA" },
-        { "text": "Early Bird: Until 1/20/2022", "value": "30% CRU" },
-        { "text": "Early Bird: After 1/20/2022", "value": "20% CRU" }
-      ],
-      "detail": [
-        {
-          "label": "Parallel Bonus",
-          "formula": "${amount * 4}"
-        },
-        {
-          "label": "Parallel Referral Bonus",
-          "formula": "${referralAvailable ? amount * 4 * 0.05 : 0}"
         }
       ]
     },
     "rewardRules": [
       {
         "label": "Total Crowdloan Rewards",
-        "content": ["1,000,000 CRU (5% of Total Supply)"]
-      },
-      {
-        "label": "Bonus",
         "content": [
-          "Early Bird: Before 0:00 1/20/2022 (UTC+8),extra 30% CRU.After 0:00 1/20/2022 (UTC+8), extra 20% CRU",
-          "Lucky Draw: Total 10000CRU lucky draw for 10 randomly selected contributors (1 DOT per 1 lottery ticket）"
+          "20,000 CRU",
+          "The total number of CRU in the reward pool is 20,000. Contributor rewards will be divided equally according to the actual raised DOT.  If a total of 10,000 DOT are raised, each DOT can be rewarded with 2CRU."
         ]
-      },
-      {
-        "label": "Parallel Additional Bonus",
-        "content": ["4 PARA per DOT contributed"]
       },
       {
         "label": "Vesting schedule",
         "content": [
-          "30% will be available to claim immediately",
-          "70% be released in 10% increments each lease period"
+          "All rewards will be released linearly each lease period. Contributors can claim rewards once the parachain goes online."
         ]
       }
-    ],
-    "maxCoin": "100M"
+    ]
   },
   "2032": {
     "cDot": "${amount * 1}",
