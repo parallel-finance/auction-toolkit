@@ -379,7 +379,8 @@
         { "name": "Strategic Partnerships", "value": 10, "color": "#a7c2df" },
         { "name": "Community DAO", "value": 10, "color": "#c0dfdd" },
         { "name": "Parachain Slot Reserve", "value": 5, "color": "#609c96" }
-      ]}
+      ]
+    }
   },
   {
     "paraid": "2119",
@@ -398,7 +399,8 @@
         { "name": "Treasury & Reserves", "value": 22, "color": "#ffdca2" },
         { "name": "Crowdloan", "value": 10, "color": "#ffbd71" },
         { "name": "Early Contributors", "value": 18, "color": "#f9e07f" }
-      ]}
+      ]
+    }
   },
   {
     "paraid": "2126",
