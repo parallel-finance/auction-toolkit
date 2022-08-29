@@ -29,9 +29,7 @@
         {
           "label": "Loyalty Bonus",
           "formula": "${amount * .48 * 0.05}",
-          "tooltip": [
-            "5% bonus for those who previously contributed KSM and stablecoins to the Picasso Crowdloan"
-          ]
+          "tooltip": ["5% bonus for those who previously contributed KSM and stablecoins to the Picasso Crowdloan"]
         },
         {
           "label": "Referral Bonus",
@@ -88,10 +86,7 @@
       },
       {
         "label": "Vesting schedule",
-        "content": [
-          "25% vesting on TGE",
-          "75% vesting linearly over following 2 years"
-        ]
+        "content": ["25% vesting on TGE", "75% vesting linearly over following 2 years"]
       }
     ],
     "maxCoin": "100M"
@@ -380,10 +375,7 @@
       },
       {
         "label": "Vesting schedule",
-        "content": [
-          "25%: Immediate unlock.",
-          "75%: Linear unlock over 96 weeks."
-        ]
+        "content": ["25%: Immediate unlock.", "75%: Linear unlock over 96 weeks."]
       }
     ],
     "maxCoin": "100M"
@@ -401,9 +393,7 @@
         },
         {
           "label": "Early Bird Bonus",
-          "tooltip": [
-            "Read the text below for full set of rewards, they’re great!"
-          ]
+          "tooltip": ["Read the text below for full set of rewards, they’re great!"]
         }
       ]
     },
@@ -633,9 +623,7 @@
               "value": "${amount * 3.65 * 0.1}"
             }
           ],
-          "tooltip": [
-            "10% bonus if you contribute from 10:03am Dec, 15 to 10:03am Dec, 21"
-          ]
+          "tooltip": ["10% bonus if you contribute from 10:03am Dec, 15 to 10:03am Dec, 21"]
         },
         {
           "label": "Heavyweight Bonus",
@@ -652,9 +640,7 @@
         {
           "label": "Referral Bonus",
           "formula": "${amount * 3.65 * 0.05}",
-          "tooltip": [
-            "By default, Parallel users will get the 5% bonus CFG referral rewards."
-          ]
+          "tooltip": ["By default, Parallel users will get the 5% bonus CFG referral rewards."]
         }
       ]
     },
@@ -769,10 +755,7 @@
       },
       {
         "label": "Vesting schedule",
-        "content": [
-          "15% will unlock immediately",
-          "85% will be linearly vesting for 96 weeks."
-        ]
+        "content": ["15% will unlock immediately", "85% will be linearly vesting for 96 weeks."]
       }
     ],
     "maxCoin": "100M"
@@ -831,9 +814,7 @@
         {
           "label": "Referral Bonus",
           "formula": "${amount * 3.463 * 0.05}",
-          "tooltip": [
-            "By default, Parallel users will get 5% referral bonus INTR"
-          ]
+          "tooltip": ["By default, Parallel users will get 5% referral bonus INTR"]
         },
         {
           "label": "Strong Supporter Bonus",
@@ -884,9 +865,7 @@
       },
       {
         "label": "Project Rewards",
-        "content": [
-          "-2.5% bonus if you contributed to Kintsugi crowdloan (must use the same account)"
-        ]
+        "content": ["-2.5% bonus if you contributed to Kintsugi crowdloan (must use the same account)"]
       },
       {
         "label": "Vesting schedule",
@@ -917,16 +896,12 @@
               "value": "${amount * 0.1 * 20}"
             }
           ],
-          "tooltip": [
-            "10% extra rewards if you contribute before 0:00, 23rd December PST"
-          ]
+          "tooltip": ["10% extra rewards if you contribute before 0:00, 23rd December PST"]
         },
         {
           "label": "Referral Bonus",
           "formula": "${amount * 20 * 0.05}",
-          "tooltip": [
-            "By default, Parallel users will get the 5% Referral bonus."
-          ]
+          "tooltip": ["By default, Parallel users will get the 5% Referral bonus."]
         },
         {
           "label": "Strong Supporters Bonus",
@@ -1029,9 +1004,7 @@
         {
           "label": "Referral Bonus",
           "formula": "${amount * 3 * 0.1}",
-          "tooltip": [
-            "By default, Parallel users will earn 10% referral bonus."
-          ]
+          "tooltip": ["By default, Parallel users will earn 10% referral bonus."]
         },
         {
           "label": "VIP Referral Bonus",
@@ -1051,9 +1024,7 @@
         {
           "label": "Quest Bonus",
           "content": "+2% ACA",
-          "tooltip": [
-            "2% ACA bonus on your contribution and exclusive NFT for users that complete all 5 Acala Quests."
-          ]
+          "tooltip": ["2% ACA bonus on your contribution and exclusive NFT for users that complete all 5 Acala Quests."]
         },
         {
           "label": "Karura Participant Bonus",
@@ -1109,9 +1080,7 @@
         "content": [
           {
             "text": "Crowdloan Kick off:",
-            "bulletPoints": [
-              "Earn 5% crowdloan kickoff bonus (for users who contributed before 11/8/21, 8am UTC)."
-            ]
+            "bulletPoints": ["Earn 5% crowdloan kickoff bonus (for users who contributed before 11/8/21, 8am UTC)."]
           },
           {
             "text": "Referral:",
@@ -1135,9 +1104,7 @@
           },
           {
             "text": "Quest Bonus:",
-            "bulletPoints": [
-              "Complete Acala Quests for 2% additional ACA bonus and exclusive NFT"
-            ]
+            "bulletPoints": ["Complete Acala Quests for 2% additional ACA bonus and exclusive NFT"]
           },
           {
             "text": "Loyalty:",
@@ -1174,9 +1141,7 @@
   "2001": {
     "reward": {
       "min": 1.2,
-      "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 1.2}" }
-      ]
+      "detail": [{ "label": "Est. Project Rewards", "formula": "${amount * 1.2}" }]
     },
     "parallelBonus": {
       "items": [
@@ -1206,9 +1171,7 @@
     "reward": {
       "total": "20%",
       "min": 4,
-      "tooltip": [
-        "In addition to the base reward, earn up to 12% early bird bonus."
-      ],
+      "tooltip": ["In addition to the base reward, earn up to 12% early bird bonus."],
       "detail": [
         { "label": "Est. Project Rewards", "formula": "${amount * 4}" },
         {
@@ -1282,10 +1245,7 @@
         "label": "Parallel Additional Bonus",
         "content": [
           {
-            "bulletPoints": [
-              "4 PARA per DOT contributed",
-              "Up to 12% early bird bonus"
-            ]
+            "bulletPoints": ["4 PARA per DOT contributed", "Up to 12% early bird bonus"]
           },
           { "text": "12% before 11/18/21" },
           { "text": "4% during 11/18/21 - 11/25/21" },
@@ -1318,9 +1278,7 @@
         {
           "label": "Referral Bonus",
           "formula": "${amount * 200 * 0.05}",
-          "tooltip": [
-            "By default, Parallel users will get the 5% Referral bonus under RING Rewards."
-          ]
+          "tooltip": ["By default, Parallel users will get the 5% Referral bonus under RING Rewards."]
         },
         {
           "label": "NFT",
@@ -1369,9 +1327,7 @@
           },
           {
             "text": "Early Bird:",
-            "bulletPoints": [
-              " Up to an extra 20% reward if you contribute early"
-            ]
+            "bulletPoints": [" Up to an extra 20% reward if you contribute early"]
           },
           {
             "text": "Referral:",
@@ -1412,9 +1368,7 @@
     "reward": {
       "total": "10%",
       "fixed": [{ "value": 4.1946, "suffix": "", "unit": "GLMR" }],
-      "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 4.1946}" }
-      ]
+      "detail": [{ "label": "Est. Project Rewards", "formula": "${amount * 4.1946}" }]
     },
     "parallelBonus": {
       "items": [
@@ -1453,9 +1407,7 @@
       },
       {
         "label": "Vesting schedule",
-        "content": [
-          "30% transferable after transactions are enabled, 70% vested for 96 weeks after."
-        ]
+        "content": ["30% transferable after transactions are enabled, 70% vested for 96 weeks after."]
       },
       {
         "label": "Parallel Additional Bonus",
@@ -1482,9 +1434,7 @@
         {
           "label": "Early Bird Bonus",
           "formula": "${amount* 35 * 0.2}",
-          "tooltip": [
-            "Users will get an estimated 20% bonus ASTR for contributions made before 11/18."
-          ]
+          "tooltip": ["Users will get an estimated 20% bonus ASTR for contributions made before 11/18."]
         },
         {
           "label": "Parallel Early Bird Bonus",
@@ -1512,9 +1462,7 @@
         {
           "label": "Parallel Extra Bonus",
           "content": "+9% ASTR",
-          "tooltip": [
-            "By default, auction loan users will get an extra 9% ASTR when it is distributed."
-          ]
+          "tooltip": ["By default, auction loan users will get an extra 9% ASTR when it is distributed."]
         }
       ]
     },
@@ -1578,26 +1526,19 @@
           },
           {
             "text": "Early Bird:",
-            "bulletPoints": [
-              "Get a 20% bonus on your stake if you join before the end of auction 1."
-            ]
+            "bulletPoints": ["Get a 20% bonus on your stake if you join before the end of auction 1."]
           }
         ]
       },
       {
         "label": "Vesting schedule",
-        "content": [
-          "10% transferable after transactions are enabled, 90% vested for 22 months after."
-        ]
+        "content": ["10% transferable after transactions are enabled, 90% vested for 22 months after."]
       },
       {
         "label": "Parallel Additional Bonus",
         "content": [
           {
-            "bulletPoints": [
-              "4 PARA per DOT contributed",
-              "Up to 6% ASTR early bird"
-            ]
+            "bulletPoints": ["4 PARA per DOT contributed", "Up to 6% ASTR early bird"]
           },
           { "text": "Week 1, slot 1: 6% additional ASTR bonus" },
           { "text": "Week 2-3, slot 2-3: 4% additional ASTR bonus" },
@@ -1700,9 +1641,7 @@
         "content": [
           {
             "text": "Referral:",
-            "bulletPoints": [
-              "Receive 10% bonus in PARA (5% to referrer and 5% to referee)"
-            ]
+            "bulletPoints": ["Receive 10% bonus in PARA (5% to referrer and 5% to referee)"]
           },
           {
             "text": "Community Early bird (for contributions <100,000 DOT):",
@@ -1734,9 +1673,7 @@
         {
           "label": "Referral Bonus",
           "formula": "${amount * 8 * 0.1}",
-          "tooltip": [
-            "Refer friends and share a 10% referral bonus(Referer 5%, referee 5%)."
-          ]
+          "tooltip": ["Refer friends and share a 10% referral bonus(Referer 5%, referee 5%)."]
         }
       ]
     },
@@ -1799,9 +1736,7 @@
     "reward": {
       "total": "15.6%",
       "min": 5,
-      "tooltip": [
-        "In addition to the base reward, earn up to 10% early bird bonus + NFT for contributors."
-      ],
+      "tooltip": ["In addition to the base reward, earn up to 10% early bird bonus + NFT for contributors."],
       "detail": [
         { "label": "Est. Project Rewards", "formula": "${amount * 4}" },
         {
@@ -1879,19 +1814,14 @@
         "content": [
           {
             "text": "Early Bird:",
-            "bulletPoints": [
-              "Before 11/11/21: 10% extra bonus",
-              "11/11/21 to 12/2/21: 5% extra bonus"
-            ]
+            "bulletPoints": ["Before 11/11/21: 10% extra bonus", "11/11/21 to 12/2/21: 5% extra bonus"]
           },
           { "text": "NFT:", "bulletPoints": ["Crowdloan NFT for contributors"] }
         ]
       },
       {
         "label": "Vesting schedule",
-        "content": [
-          "Vesting over the course of 96 weeks on a linear block-by-block basis."
-        ]
+        "content": ["Vesting over the course of 96 weeks on a linear block-by-block basis."]
       },
       {
         "label": "Parallel Additional Bonus",
@@ -1923,9 +1853,7 @@
     },
     "reward": {
       "min": 5,
-      "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 5}" }
-      ]
+      "detail": [{ "label": "Est. Project Rewards", "formula": "${amount * 5}" }]
     }
   },
   "2018": {
@@ -1948,9 +1876,7 @@
     "reward": {
       "total": "30%",
       "min": 20,
-      "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 20}" }
-      ]
+      "detail": [{ "label": "Est. Project Rewards", "formula": "${amount * 20}" }]
     },
     "rewardRules": [
       {
@@ -2022,16 +1948,12 @@
         {
           "label": "Parallel Re-Contributors",
           "formula": "${amount * 26 * 0.25}",
-          "tooltip": [
-            "Early bird, this applies for users who also contributed in batch 1 before 12/23/2021."
-          ]
+          "tooltip": ["Early bird, this applies for users who also contributed in batch 1 before 12/23/2021."]
         },
         {
           "label": "Binance Re-Contributors",
           "formula": "${amount * 26 * 0.25}",
-          "tooltip": [
-            "Early bird, this applies for users who also contributed in batch 1 before 12/23/2021."
-          ]
+          "tooltip": ["Early bird, this applies for users who also contributed in batch 1 before 12/23/2021."]
         }
       ]
     },
@@ -2070,9 +1992,7 @@
   "2028": {
     "reward": {
       "min": 1000,
-      "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 1000}" }
-      ]
+      "detail": [{ "label": "Est. Project Rewards", "formula": "${amount * 1000}" }]
     },
     "parallelBonus": {
       "items": [
@@ -2107,16 +2027,12 @@
               "value": "${amount * 200 * 0.5}"
             }
           ],
-          "tooltip": [
-            "50% early bird bonus applicable until 20 Mar 2022 23:59 UTC"
-          ]
+          "tooltip": ["50% early bird bonus applicable until 20 Mar 2022 23:59 UTC"]
         },
         {
           "label": "Referral Bonus",
           "formula": "${amount * 200 * 0.05}",
-          "tooltip": [
-            "5% referrer bonus (7% for designated partners)5% referee bonus"
-          ]
+          "tooltip": ["5% referrer bonus (7% for designated partners)5% referee bonus"]
         }
       ]
     },
@@ -2164,9 +2080,7 @@
   "2034": {
     "reward": {
       "min": 12.5,
-      "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 12.5}" }
-      ]
+      "detail": [{ "label": "Est. Project Rewards", "formula": "${amount * 12.5}" }]
     },
     "rewardRules": [
       {
@@ -2213,9 +2127,7 @@
     "reward": {
       "fixed": [{ "value": 0.33, "suffix": "", "unit": "SO" }],
       "unit": "SO",
-      "detail": [
-        { "label": "Est. Project Rewards", "formula": "${amount * 0.33}" }
-      ]
+      "detail": [{ "label": "Est. Project Rewards", "formula": "${amount * 0.33}" }]
     },
     "rewardRules": [
       {
@@ -2240,8 +2152,26 @@
     "rewardRules": [
       {
         "label": "Total Rewards",
+        "content": ["Kylin Network will not be distributing any reward for participating in this crowdloan."]
+      }
+    ]
+  },
+  "2056": {
+    "reward": {
+      "fixed": [{ "value": 3, "suffix": "+", "unit": "AVT" }],
+      "unit": "AVT",
+      "detail": [{ "label": "Est. Project Rewards", "formula": "${amount * 3}" }]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["Hardcap: 200,000 DOT", "Reward pool: 600,000 AVT "]
+      },
+      {
+        "label": "Vesting schedule",
         "content": [
-          "Kylin Network will not be distributing any reward for participating in this crowdloan."
+          "10% of AVT rewards will be available to claim immediately",
+          "90% of AVT will vest linearly over the course of the lease (96 weeks) every month."
         ]
       }
     ]
