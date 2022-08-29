@@ -2245,5 +2245,27 @@
         ]
       }
     ]
+  },
+  "2056": {
+    "reward": {
+      "fixed": [{ "value": 3, "suffix": "+", "unit": "AVT" }],
+      "unit": "AVT",
+      "detail": [
+        { "label": "Est. Project Rewards", "formula": "${amount * 3}" }
+      ]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["Hardcap: 200,000 DOT", "Reward pool: 600,000 AVT "]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "10% of AVT rewards will be available to claim immediately",
+          "90% of AVT will vest linearly over the course of the lease (96 weeks) every month."
+        ]
+      }
+    ]
   }
 }

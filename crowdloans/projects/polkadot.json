@@ -46,7 +46,7 @@
     "name": "Bifrost",
     "token": "BNC",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/bifrost.svg",
-    "overview":"Bifrost is a web3 derivatives protocol that provides decentralized cross-chain liquidity for staked assets. By leveraging on the cross-chain message (XCM) it can provide cross-chain liquid staking services for multiple chains.Bifrost’s mission is to provide standardized cross-chain interest-bearing derivatives for Polkadot relay chains, parachains, and heterogeneous chains bridged with Polkadot. Furthermore, by aggregating over 80% of PoS consensus chains’ staking liquidity through cross-chain derivatives, our protocol lowers users’ staking threshold, increases multi-chain staking ratio, and improves the ecosystems application interest base, by creating a three-way positive cycle for the StakeFi ecosystem by empowering users, multi-chains, and ecosystem applications.Bifrost has raised over USD 2M from top-tier venture capital firms by the likes of NGC, SNZ, DFG, CMS and other institutions. In addition to being an early receiver of a Web3 Foundation Grant, Bifrost is also a member of the Substrate Builders Program and the Web3 Bootcamp."
+    "overview": "Bifrost is a web3 derivatives protocol that provides decentralized cross-chain liquidity for staked assets. By leveraging on the cross-chain message (XCM) it can provide cross-chain liquid staking services for multiple chains.Bifrost’s mission is to provide standardized cross-chain interest-bearing derivatives for Polkadot relay chains, parachains, and heterogeneous chains bridged with Polkadot. Furthermore, by aggregating over 80% of PoS consensus chains’ staking liquidity through cross-chain derivatives, our protocol lowers users’ staking threshold, increases multi-chain staking ratio, and improves the ecosystems application interest base, by creating a three-way positive cycle for the StakeFi ecosystem by empowering users, multi-chains, and ecosystem applications.Bifrost has raised over USD 2M from top-tier venture capital firms by the likes of NGC, SNZ, DFG, CMS and other institutions. In addition to being an early receiver of a Web3 Foundation Grant, Bifrost is also a member of the Substrate Builders Program and the Web3 Bootcamp."
   },
   {
     "paraid": "2040",
@@ -123,7 +123,7 @@
     "website": "https://nodle.com",
     "token": "NODL",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/nodle.png",
-    "overview" : "Nodle's mission is to connect the next trillion things to the Internet. Nodle leverages Bluetooth Low Energy (BLE) via millions of smartphones and routers to allow enterprises and smart cities to connect IoT devices to the Internet at a low-cost while maintaining privacy and security. Nodle's decentralized wireless network is currently comprised of 5M daily active smartphones with 30 million IoT devices discovered daily in over 100 countries, moving approximately 100 GB of data. Anyone with a smartphone can help build the network and get rewarded in Nodle Cash (NODL) for providing BLE connectivity to nearby devices and sensors. ",
+    "overview": "Nodle's mission is to connect the next trillion things to the Internet. Nodle leverages Bluetooth Low Energy (BLE) via millions of smartphones and routers to allow enterprises and smart cities to connect IoT devices to the Internet at a low-cost while maintaining privacy and security. Nodle's decentralized wireless network is currently comprised of 5M daily active smartphones with 30 million IoT devices discovered daily in over 100 countries, moving approximately 100 GB of data. Anyone with a smartphone can help build the network and get rewarded in Nodle Cash (NODL) for providing BLE connectivity to nearby devices and sensors. ",
     "tokenomics": {
       "totalSupply": 8500000000,
       "data": [
@@ -149,7 +149,7 @@
     "website": "https://interlay.io",
     "token": "INTR",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/interlay.svg",
-    "overview":"Interlay is a decentralized network dedicated to connecting crypto-currencies like Bitcoin with DeFi platforms like Polkadot and Ethereum. The Interlay network is hosted as a Polkadot parachain and will be connected to Cosmos, Ethereum, and other major DeFi networks. Read more about Interlay’s vision of blockchain interoperability.InterBTC, Interlay’s flagship product, is Bitcoin on any blockchain. A 1:1 Bitcoin-backed asset, fully collateralized, interoperable, and censorship-resistant.",
+    "overview": "Interlay is a decentralized network dedicated to connecting crypto-currencies like Bitcoin with DeFi platforms like Polkadot and Ethereum. The Interlay network is hosted as a Polkadot parachain and will be connected to Cosmos, Ethereum, and other major DeFi networks. Read more about Interlay’s vision of blockchain interoperability.InterBTC, Interlay’s flagship product, is Bitcoin on any blockchain. A 1:1 Bitcoin-backed asset, fully collateralized, interoperable, and censorship-resistant.",
     "tokenomics": {
       "totalSupply": 1000000000,
       "data": [
@@ -522,17 +522,20 @@
     "overview": "Ares protocol is the first decentralized cross-chain oracle service protocol in the Polkadot ecosystem. It is also the first new-generation protocol service protocol that implements verification on the data chain. Ares is the first to open up compensation channels for data users when they suffer business losses due to the use of oracle data.As an infrastructure builder that connects the real world and the blockchain network, under the grand vision of the WEB3.0 era, it provides safe and reliable data services for multi-chain interconnection and the development of the digital economy.",
     "website": "https://www.aresprotocol.io/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/ares.svg",
-    "tokenomics":{
+    "tokenomics": {
       "totalSupply": 1000000000,
-      "data":[
-        { "name": "Ares Ecological Construsion", "value": 20, "color": "#438de3" },
-        {"name": "Private Placement", "value": 20, "color": "#9146f0" },
-        {"name": "Ares Pledge Mining", "value": 10, "color": "#68dbeb" },
-        {"name": "Team", "value": 20, "color": "#e86044"},
-        {"name": "Ares Foundation", "value": 10, "color": "#f6c262" },
+      "data": [
+        {
+          "name": "Ares Ecological Construsion",
+          "value": 20,
+          "color": "#438de3"
+        },
+        { "name": "Private Placement", "value": 20, "color": "#9146f0" },
+        { "name": "Ares Pledge Mining", "value": 10, "color": "#68dbeb" },
+        { "name": "Team", "value": 20, "color": "#e86044" },
+        { "name": "Ares Foundation", "value": 10, "color": "#f6c262" },
         { "name": "Consultants", "value": 5, "color": "#ffcdff" },
         { "name": "Community", "value": 5, "color": "#7b93de" }
-
       ]
     }
   },
@@ -611,15 +614,23 @@
     "name": "HydraDX",
     "token": "HDX",
     "description": "A natural swap solution for all assets built on Substrate",
-    "overview":"HydraDX is a cross-chain liquidity protocol built on Substrate. Our mission is to enable frictionless liquidity for all cryptoassets by building the first of its kind multi-asset liquidity pool - the HydraDX Omnipool. In the Omnipool, various assets аrе priced against each other by using our native token HDX as a proxy for determining their relative value. With the Omnipool, HydraDX breaks with the traditional conception according to which assets are traded in pairs using isolated pools. Besides that, we are happy to be part of the Polkadot ecosystem and are looking forward to become the go-to liquidity provider for all assets built on Substrate.",
+    "overview": "HydraDX is a cross-chain liquidity protocol built on Substrate. Our mission is to enable frictionless liquidity for all cryptoassets by building the first of its kind multi-asset liquidity pool - the HydraDX Omnipool. In the Omnipool, various assets аrе priced against each other by using our native token HDX as a proxy for determining their relative value. With the Omnipool, HydraDX breaks with the traditional conception according to which assets are traded in pairs using isolated pools. Besides that, we are happy to be part of the Polkadot ecosystem and are looking forward to become the go-to liquidity provider for all assets built on Substrate.",
     "website": "https://hydradx.io/",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/hydradx.svg",
     "tokenomics": {
       "totalSupply": 10000000000,
       "data": [
-        { "name": "Liquidity Provision & staking Rewards", "value": 75, "color": "#4fdfd4" },
+        {
+          "name": "Liquidity Provision & staking Rewards",
+          "value": 75,
+          "color": "#4fdfd4"
+        },
         { "name": "Incentivized Stakenet", "value": 5, "color": "#7b93de" },
-        { "name": "Founders, Investors & Advisors", "value": 15, "color": "#9caee6" }
+        {
+          "name": "Founders, Investors & Advisors",
+          "value": 15,
+          "color": "#9caee6"
+        }
       ]
     }
   },
@@ -630,19 +641,22 @@
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/coinversation.png",
     "website": "https://www.coinversation.io/",
     "overview": "Coinversation Protocol is a synthetic asset issuance protocol and decentralised contract trading exchange based on the Polkadot contract chain. It uses the token CTO issued by Coinversation Protocol and Polkadot(DOT) as collateral, and synthesizes any cryptocurrencies or stocks, bonds, gold and any other off-chain assets through smart contracts and oracles.",
-    "tokenomics":{
+    "tokenomics": {
       "totalSupply": 1000000000,
-      "data":[
-        {"name": "Ecosystem and Development", "value": 40.3, "color": "#4fdfd4" },
-        {"name": "Auction Reward", "value": 22.5, "color": "#7b93de"},
-        {"name": "Token Sale", "value": 7.2, "color": "#9caee6"},
+      "data": [
+        {
+          "name": "Ecosystem and Development",
+          "value": 40.3,
+          "color": "#4fdfd4"
+        },
+        { "name": "Auction Reward", "value": 22.5, "color": "#7b93de" },
+        { "name": "Token Sale", "value": 7.2, "color": "#9caee6" },
         { "name": "Foundation", "value": 15, "color": "#bdc9ef" },
         { "name": "Team", "value": 15, "color": "#8ec6c2" }
-
       ]
     }
   },
-   {
+  {
     "paraid": "2036",
     "name": "Polkadex",
     "token": "PDEX",
@@ -661,7 +675,11 @@
         { "name": "Strategic Round", "value": 8, "color": "#8ec6c2" },
         { "name": "Seed Round", "value": 7, "color": "#a7c2df" },
         { "name": "Founders and Team", "value": 5, "color": "#c0dfdd" },
-        { "name": "Marketing,Ecosystem & Partnerships", "value": 6.807, "color": "#609c96" }
+        {
+          "name": "Marketing,Ecosystem & Partnerships",
+          "value": 6.807,
+          "color": "#609c96"
+        }
       ]
     }
   },
@@ -677,5 +695,13 @@
     "token": "KYL",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/kylin.png",
     "website": "https://kylin.network/"
-  }  
+  },
+  {
+    "paraid": "2056",
+    "name": "Aventus",
+    "token": "AVT",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/aventus.svg",
+    "website": "https://www.aventus.io/",
+    "overview": "Aventus is an enterprise-grade blockchain that marries the scale of a permissioned blockchain with the security and interoperability of public blockchains — with none of the drawbacks of either world.Founded in 2016, Aventus makes building on Polkadot, Ethereum and beyond accessible for businesses and decentralised platforms, bringing interoperability, scalability and sustainability to Ethereum transactions. In its first year of operation, the Aventus Network has onboarded over 20 million transactions for business clients with 2 million active wallets.Aventus’ mission is to enable companies in any ecosystem to capitalise on a vast series of use cases – including NFTs, video games, loyalty schemes, event ticketing, supply chain provenance, and cargo management – via enterprise-grade modular architecture and future-proof themselves via blockchain interoperability."
+  }
 ]
