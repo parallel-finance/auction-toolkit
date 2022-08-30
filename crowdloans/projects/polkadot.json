@@ -10,7 +10,8 @@
     "name": "OmniBTC",
     "token": "SO",
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/omnibtc.svg",
-    "overview": "OmniBTC is an omnichain financial platform for web3,including omnichain swap and BTC omnichain lending."
+    "overview": "OmniBTC is an omnichain financial platform for web3,including omnichain swap and BTC omnichain lending.",
+    "website": "https://omnibtc.finance/"
   },
   {
     "paraid": "2039",
