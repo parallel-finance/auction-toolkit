@@ -704,5 +704,29 @@
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/aventus.png",
     "website": "https://www.aventus.io/",
     "overview": "Aventus is an enterprise-grade blockchain that marries the scale of a permissioned blockchain with the security and interoperability of public blockchains — with none of the drawbacks of either world.Founded in 2016, Aventus makes building on Polkadot, Ethereum and beyond accessible for businesses and decentralised platforms, bringing interoperability, scalability and sustainability to Ethereum transactions. In its first year of operation, the Aventus Network has onboarded over 20 million transactions for business clients with 2 million active wallets.Aventus’ mission is to enable companies in any ecosystem to capitalise on a vast series of use cases – including NFTs, video games, loyalty schemes, event ticketing, supply chain provenance, and cargo management – via enterprise-grade modular architecture and future-proof themselves via blockchain interoperability."
+  },
+  {
+    "paraid": "2090",
+    "name": "Oak Network",
+    "token": "OAK",
+    "description": "Automation Blockchain for Polkadot",
+    "overview": "Oak is an automation blockchain for Defi and recurring payments across protocols. Oak aims to be the best-in-class automation utility across protocols, offering on-chain automation not possible today.",
+    "website": "https://oak.tech/oak/home/",
+    "icon": "https://s3.amazonaws.com/oak.tech/resources/logos/oak_icon_small.png",
+    "tokenomics": {
+      "totalSupply": 1000000000,
+      "data": [
+        { "name": "Seed Round", "value": 18, "color": "#4fdfd4" },
+        { "name": "Team", "value": 15, "color": "#7b93de" },
+        { "name": "Pre-launch Round", "value": 8, "color": "#609c96" },
+        { "name": "Public Offering", "value": 5, "color": "#9caee6" },
+        { "name": "Developer Incentives", "value": 9, "color": "#77bab4" },
+        { "name": "Community DAO", "value": 8.5, "color": "#c0dfdd" },
+        { "name": "Strategic Partnerships", "value": 8, "color": "#a7c2df" },
+        { "name": "Crowdloan", "value": 1.5, "color": "#bdc9ef" },
+        { "name": "Parachain Slot Reserve", "value": 3, "color": "#9c67bf" },
+        { "name": "Ecosystem Development", "value": 24, "color": "#8ec6c2" }
+      ]
+    }
   }
 ]

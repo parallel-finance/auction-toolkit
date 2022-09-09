@@ -2175,5 +2175,31 @@
         ]
       }
     ]
+  },
+  "2090": {
+    "reward": {
+      "min": 75.5
+    },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["Up to 150,000,000 OAK (15% of total token supply)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "Crowdloan Opening Bonus: Contributors who contribute before 22 Sept 2022 18:00 UTC get extra 10%",
+          "Crowdloan Ending Bonus: Contributors who contribute after 22 Sept 2022 18:00 UTC get extra 5%",
+          "Referral: Reward 10% of receivers' base split between sender and receiver",
+          "Community Bonus: OAK crowdloan tokens earned through group effort of all participants who contributed above 5 DOT. Every participant who contributes a minimum of 5 DOT will receive a community bonus based on the total number of contributors. This reward is to encourage decentralization and incentivize contributors to grow the community."
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "30% on 04 Feb 2023, 70% linear release every 4 months for 12 months."
+        ]
+      }
+    ]
   }
 }
