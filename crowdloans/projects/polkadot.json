@@ -704,5 +704,24 @@
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/aventus.png",
     "website": "https://www.aventus.io/",
     "overview": "Aventus is an enterprise-grade blockchain that marries the scale of a permissioned blockchain with the security and interoperability of public blockchains — with none of the drawbacks of either world.Founded in 2016, Aventus makes building on Polkadot, Ethereum and beyond accessible for businesses and decentralised platforms, bringing interoperability, scalability and sustainability to Ethereum transactions. In its first year of operation, the Aventus Network has onboarded over 20 million transactions for business clients with 2 million active wallets.Aventus’ mission is to enable companies in any ecosystem to capitalise on a vast series of use cases – including NFTs, video games, loyalty schemes, event ticketing, supply chain provenance, and cargo management – via enterprise-grade modular architecture and future-proof themselves via blockchain interoperability."
+  },
+  {
+    "paraid": "2048",
+    "name": "Bitgreen",
+    "token": "BBB",
+    "description": "Bloackhain for Sustainability",
+    "overview": "Bitgreen combines blockchain technology and green innovation to drive capital into critically important sustainability initiatives. Bitgreen is an open and permissionless blockchain built to meet the needs of NGOs, corporate ESG groups, and purpose-driven innovation in Web3..",
+    "website": "https://www.bitgreenswiss.org/",
+    "icon": "https://raw.githubusercontent.com/bitgreen/GraphicAssets/master/CIRCLE_B_FOREST-ON-LIME.svg",
+    "tokenomics": {
+      "totalSupply": 1000000000,
+      "data": [
+        { "name": "Foundation Reserve (Crowdloan, Fundraise)", "value": 39, "color": "#263300" },
+        { "name": "Treasury-Network Directed": "value": 10, "color": "#4E6600" },
+        { "name": "Community Development": 5, "color": "#9ECC00" },
+        { "name": "Team and Advisors (Vested over 6 years)", "value": 35, "color": "#C0FF00" },
+        { "name": "Seed Round", "value": 11, "color": "#C0F240" },
+      ]
+    }
   }
 ]
