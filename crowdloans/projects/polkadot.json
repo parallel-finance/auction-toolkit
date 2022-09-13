@@ -707,10 +707,10 @@
   },
   {
     "paraid": "2090",
-    "name": "Oak Network",
+    "name": "OAK Network",
     "token": "OAK",
     "description": "Automation Blockchain for Polkadot",
-    "overview": "Oak is an automation blockchain for Defi and recurring payments across protocols. Oak aims to be the best-in-class automation utility across protocols, offering on-chain automation not possible today.",
+    "overview": "OAK delivers trustless automation, dedicating its block space and optimizing gas to store, trigger, and execute transactions on connected blockchains.",
     "website": "https://oak.tech/oak/home/",
     "icon": "https://s3.amazonaws.com/oak.tech/resources/logos/oak_icon_small.png",
     "tokenomics": {
