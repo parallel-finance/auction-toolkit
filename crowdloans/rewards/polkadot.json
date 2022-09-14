@@ -2196,7 +2196,33 @@
       {
         "label": "Vesting schedule",
         "content": [
-          "25% of rewards will be unlocked every 24 Weeks. The last distribution occures with the end of the lease period.",
+          "25% of rewards will be unlocked every 24 Weeks. The last distribution occures with the end of the lease period."
+        ]
+      }
+    ]
+  },
+  "2090": {
+    "reward": {
+      "min": 75.5
+    },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["Up to 15,000,000 OAK (1.5% of total token supply)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "Crowdloan Opening Bonus: Contributors who contribute before 22 Sept 2022 18:00 UTC get extra 10%",
+          "Crowdloan Ending Bonus: Contributors who contribute after 22 Sept 2022 18:00 UTC get extra 5%",
+          "Community Bonus: OAK crowdloan tokens earned through group effort of all participants who contributed above 5 DOT. Every participant who contributes a minimum of 5 DOT will receive a community bonus based on the total number of contributors. This reward is to encourage decentralization and incentivize contributors to grow the community.",
+          "Parallel Bonus: 4 PARA and 1 cDot per DOT committed."
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "12.5% to be minted one month after the Token Distribution Event, and the remainder minted in equal portions each quarter over 24 months."
         ]
       }
     ]

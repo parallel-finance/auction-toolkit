@@ -717,10 +717,34 @@
       "totalSupply": 1000000000,
       "data": [
         { "name": "Foundation Reserve (Crowdloan, Fundraise)", "value": 39, "color": "#263300" },
-        { "name": "Treasury-Network Directed": "value": 10, "color": "#4E6600" },
-        { "name": "Community Development": 5, "color": "#9ECC00" },
+        { "name": "Treasury-Network Directed", "value": 10, "color": "#4E6600" },
+        { "name": "Community Development", "value" : 5, "color": "#9ECC00" },
         { "name": "Team and Advisors (Vested over 6 years)", "value": 35, "color": "#C0FF00" },
-        { "name": "Seed Round", "value": 11, "color": "#C0F240" },
+        { "name": "Seed Round", "value": 11, "color": "#C0F240" }
+      ]
+    }
+  },
+  {
+    "paraid": "2090",
+    "name": "OAK Network",
+    "token": "OAK",
+    "description": "Automation Blockchain for Polkadot",
+    "overview": "OAK delivers trustless automation, dedicating its block space and optimizing gas to store, trigger, and execute transactions on connected blockchains.",
+    "website": "https://oak.tech/oak/home/",
+    "icon": "https://s3.amazonaws.com/oak.tech/resources/logos/oak_icon_small.png",
+    "tokenomics": {
+      "totalSupply": 1000000000,
+      "data": [
+        { "name": "Seed Round", "value": 18, "color": "#4fdfd4" },
+        { "name": "Team", "value": 15, "color": "#7b93de" },
+        { "name": "Pre-launch Round", "value": 8, "color": "#609c96" },
+        { "name": "Public Offering", "value": 5, "color": "#9caee6" },
+        { "name": "Developer Incentives", "value": 9, "color": "#77bab4" },
+        { "name": "Community DAO", "value": 8.5, "color": "#c0dfdd" },
+        { "name": "Strategic Partnerships", "value": 8, "color": "#a7c2df" },
+        { "name": "Crowdloan", "value": 1.5, "color": "#bdc9ef" },
+        { "name": "Parachain Slot Reserve", "value": 3, "color": "#9c67bf" },
+        { "name": "Ecosystem Development", "value": 24, "color": "#8ec6c2" }
       ]
     }
   }
