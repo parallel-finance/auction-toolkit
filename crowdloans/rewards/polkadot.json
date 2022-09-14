@@ -2175,5 +2175,30 @@
         ]
       }
     ]
+  },
+  "2048": {
+    "reward": {
+      "fixed": [{ "value": 15, "suffix": "", "unit": "BBB" }],
+      "unit": "BBB",
+      "detail": [{ "label": "Est. Project Rewards", "formula": "${amount * 15}" }]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["Hardcap: 200,000 DOT", "Reward pool: 3,000,000 BBB "]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "4 PARA will be given to users for every DOT contributed to the crowdloan via Parallel Finance if the crowdloan is successful."
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "25% of rewards will be unlocked every 24 Weeks. The last distribution occures with the end of the lease period.",
+        ]
+      }
+    ]
   }
 }
