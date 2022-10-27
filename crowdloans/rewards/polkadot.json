@@ -2226,5 +2226,30 @@
         ]
       }
     ]
+  },
+  "2057": {
+    "reward": {
+      "fixed": [{ "value": 10, "suffix": "+", "unit": "AJUN" }],
+      "unit": "AJUN",
+      "detail": [{ "label": "Est. Project Rewards", "formula": "${amount * 10}" }]
+    },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["max 2,480,000 AJUN (0.48% of total token supply)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "Bajun CL Bonus: 20% for Bajun Crowdloan Participants, the same address should be used."
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "linearly vested over lease period 96 weeks."
+        ]
+      }
+    ]
   }
 }
