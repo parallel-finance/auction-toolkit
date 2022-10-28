@@ -2227,7 +2227,7 @@
       }
     ]
   },
-  "2057": {
+  "2051": {
     "reward": {
       "fixed": [{ "value": 10, "suffix": "+", "unit": "AJUN" }],
       "unit": "AJUN",
