@@ -747,5 +747,25 @@
         { "name": "Ecosystem Development", "value": 24, "color": "#8ec6c2" }
       ]
     }
+  },
+  {
+    "paraid": "2057",
+    "name": "Ajuna Network",
+    "token": "AJUN",
+    "description": "Decentralized gaming platform on Polkadot",
+    "overview": "Ajuna Network the Polkadot parachain is a decentralized gaming platform that delivers real value to gamers, without compromising on gameplay. It empowers you to truly own your in-game assets, protect and control their functionality, and have a voice in the future of the games you love.",
+    "website": "https://ajuna.io/",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/ajuna.svg",
+    "tokenomics": {
+      "totalSupply": 500000000,
+      "data": [
+        { "name": "Founder & Team", "value": 12, "color": "#c73866" },
+        { "name": "Development & Marketing", "value": 22, "color": "#fe676e" },
+        { "name": "Incubator & Advisor", "value": 8, "color": "#fd8f52" },
+        { "name": "Treasury & Reserves", "value": 16, "color": "#ffdca2" },
+        { "name": "Parachain Slot", "value": 20, "color": "#ffbd71" },
+        { "name": "Early Contributors", "value": 22, "color": "#f9e07f" }
+      ]
+    }
   }
 ]
