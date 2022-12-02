@@ -2176,6 +2176,32 @@
       }
     ]
   },
+  "2094": {
+    "reward": {
+      "min": 11
+    },
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["Up to 6,000,000 PEN (3% of total token supply)"]
+      },
+      {
+        "label": "Bonus",
+        "content": [
+          "Early bird bonus",
+          "15% bonus for contributions made between 0 to 100,000 DOT",
+          "10% bonus for contributions made between 100,001 to 200,000 DOT",
+          "5% bonus for contributions made between 200,001 and above"
+        ]
+      },
+      {
+        "label": "Vesting schedule",
+        "content": [
+          "10% at TGE, rest linearly over lease period"
+        ]
+      }
+    ]
+  },
   "2048": {
     "reward": {
       "fixed": [{ "value": 15, "suffix": "", "unit": "BBB" }],
