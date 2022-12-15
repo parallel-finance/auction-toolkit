@@ -6,6 +6,14 @@
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/centrifuge.png"
   },
   {
+    "paraid": "2094",
+    "name": "Pendulum",
+    "token": "PEN",
+    "overview": "Pendulum is an open-source blockchain that aims to establish the missing link between the fiat and the DeFi ecosystems through a fiat-optimized smart contract blockchain. Pendulum is built with Substrate and will allow connecting DeFi applications to the foreign exchange market, building automated market makers (AMMs) to introduce scalable liquidity pools for fiat currencies, and create yield earning opportunities for fiat token holders.",
+    "website": "https://pendulumchain.org/",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/Pendulum.png"
+  },
+  {
     "paraid": "2053",
     "name": "OmniBTC",
     "token": "SO",
