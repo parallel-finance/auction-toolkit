@@ -2277,5 +2277,22 @@
         ]
       }
     ]
+  },
+  "2093": {
+    "fixed": [{ "value": 480, "suffix": "+", "unit": "HASH" }],
+    "unit": "HASH",
+    "detail": [{ "label": "Est. Project Rewards", "formula": "${amount * 480}" }],
+    "rewardRules": [
+      {
+        "label": "Total Rewards",
+        "content": ["60,000,000 HASH, 6% of supply"]
+      },
+      {
+        "label": "Vesting Schedule",
+        "content": [
+          "Linearly vested over lease"
+        ]
+      }  
+    ]
   }
 }
