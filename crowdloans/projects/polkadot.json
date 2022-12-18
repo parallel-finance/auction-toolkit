@@ -6,6 +6,30 @@
     "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/centrifuge.png"
   },
   {
+    "paraid": "2093",
+    "name": "Hashed Network",
+    "token": "HASH",
+    "overview": "Public and permissionless network providing web3 services to businesses. Orchestration & workflow for bitcoin, USD, and DOT-native treasuries, fund administration, and compliance-ready marketplaces. Bitcoin treasuries use Bitcoin Core innovations such as Schnorr key aggregation and Tapscript to safely and privately self-custody and multi-custody bitcoin with spending policies. Proof-of-reserves reporting and verification. Integrated signing experiences with push notifications and browser-to-device-link. SDK makes it easy for developers to integrate business services",
+    "website": "https://hashed.network/",
+    "icon": "https://auction-us-east-2.s3.us-east-2.amazonaws.com/icons/chains/hashed.png",
+    "tokenomics": {
+      "totalSupply": 1000000000,
+      "data": [
+        { "name": "Founders","value": 15,"color": "#cbbeb5" },
+        { "name": "Development", "value": 5, "color": "#ff6666" },
+        { "name": "Marketing", "value": 3, "color": "#525266" },
+        { "name": "Community", "value": 7, "color": "#423f3b" },
+        { "name": "Ecosystem", "value": 20, "color": "#ff5a9" },
+        { "name": "Reserve", "value": 14, "color": "#cbbeb5" },
+        { "name": "Auctions", "value": 5, "color": "#ff6666" },
+        { "name": "Crowdloans", "value": 6, "color": "#525266" },
+        { "name": "Liquidity", "value": 5, "color": "#423f3b" },
+        { "name": "Planned 2023 Seed Round", "value": 9, "color": "#ff6666" },
+        { "name": "Later Round or Burn", "value": 11, "color": "#ff5a9" }
+      ]
+    }
+  },
+  {
     "paraid": "2094",
     "name": "Pendulum",
     "token": "PEN",
